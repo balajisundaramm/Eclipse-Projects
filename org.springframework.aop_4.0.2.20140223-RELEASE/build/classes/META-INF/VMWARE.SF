@@ -1,0 +1,940 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: i3NMMZBtq7M/177uQFpKwUMSM/o=
+Created-By: 1.6.0_29 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: MhAVCyokM4QeNHQYWf6EYeBW0OI=
+
+Name: org/springframework/aop/config/spring-aop.gif
+SHA1-Digest: 9EA1sZHamQYT5yNk0uee0/p4bTU=
+
+Name: org/springframework/aop/aspectj/AspectJPrecedenceInformation.cla
+ ss
+SHA1-Digest: Iw1T6wcZQUQwlFJSgnTpY14ZS6c=
+
+Name: org/springframework/aop/framework/CglibAopProxy$StaticDispatcher
+ .class
+SHA1-Digest: guCWvoUvzSm3IreI86lfuFf28O4=
+
+Name: org/springframework/aop/support/ControlFlowPointcut.class
+SHA1-Digest: eDHQ8ztIb8Xsg8Q4uVlMLyofhjA=
+
+Name: org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvi
+ sorFactory.class
+SHA1-Digest: JIRiIXzgVxp1B68m60P4RSfRlKQ=
+
+Name: org/springframework/aop/aspectj/SimpleAspectInstanceFactory.clas
+ s
+SHA1-Digest: ngwcvSB0puZ57TcTCLNhe5bpuzA=
+
+Name: org/springframework/aop/RawTargetAccess.class
+SHA1-Digest: MdTB3dJmSkrHkMl+vhAgZgnlf2U=
+
+Name: org/springframework/aop/config/SimpleBeanFactoryAwareAspectInsta
+ nceFactory.class
+SHA1-Digest: 4jlOqpIRB/CMcvHnUtn88fe3JkU=
+
+Name: org/springframework/aop/support/DelegatePerTargetObjectIntroduct
+ ionInterceptor.class
+SHA1-Digest: DL+e1oQtkfdKeSkBGWqHWPHe51c=
+
+Name: org/springframework/aop/framework/adapter/AdvisorAdapterRegistry
+ .class
+SHA1-Digest: 7vJPDWvuLAN32rwgvUKHSeRvqEM=
+
+Name: org/springframework/aop/framework/AopProxy.class
+SHA1-Digest: 4raCclMjmWvWcgzd8N7GTM0JBkE=
+
+Name: org/springframework/aop/framework/CglibAopProxy.class
+SHA1-Digest: DJFcNGxF+fSH3BhbIgSzaWNGfSg=
+
+Name: org/springframework/aop/framework/adapter/AdvisorAdapter.class
+SHA1-Digest: aPZgYji9sry6VmB3rPFI97UE6i4=
+
+Name: org/springframework/aop/framework/adapter/UnknownAdviceTypeExcep
+ tion.class
+SHA1-Digest: 3WcSaZiYuY/w3/Mylon+iEkN2lY=
+
+Name: org/springframework/aop/target/dynamic/AbstractRefreshableTarget
+ Source.class
+SHA1-Digest: wyBBKtVR2rxhyQJCHCK7HPHPuOU=
+
+Name: org/springframework/aop/target/HotSwappableTargetSource.class
+SHA1-Digest: ksp3FwvrD79K66yg4cAixf2eC3Y=
+
+Name: org/springframework/aop/MethodBeforeAdvice.class
+SHA1-Digest: HETFgLfIEU3X3rz7zPJgf/Zn0SU=
+
+Name: org/springframework/aop/framework/AopProxyFactory.class
+SHA1-Digest: 9vNDf3MZkRzibjaDDbHGYDPKDUc=
+
+Name: org/springframework/aop/framework/adapter/ThrowsAdviceIntercepto
+ r.class
+SHA1-Digest: Is9UkaWPyB8l/A1sKDvmPa/ldM4=
+
+Name: META-INF/notice.txt
+SHA1-Digest: YEsEBcC+T1PH7sWUjjij5xIDXJM=
+
+Name: org/springframework/aop/support/NameMatchMethodPointcut.class
+SHA1-Digest: 1BzUBTj+XvqC1CUda1I04B2LxIs=
+
+Name: org/springframework/aop/DynamicIntroductionAdvice.class
+SHA1-Digest: iejIjFv0mbMUvs5zcjaeeE/4Iqk=
+
+Name: org/springframework/aop/support/IntroductionInfoSupport.class
+SHA1-Digest: lxKKAvPf0SUdpukPAibBfFBEVcA=
+
+Name: org/springframework/aop/aspectj/annotation/InstantiationModelAwa
+ rePointcutAdvisorImpl$PerTargetInstantiationModelPointcut.class
+SHA1-Digest: npwAtYjqiO3IrrR4fqbJ/6tNke4=
+
+Name: org/springframework/aop/support/ExpressionPointcut.class
+SHA1-Digest: 6+RhfSRqvJD1UmenzZf+kXf1/Ck=
+
+Name: org/springframework/aop/MethodMatcher.class
+SHA1-Digest: ls3PlS5bY2ta4rzcTc6vFREUDqQ=
+
+Name: org/springframework/aop/framework/adapter/AfterReturningAdviceAd
+ apter.class
+SHA1-Digest: 8FpmimLegMMwBin3AJeCGE1vsK4=
+
+Name: org/springframework/aop/interceptor/AbstractMonitoringIntercepto
+ r.class
+SHA1-Digest: Qt01xNohqXJOLMFaCUeGQFmNx9A=
+
+Name: org/springframework/aop/aspectj/AspectJWeaverMessageHandler.clas
+ s
+SHA1-Digest: mfT4hCkvtXX9zWy4zF4JYdl1Av8=
+
+Name: org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvi
+ sorFactory$SyntheticInstantiationAdvisor.class
+SHA1-Digest: VfUhyAjbmd7yf3DXMZPFau8PNZw=
+
+Name: org/springframework/aop/aspectj/annotation/AspectJProxyFactory.c
+ lass
+SHA1-Digest: dCdP4SxHdMxkzNwQjmXnk1vtNxg=
+
+Name: org/springframework/aop/target/ThreadLocalTargetSource.class
+SHA1-Digest: TydQaHNLFhMOmbYbrOlgwNgOPDw=
+
+Name: org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAut
+ oProxyCreator.class
+SHA1-Digest: zMNq4Vc1rBYJbsWFFSvNm/4qSbQ=
+
+Name: org/springframework/aop/interceptor/CustomizableTraceInterceptor
+ .class
+SHA1-Digest: yVvOX/1AED9r6F8Dcb7ONCgq2+s=
+
+Name: org/springframework/aop/aspectj/AspectJMethodBeforeAdvice.class
+SHA1-Digest: gHGkMNdixIRIhnQ29cmBN2L58dM=
+
+Name: org/springframework/aop/aspectj/AspectJProxyUtils.class
+SHA1-Digest: WBWlZNo6YI6W4CFZ2FeC37lACHc=
+
+Name: org/springframework/aop/aspectj/RuntimeTestWalker$1.class
+SHA1-Digest: WFlzI+QGQhnkzqCtbz8yhHSAICg=
+
+Name: org/springframework/aop/AfterAdvice.class
+SHA1-Digest: j0GpHJgwlWefDxptITvGBhCH9JU=
+
+Name: org/springframework/aop/interceptor/ExposeBeanNameAdvisors.class
+SHA1-Digest: OdBOUYm2Mdq4lZ1nkQDURRUI/yg=
+
+Name: org/springframework/aop/framework/autoproxy/BeanFactoryAdvisorRe
+ trievalHelper.class
+SHA1-Digest: uqMN80aYBx+fqvpaQCr3EDu6OUE=
+
+Name: org/springframework/aop/framework/CglibAopProxy$StaticUnadvisedE
+ xposedInterceptor.class
+SHA1-Digest: duRwolClSi2GcTUAwJpz/QvwIhI=
+
+Name: org/springframework/aop/framework/ProxyFactory.class
+SHA1-Digest: JPHxNXiyP3+RHAmseHRM9ZZ1oA0=
+
+Name: org/springframework/aop/interceptor/ExposeBeanNameAdvisors$Expos
+ eBeanNameInterceptor.class
+SHA1-Digest: E5t3VcuYANccWdpx/AqV7/rUmgw=
+
+Name: org/springframework/aop/config/AopNamespaceHandler.class
+SHA1-Digest: 67f4+asBVlhksZbnwCs1czO+I+8=
+
+Name: META-INF/spring.handlers
+SHA1-Digest: qFhWwIRnBySOv4dzoDKGUzT+qxM=
+
+Name: org/springframework/aop/scope/DefaultScopedObject.class
+SHA1-Digest: 9Qw1fzdDoG2jz4zoE6Zp2Mwj01I=
+
+Name: META-INF/spring.schemas
+SHA1-Digest: +ZuvbOIlTzAmn0Q4rDMSSGycT/I=
+
+Name: org/springframework/aop/framework/adapter/GlobalAdvisorAdapterRe
+ gistry.class
+SHA1-Digest: BFZAyKo2ecn6l80y7sw4EKr4KVM=
+
+Name: org/springframework/aop/framework/CglibAopProxy$SerializableNoOp
+ .class
+SHA1-Digest: b4eJOgdQk3OrsGkiARzfyHm20i4=
+
+Name: org/springframework/aop/AopInvocationException.class
+SHA1-Digest: J3SSO0ej1khBpl2XI+rQzT/7kxI=
+
+Name: org/springframework/aop/aspectj/RuntimeTestWalker.class
+SHA1-Digest: OBGy1rBLqLO8Zqo4MQE7T6MLMJc=
+
+Name: org/springframework/aop/aspectj/AbstractAspectJAdvice.class
+SHA1-Digest: 3DzR9WOaaClr4A9beOeIv/MkNEU=
+
+Name: org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvi
+ sorFactory$3.class
+SHA1-Digest: VHxi9T9X1FrrmPnqWJcAcHbkXRY=
+
+Name: org/springframework/aop/Advisor.class
+SHA1-Digest: w0zTKpEnp4jZcKSoAfuAhqlXeDw=
+
+Name: org/springframework/aop/framework/autoproxy/DefaultAdvisorAutoPr
+ oxyCreator.class
+SHA1-Digest: qy9tgOwxGPXHseGEPztmQ4mUaC4=
+
+Name: org/springframework/aop/aspectj/AspectJAdviceParameterNameDiscov
+ erer.class
+SHA1-Digest: keDwh2G5l5jQpFSfWS2PWVf0JL4=
+
+Name: org/springframework/aop/framework/autoproxy/TargetSourceCreator.
+ class
+SHA1-Digest: TjkV8YdWA7qygTTor593NNY8enM=
+
+Name: org/springframework/aop/support/MethodMatchers$UnionMethodMatche
+ r.class
+SHA1-Digest: XyWhG/0Qmo6/y6VaNcygCQIXmNo=
+
+Name: org/springframework/aop/support/NameMatchMethodPointcutAdvisor.c
+ lass
+SHA1-Digest: kw5MlA6aV6YSGdiNxI6BUu/+Mj0=
+
+Name: org/springframework/aop/aspectj/autoproxy/AspectJPrecedenceCompa
+ rator.class
+SHA1-Digest: CKqKbVtzTSiMqLb7yIUCrpnj8NU=
+
+Name: org/springframework/aop/config/AopNamespaceUtils.class
+SHA1-Digest: S1Lv+fHXgLTXS79cjDphI9HL4Ck=
+
+Name: org/springframework/aop/framework/CglibAopProxy$ProxyCallbackFil
+ ter.class
+SHA1-Digest: cYxzOZQIieZ91v9v1rcOA8VJ62s=
+
+Name: org/springframework/aop/aspectj/annotation/AbstractAspectJAdviso
+ rFactory.class
+SHA1-Digest: igx+iyv/nlb7mfFftI0ICvmw7Gk=
+
+Name: org/springframework/aop/AfterReturningAdvice.class
+SHA1-Digest: Kt6i212ub39nBoeC/2vcB2dOzyw=
+
+Name: org/springframework/aop/IntroductionAdvisor.class
+SHA1-Digest: sHGiz4GwH9MpHixoTlOxZ8MTSgg=
+
+Name: org/springframework/aop/framework/CglibAopProxy$FixedChainStatic
+ TargetInterceptor.class
+SHA1-Digest: +bpXk2fhCSsJR+DjIRNM96svyVE=
+
+Name: org/springframework/aop/target/AbstractBeanFactoryBasedTargetSou
+ rce.class
+SHA1-Digest: BTNlKj9I6yM66iX3NwuG8dg6Gxg=
+
+Name: org/springframework/aop/framework/AdvisedSupport.class
+SHA1-Digest: IUdU0p8VvHXqlMr0+zH055TVVIo=
+
+Name: org/springframework/aop/target/CommonsPoolTargetSource.class
+SHA1-Digest: QUuJKIc9qxRWhtRMViKSgo9M6Z8=
+
+Name: org/springframework/aop/config/SpringConfiguredBeanDefinitionPar
+ ser.class
+SHA1-Digest: rllWx+B4e9JSf2D6/p9XObOJF+0=
+
+Name: org/springframework/aop/framework/ProxyFactoryBean$PrototypePlac
+ eholderAdvisor.class
+SHA1-Digest: mzTnjsrwx17dhtxbqKP8EsGpoUs=
+
+Name: org/springframework/aop/framework/Advised.class
+SHA1-Digest: ALa3kZ9QC07ctGmg2OEndHJE6pw=
+
+Name: org/springframework/aop/support/DefaultPointcutAdvisor.class
+SHA1-Digest: 6Y1G6WQ8DsTYfL0gKiItsIjs6To=
+
+Name: org/springframework/aop/IntroductionInterceptor.class
+SHA1-Digest: b9Xp/gAkxGfmJjkixlVuDmKnQww=
+
+Name: org/springframework/aop/aspectj/AspectJAdviceParameterNameDiscov
+ erer$PointcutBody.class
+SHA1-Digest: me80LA9ReZMLyGNdgMxKqwPN1Ec=
+
+Name: org/springframework/aop/support/StaticMethodMatcherPointcut.clas
+ s
+SHA1-Digest: vVLXXKQMNCqL5loRnA0kqp6idtE=
+
+Name: org/springframework/aop/aspectj/AspectInstanceFactory.class
+SHA1-Digest: snAuAFh+sG6keanGa017v7GOXMM=
+
+Name: org/springframework/aop/support/ComposablePointcut.class
+SHA1-Digest: fLgFFAKq9x4u85/7p99rdd0ZkHY=
+
+Name: org/springframework/aop/aspectj/AspectJAfterReturningAdvice.clas
+ s
+SHA1-Digest: JjPjoDg3du4nQPTfJ4Z1rBljDmo=
+
+Name: org/springframework/aop/target/PrototypeTargetSource.class
+SHA1-Digest: 4WDYGFoFcc7JO6EXAcAuSGPerls=
+
+Name: org/springframework/aop/aspectj/annotation/LazySingletonAspectIn
+ stanceFactoryDecorator.class
+SHA1-Digest: RNLluK72GOfwZ6AEXy04LipdxAs=
+
+Name: org/springframework/aop/support/JdkRegexpMethodPointcut.class
+SHA1-Digest: gzqb+CGXMhOOh4tox5gHoJtlmR4=
+
+Name: org/springframework/aop/aspectj/AspectJExpressionPointcutAdvisor
+ .class
+SHA1-Digest: oS46wjxySjH61zLeomct0wBzSiM=
+
+Name: org/springframework/aop/aspectj/DeclareParentsAdvisor$1.class
+SHA1-Digest: bDPtJ269grrwznfEg9FRO0+JAcw=
+
+Name: org/springframework/aop/framework/ProxyCreatorSupport.class
+SHA1-Digest: Fh3M4mZsXP9aNyeY6eBSTLxhPGA=
+
+Name: org/springframework/aop/BeforeAdvice.class
+SHA1-Digest: aiR7icC8mY9OQgxDXTeTRTj30zE=
+
+Name: org/springframework/aop/config/AspectComponentDefinition.class
+SHA1-Digest: hv3j5VNxPoc4KVpDoZS52OnuzZE=
+
+Name: org/springframework/aop/aspectj/AspectJExpressionPointcut$Defens
+ iveShadowMatch.class
+SHA1-Digest: xrEGyWAgIyDVzoxvUfsHBJ8jp6I=
+
+Name: org/springframework/aop/framework/CglibAopProxy$StaticUnadvisedI
+ nterceptor.class
+SHA1-Digest: O0sEyEPny7vkD5dUo3vOHPddRJA=
+
+Name: org/springframework/aop/aspectj/MethodInvocationProceedingJoinPo
+ int$1.class
+SHA1-Digest: Z5eO3+XLs0gTloQ7/MhrGENp+3g=
+
+Name: org/springframework/aop/support/DefaultIntroductionAdvisor.class
+SHA1-Digest: wzk2xuxj2nY42ceMzbi7LP7rJvQ=
+
+Name: org/springframework/aop/aspectj/RuntimeTestWalker$TargetInstance
+ OfResidueTestVisitor.class
+SHA1-Digest: D3sB/5zELutVqDTnTw5EI+8h+yQ=
+
+Name: org/springframework/aop/config/AdvisorComponentDefinition.class
+SHA1-Digest: LDdM/F3UYtl6ybPdV577rZVW3So=
+
+Name: org/springframework/aop/aspectj/annotation/AbstractAspectJAdviso
+ rFactory$AspectJAnnotation.class
+SHA1-Digest: SF3fZW1LVLLsfG1ur7IwCdd7KG4=
+
+Name: org/springframework/aop/config/spring-aop-2.0.xsd
+SHA1-Digest: AV9VQ+c5gj0Zy/ylaQJrIrMwLHU=
+
+Name: org/springframework/aop/target/dynamic/BeanFactoryRefreshableTar
+ getSource.class
+SHA1-Digest: GiekdjxKmlUY5M8nVWZheRJlTnU=
+
+Name: org/springframework/aop/IntroductionInfo.class
+SHA1-Digest: ak6BCfUF4CqxS2/IP4O3239Tkkk=
+
+Name: org/springframework/aop/interceptor/SimpleTraceInterceptor.class
+SHA1-Digest: s38p+yG7KWkKGwzt/J727C1sMnE=
+
+Name: org/springframework/aop/SpringProxy.class
+SHA1-Digest: i6YBF0v2OCu9KkOaihPdwLp+nAk=
+
+Name: org/springframework/aop/config/MethodLocatingFactoryBean.class
+SHA1-Digest: nEVcELNYY2EGl5YOJGO76PbtEAA=
+
+Name: org/springframework/aop/support/AopUtils.class
+SHA1-Digest: mkGeRD+ddFMPgVvWFmoETKIG26A=
+
+Name: org/springframework/aop/aspectj/AspectJAroundAdvice.class
+SHA1-Digest: cRVWpECZC/6ntpNivMUWyaQXcpU=
+
+Name: org/springframework/aop/support/Pointcuts$SetterPointcut.class
+SHA1-Digest: nsTvT4TX99Qi2T3g5bzhRzs9hZI=
+
+Name: org/springframework/aop/support/AbstractGenericPointcutAdvisor.c
+ lass
+SHA1-Digest: P1xBs8EmJw9w2avEcdecQcptvgc=
+
+Name: org/springframework/aop/interceptor/DebugInterceptor.class
+SHA1-Digest: XXK+ghjYqhlNZZTjU1Mm271ErH8=
+
+Name: org/springframework/aop/support/ClassFilters$UnionClassFilter.cl
+ ass
+SHA1-Digest: yFbvHt+J9hIA4WbGUz9EB+sSXxw=
+
+Name: org/springframework/aop/aspectj/annotation/AbstractAspectJAdviso
+ rFactory$AspectJAnnotationType.class
+SHA1-Digest: z3YsCT9et6LMvLWviaHGGb6Mcgs=
+
+Name: org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAut
+ oProxyCreator$PartiallyComparableAdvisorHolder.class
+SHA1-Digest: j0FzeTUMHeSEfAXvpuvTmY00kA0=
+
+Name: org/springframework/aop/framework/autoproxy/target/AbstractBeanF
+ actoryBasedTargetSourceCreator.class
+SHA1-Digest: UnZod6H2xJebyEdlKwmGsizLPRg=
+
+Name: org/springframework/aop/framework/autoproxy/target/QuickTargetSo
+ urceCreator.class
+SHA1-Digest: qDWgdDZRPQrh+2n6n3fMc6PnPtE=
+
+Name: org/springframework/aop/aspectj/AspectJExpressionPointcut$BeanNa
+ mePointcutDesignatorHandler.class
+SHA1-Digest: 1oToTKYWw6cL9Hy6A07Zo80HAQw=
+
+Name: META-INF/spring.tooling
+SHA1-Digest: P/K2Cnz4rLPkPbKLbgdJ/MjD7pQ=
+
+Name: org/springframework/aop/support/StaticMethodMatcherPointcutAdvis
+ or.class
+SHA1-Digest: hZAdwUGCakZMyj3b7a13utquElQ=
+
+Name: org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvi
+ sorFactory$4.class
+SHA1-Digest: ESozOww0HadkMvbVL+lNySIrNaQ=
+
+Name: org/springframework/aop/support/RootClassFilter.class
+SHA1-Digest: rTN9zPpg8s/3abOEw6w1U6ax3uQ=
+
+Name: org/springframework/aop/config/AdviceEntry.class
+SHA1-Digest: nb+sslGv41tvQ/nT1d3vqXQ2wYI=
+
+Name: org/springframework/aop/target/AbstractPoolingTargetSource.class
+SHA1-Digest: C3S6rHYHqb9qAllPwaTqKJtxATA=
+
+Name: org/springframework/aop/target/SimpleBeanTargetSource.class
+SHA1-Digest: 1adEtZcX3ECQ/KTpEYEv5lyWm0U=
+
+Name: org/springframework/aop/framework/autoproxy/ProxyCreationContext
+ .class
+SHA1-Digest: ZUspRTjP/QOEvvZTgYEy3R4Hq+0=
+
+Name: org/springframework/aop/framework/AdvisedSupportListener.class
+SHA1-Digest: YNB2ZFugbPqvrgV6UVUZ7iUlyK4=
+
+Name: org/springframework/aop/aspectj/annotation/AbstractAspectJAdviso
+ rFactory$AspectJAnnotationParameterNameDiscoverer.class
+SHA1-Digest: DnXzX/g6zUqd842KVw2/bglDBIo=
+
+Name: org/springframework/aop/aspectj/annotation/InstantiationModelAwa
+ rePointcutAdvisorImpl.class
+SHA1-Digest: PuphhPEfRINjqyeXZhZwb3cfH/s=
+
+Name: org/springframework/aop/target/AbstractPrototypeBasedTargetSourc
+ e.class
+SHA1-Digest: YwB4LujQvQqblI7qf19iFGW+0Zc=
+
+Name: org/springframework/aop/config/ScopedProxyBeanDefinitionDecorato
+ r.class
+SHA1-Digest: arCBNyJj7t3k5nyphBfEbBfv5A0=
+
+Name: org/springframework/aop/support/MethodMatchers$IntersectionMetho
+ dMatcher.class
+SHA1-Digest: D1FVAEr9f5np1qDo6DaE/bCUTow=
+
+Name: org/springframework/aop/aspectj/SingletonAspectInstanceFactory.c
+ lass
+SHA1-Digest: r7y5lDXTCOkolDw9WyS0mNOENt8=
+
+Name: org/springframework/aop/aspectj/RuntimeTestWalker$ThisInstanceOf
+ ResidueTestVisitor.class
+SHA1-Digest: Ag9lu5OuGLipz97KRkzEX2w31oE=
+
+Name: org/springframework/aop/aspectj/AspectJAdviceParameterNameDiscov
+ erer$AmbiguousBindingException.class
+SHA1-Digest: HA1nAJ7Pl6YjdKei2UFt6E3TwgI=
+
+Name: org/springframework/aop/framework/AopInfrastructureBean.class
+SHA1-Digest: dSP1yAHPz0Oab8bAYrkhWQ58e9k=
+
+Name: org/springframework/aop/ThrowsAdvice.class
+SHA1-Digest: gbUcn2he7Fb+8c3LAQ013fAote0=
+
+Name: org/springframework/aop/framework/AbstractSingletonProxyFactoryB
+ ean.class
+SHA1-Digest: f4Fs96rB6r4P/AQ1wTZv/+EMo4I=
+
+Name: org/springframework/aop/framework/AbstractAdvisingBeanPostProces
+ sor.class
+SHA1-Digest: d3GwcRDR/gMS6UVJw82352qhZaM=
+
+Name: org/springframework/aop/interceptor/AsyncExecutionAspectSupport.
+ class
+SHA1-Digest: HPBpFAzLlSP8Q3SLMXx18ess+lM=
+
+Name: org/springframework/aop/support/MethodMatchers.class
+SHA1-Digest: mmRSs+pnKhD0kyL/VJVmI3ECSks=
+
+Name: org/springframework/aop/interceptor/AsyncExecutionInterceptor.cl
+ ass
+SHA1-Digest: MX+oBIfrBazC/HnIesONB8uX08o=
+
+Name: org/springframework/aop/TrueClassFilter.class
+SHA1-Digest: wVt73WTYoV3wQo7w4ix/8DBCGlo=
+
+Name: org/springframework/aop/aspectj/AspectJAopUtils.class
+SHA1-Digest: l78J43UWRBhSoxm/aBThiA4Tokc=
+
+Name: org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoP
+ roxyCreator$BeanFactoryAdvisorRetrievalHelperAdapter.class
+SHA1-Digest: 9FPSP0iZTb12JNTvK1R6I79KQ7M=
+
+Name: org/springframework/aop/aspectj/InstantiationModelAwarePointcutA
+ dvisor.class
+SHA1-Digest: rworDQJy/ve8eehdM5U5u1BIN2c=
+
+Name: org/springframework/aop/framework/ReflectiveMethodInvocation.cla
+ ss
+SHA1-Digest: HtygrwKOxU1OG3fnZza/BlvWEu0=
+
+Name: org/springframework/aop/support/annotation/AnnotationMethodMatch
+ er.class
+SHA1-Digest: 01+ZWZbwPi3+lBECgsx5UYuFCrA=
+
+Name: org/springframework/aop/interceptor/JamonPerformanceMonitorInter
+ ceptor.class
+SHA1-Digest: r5KaBsGBOca03kpWvFiI3/jI5uA=
+
+Name: org/springframework/aop/target/EmptyTargetSource.class
+SHA1-Digest: F3LQNhdptC4eq68h5hZGvKpNDpE=
+
+Name: org/springframework/aop/support/ClassFilters$IntersectionClassFi
+ lter.class
+SHA1-Digest: k7Gz8+O9wjJFfZ3CpSptfJJedpQ=
+
+Name: org/springframework/aop/support/RegexpMethodPointcutAdvisor$Seri
+ alizableMonitor.class
+SHA1-Digest: JxSi43j4fK4ezOCXP6Xlz4nEDPQ=
+
+Name: org/springframework/aop/support/AbstractRegexpMethodPointcut.cla
+ ss
+SHA1-Digest: 5gPFS9A14Nkidq3tTr4Ba7CPIMU=
+
+Name: org/springframework/aop/config/PointcutEntry.class
+SHA1-Digest: vq/NqJEBhKfcutRIZe4UjtKuuCQ=
+
+Name: org/springframework/aop/support/Pointcuts.class
+SHA1-Digest: dpqb10ZAjcoknyFxMWFr8RW36PQ=
+
+Name: org/springframework/aop/framework/CglibAopProxy$AdvisedDispatche
+ r.class
+SHA1-Digest: cpkov6xFtuhqmYXambvRplSA83M=
+
+Name: org/springframework/aop/ProxyMethodInvocation.class
+SHA1-Digest: unSJNAV9OgG6gI3z8eRcjjUl3WU=
+
+Name: org/springframework/aop/aspectj/AbstractAspectJAdvice$AdviceExcl
+ udingMethodMatcher.class
+SHA1-Digest: t6J3401kWvPCkJNffWPQTILULWM=
+
+Name: org/springframework/aop/config/ConfigBeanDefinitionParser.class
+SHA1-Digest: Dr6lf3fiLL7EJkr7cA90uaXKpJo=
+
+Name: org/springframework/aop/framework/autoproxy/AbstractAutoProxyCre
+ ator.class
+SHA1-Digest: gbM+zPFErgcxtYrBJfscCXndR4I=
+
+Name: org/springframework/aop/framework/autoproxy/InfrastructureAdviso
+ rAutoProxyCreator.class
+SHA1-Digest: 3OWQ3+GhPjd3dyi1MjSq0gVQtL0=
+
+Name: org/springframework/aop/support/annotation/AnnotationMatchingPoi
+ ntcut.class
+SHA1-Digest: HQCLf1AGFaOzYpFdwIWtbDqKwS0=
+
+Name: org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdv
+ isorsBuilder.class
+SHA1-Digest: hNXeBI+hCUpnsm9Q3AigeOqjckc=
+
+Name: org/springframework/aop/target/ThreadLocalTargetSourceStats.clas
+ s
+SHA1-Digest: R/B9EVp91kA3Lbsy4euNsvqz+Pc=
+
+Name: org/springframework/aop/aspectj/annotation/AbstractAspectJAdviso
+ rFactory$1.class
+SHA1-Digest: Sz/m/TP85uS0OnbaINEMmu2I0BY=
+
+Name: org/springframework/aop/aspectj/MethodInvocationProceedingJoinPo
+ int$SourceLocationImpl.class
+SHA1-Digest: MkQ/S886umDKeA3XMxxuMsw9kGs=
+
+Name: org/springframework/aop/config/AspectJAutoProxyBeanDefinitionPar
+ ser.class
+SHA1-Digest: TQjacv1NerzecQNeH+eW70cmZHQ=
+
+Name: org/springframework/aop/framework/AdvisedSupport$MethodCacheKey.
+ class
+SHA1-Digest: SSyuxzgo1N9pokAqwLw556TBtzw=
+
+Name: org/springframework/aop/aspectj/annotation/InstantiationModelAwa
+ rePointcutAdvisorImpl$1.class
+SHA1-Digest: frFvoVkWaKAMD2hgSCWTavLO0XU=
+
+Name: org/springframework/aop/aspectj/annotation/SingletonMetadataAwar
+ eAspectInstanceFactory.class
+SHA1-Digest: BAqOjZl5hMciNLHr4sQ6bi1m3UE=
+
+Name: org/springframework/aop/aspectj/annotation/BeanFactoryAspectInst
+ anceFactory.class
+SHA1-Digest: L9kMmRyDLOV413RjQxGOD97vEWY=
+
+Name: org/springframework/aop/support/StaticMethodMatcher.class
+SHA1-Digest: jbubL3oXASU5A6+WfeBsUOBYHvo=
+
+Name: org/springframework/aop/framework/CglibAopProxy$CglibMethodInvoc
+ ation.class
+SHA1-Digest: WRLlAfPob4002Vz5Jw62BQGKdBQ=
+
+Name: org/springframework/aop/aspectj/annotation/AspectJAdvisorFactory
+ .class
+SHA1-Digest: kAhZSn59ARJPAerU9xYcjmMf2Gc=
+
+Name: org/springframework/aop/interceptor/ExposeInvocationInterceptor.
+ class
+SHA1-Digest: lhHf/A2jC7StG54iWySimuuAxkE=
+
+Name: org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvi
+ sorFactory$SyntheticInstantiationAdvisor$1.class
+SHA1-Digest: YQNds7up3DLdLwc6MomlfWHjlbc=
+
+Name: org/springframework/aop/aspectj/AspectJAfterThrowingAdvice.class
+SHA1-Digest: aQrXBY9Q7IbXNqFKGf2CyYe3cMM=
+
+Name: META-INF/license.txt
+SHA1-Digest: d0PA6XPcK5xaxs6xHHKvMhM8nRg=
+
+Name: org/springframework/aop/aspectj/MethodInvocationProceedingJoinPo
+ int$MethodSignatureImpl.class
+SHA1-Digest: 5PiSCci+nVGjA68zD2C+SBPS7UY=
+
+Name: org/springframework/aop/config/spring-aop-3.0.xsd
+SHA1-Digest: H5xI0laSDn0QGfX/18SoL7l5UHw=
+
+Name: org/springframework/aop/framework/autoproxy/BeanNameAutoProxyCre
+ ator.class
+SHA1-Digest: Chn7L474LOzqbvy2EHonlaCPd6w=
+
+Name: org/springframework/aop/aspectj/MethodInvocationProceedingJoinPo
+ int.class
+SHA1-Digest: Z8Mj6zM/qSRj9r6Mplvk/uatZlY=
+
+Name: org/springframework/aop/scope/ScopedObject.class
+SHA1-Digest: N3KSZzBrV907ZWCFooe3JUuw2AQ=
+
+Name: org/springframework/aop/target/dynamic/Refreshable.class
+SHA1-Digest: 6tDOXHZyg8MQRsA4NBVtABwxSIs=
+
+Name: org/springframework/aop/framework/InterceptorAndDynamicMethodMat
+ cher.class
+SHA1-Digest: GPoqZA1s8XM/Zwy78dP/qXe2E/c=
+
+Name: org/springframework/aop/aspectj/annotation/MetadataAwareAspectIn
+ stanceFactory.class
+SHA1-Digest: HEpXze1mm/LyIkqlOS9d2T2QtDA=
+
+Name: org/springframework/aop/aspectj/annotation/AnnotationAwareAspect
+ JAutoProxyCreator.class
+SHA1-Digest: H3Ne2e+O1xwe3vOQ6/guvSqUfsc=
+
+Name: org/springframework/aop/interceptor/AbstractTraceInterceptor.cla
+ ss
+SHA1-Digest: DRmjxYmcz6NwU7xx7KawrCvquoo=
+
+Name: org/springframework/aop/aspectj/RuntimeTestWalker$SubtypeSensiti
+ veVarTypeTestVisitor.class
+SHA1-Digest: Ff/4lNEZFl+ZpT8hxfCgwcduzCA=
+
+Name: org/springframework/aop/aspectj/AspectJPointcutAdvisor.class
+SHA1-Digest: DlHt9nMRGlfvnOuPaxDx2rwdoj8=
+
+Name: org/springframework/aop/support/DynamicMethodMatcher.class
+SHA1-Digest: n56a+F3t2worzxqKbCuESg/sC5k=
+
+Name: org/springframework/aop/config/spring-aop-3.1.xsd
+SHA1-Digest: ak+mHIxA5OIT/T7+DNAtmOPqXYQ=
+
+Name: org/springframework/aop/framework/adapter/AdvisorAdapterRegistra
+ tionManager.class
+SHA1-Digest: UhHHzPTiEoEHVcHohZUzr7wd4RE=
+
+Name: org/springframework/aop/config/AbstractInterceptorDrivenBeanDefi
+ nitionDecorator.class
+SHA1-Digest: UUw/sMsH/ajeoQgoLnzrzSa6aFY=
+
+Name: org/springframework/aop/aspectj/RuntimeTestWalker$TestVisitorAda
+ pter.class
+SHA1-Digest: Utjh0V6LDyPOS8B11SfW+mr9/z8=
+
+Name: org/springframework/aop/support/DelegatingIntroductionIntercepto
+ r.class
+SHA1-Digest: 7E9Pm5DjkfEvLHTLueCMvJlLlac=
+
+Name: org/springframework/aop/config/AspectEntry.class
+SHA1-Digest: FzjlxSTW+u/cXTvFJz81MBlcFyA=
+
+Name: org/springframework/aop/framework/ProxyConfig.class
+SHA1-Digest: bhe3NNS1LfFx++zih2J1ed1scoc=
+
+Name: org/springframework/aop/framework/AopProxyUtils.class
+SHA1-Digest: Exo8PPdefkEcV/JfXQQ7jNf6/9Q=
+
+Name: org/springframework/aop/framework/ObjenesisCglibAopProxy.class
+SHA1-Digest: JpPkSWmq/AidwRx+U0hF5AM4y6E=
+
+Name: org/springframework/aop/aspectj/annotation/AnnotationAwareAspect
+ JAutoProxyCreator$BeanFactoryAspectJAdvisorsBuilderAdapter.class
+SHA1-Digest: zczp0Rx0yOAVpDqbuRK/V0PTdyc=
+
+Name: org/springframework/aop/framework/autoproxy/AutoProxyUtils.class
+SHA1-Digest: CpDGjqRt/bjWq+J0pJJQKGsw5FA=
+
+Name: org/springframework/aop/config/spring-aop-3.2.xsd
+SHA1-Digest: 3pr68e/ix29KqfXp/Yb9lc+hMJY=
+
+Name: org/springframework/aop/framework/CglibAopProxy$DynamicUnadvised
+ Interceptor.class
+SHA1-Digest: uDDpOYo55AnAUl3Ua6CIdgW943Y=
+
+Name: org/springframework/aop/framework/adapter/AfterReturningAdviceIn
+ terceptor.class
+SHA1-Digest: 4FUiRj420RbORfnSK9lEUURe5jE=
+
+Name: org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoP
+ roxyCreator.class
+SHA1-Digest: EoXLGcUKLtp3LL2wMUC2O0PSZrs=
+
+Name: org/springframework/aop/aspectj/AspectJExpressionPointcut$1.clas
+ s
+SHA1-Digest: FTGbtD+iNQwdM9LshSZLTnBfxsw=
+
+Name: org/springframework/aop/support/RegexpMethodPointcutAdvisor$1.cl
+ ass
+SHA1-Digest: QjEMZJ4E+YQC/7iWKOCue2OQu8M=
+
+Name: org/springframework/aop/PointcutAdvisor.class
+SHA1-Digest: +mpn3PUyMcDv7xIEabYoftUn7i0=
+
+Name: org/springframework/aop/framework/CglibAopProxy$HashCodeIntercep
+ tor.class
+SHA1-Digest: PeMbHWlUM01lrvaCaKZE53ieIFs=
+
+Name: org/springframework/aop/IntroductionAwareMethodMatcher.class
+SHA1-Digest: gkEwr/a/tUgvvgKudJEuY18MUls=
+
+Name: org/springframework/aop/config/AdvisorEntry.class
+SHA1-Digest: ZZRybmHEOcUXReVCtR6mZeKWEsA=
+
+Name: org/springframework/aop/framework/CglibAopProxy$DynamicAdvisedIn
+ terceptor.class
+SHA1-Digest: HgGdnLYv+3c5X6xh6bvL7hDN0dw=
+
+Name: org/springframework/aop/framework/adapter/DefaultAdvisorAdapterR
+ egistry.class
+SHA1-Digest: pBSeLa8d5WqLNB5BDAMO89KkD0k=
+
+Name: org/springframework/aop/TargetSource.class
+SHA1-Digest: H3/JrzMdWcP3Hp51s0xNch7y6j4=
+
+Name: org/springframework/aop/target/SingletonTargetSource.class
+SHA1-Digest: OibLL85wMnTYB6OhNWuO1e1pCK4=
+
+Name: org/springframework/aop/support/annotation/AnnotationClassFilter
+ .class
+SHA1-Digest: BOkzRBpEYhthc9AuSzT6Px9MRZo=
+
+Name: org/springframework/aop/interceptor/AsyncExecutionInterceptor$1.
+ class
+SHA1-Digest: Z/9FJh59MEpI7zV5XcLLLf2I+I4=
+
+Name: org/springframework/aop/interceptor/PerformanceMonitorIntercepto
+ r.class
+SHA1-Digest: gm+rxnXCet8zOaFp/z9fAxdfq48=
+
+Name: org/springframework/aop/framework/DefaultAopProxyFactory.class
+SHA1-Digest: KFbgIWCao6Zi6+YudsfOahIfM6k=
+
+Name: org/springframework/aop/scope/ScopedProxyFactoryBean.class
+SHA1-Digest: HwqVTUFpa0xmjRgWwxGRGOGLrrU=
+
+Name: org/springframework/aop/aspectj/annotation/SimpleMetadataAwareAs
+ pectInstanceFactory.class
+SHA1-Digest: FJGsQUVhF2RflwBnE4sSHzFu3HQ=
+
+Name: org/springframework/aop/framework/AopConfigException.class
+SHA1-Digest: sZEswtk/rrYqcF/zdMGIzwCtXZo=
+
+Name: org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvi
+ sorFactory$2.class
+SHA1-Digest: MFG7O/EvrFDT6jwWADHY6r5Fj/c=
+
+Name: org/springframework/aop/aspectj/annotation/NotAnAtAspectExceptio
+ n.class
+SHA1-Digest: zwRnNuc/MWKmYDB2i56VERbyF78=
+
+Name: org/springframework/aop/framework/CglibAopProxy$EqualsIntercepto
+ r.class
+SHA1-Digest: O/1IpY7mrgA7B58obcXEMw47o9Q=
+
+Name: org/springframework/aop/aspectj/TypePatternClassFilter.class
+SHA1-Digest: gBWSCGUkH3ZTAzHtz7lqqh6WeDY=
+
+Name: org/springframework/aop/target/PoolingConfig.class
+SHA1-Digest: z6Vl1M34aiLrQuB+Y6mebBE56Xc=
+
+Name: org/springframework/aop/framework/adapter/ThrowsAdviceAdapter.cl
+ ass
+SHA1-Digest: w3QdYXF7A+0Dyc1yJe8W53u4cIc=
+
+Name: org/springframework/aop/framework/CglibAopProxy$DynamicUnadvised
+ ExposedInterceptor.class
+SHA1-Digest: uEw/fKrYZDP8gVGC04D/faohc3E=
+
+Name: org/springframework/aop/framework/AopContext.class
+SHA1-Digest: R3n6U3LAUdcXODbfTzJtieaLHeY=
+
+Name: org/springframework/aop/interceptor/ExposeBeanNameAdvisors$Expos
+ eBeanNameIntroduction.class
+SHA1-Digest: 7KGh1tWGHKXSMyLcTxdcbCb4B00=
+
+Name: org/springframework/aop/Pointcut.class
+SHA1-Digest: v5g9Urh+XiMzoEU03CysYGGlEbQ=
+
+Name: org/springframework/aop/aspectj/AspectJAfterAdvice.class
+SHA1-Digest: 67Fy+0Xll2c/DiTPZwMtyikWM/M=
+
+Name: org/springframework/aop/support/AbstractExpressionPointcut.class
+SHA1-Digest: llnKwn+GSkYmJtOKVG8r6zNHBFA=
+
+Name: org/springframework/aop/interceptor/ConcurrencyThrottleIntercept
+ or.class
+SHA1-Digest: FvqIksAlGysApVgv9UEb/kouZn8=
+
+Name: org/springframework/aop/framework/adapter/MethodBeforeAdviceInte
+ rceptor.class
+SHA1-Digest: QCsT9n81e/NO6+jVcRhU917CaGE=
+
+Name: org/springframework/aop/aspectj/annotation/AspectMetadata$1.clas
+ s
+SHA1-Digest: MzDQBePZA4q+6UuWGpL3CEWZ2dQ=
+
+Name: org/springframework/aop/config/spring-aop-4.0.xsd
+SHA1-Digest: aWA2TGkQyF3+C/q/MyJIn6IMgPM=
+
+Name: org/springframework/aop/aspectj/DeclareParentsAdvisor.class
+SHA1-Digest: NE8A+Zfro/0yT/fEIZ7nrYh01io=
+
+Name: org/springframework/aop/framework/AdvisorChainFactory.class
+SHA1-Digest: Zrsz8TfGx1/wzqpGoVFerSqj7NM=
+
+Name: org/springframework/aop/ClassFilter.class
+SHA1-Digest: s7W07w/IfgdierBSFbo2M/ggGxk=
+
+Name: org/springframework/aop/target/AbstractLazyCreationTargetSource.
+ class
+SHA1-Digest: p7x6Zj0nXCD1yhElV2bZ/3K0FT8=
+
+Name: org/springframework/aop/support/ClassFilters.class
+SHA1-Digest: truvqrB9NYG3fyTNmu6vt1qG1O8=
+
+Name: org/springframework/aop/support/MethodMatchers$ClassFilterAwareU
+ nionMethodMatcher.class
+SHA1-Digest: JlRWqYOTW4GHfBxtN9DHjQG9iBU=
+
+Name: org/springframework/aop/TruePointcut.class
+SHA1-Digest: 4Wz2Sh11OdrprmiNDYAaG5ycUbg=
+
+Name: org/springframework/aop/framework/JdkDynamicAopProxy.class
+SHA1-Digest: 5ib6MkzmxUDfLaoLC27dutOzYIk=
+
+Name: org/springframework/aop/aspectj/annotation/PrototypeAspectInstan
+ ceFactory.class
+SHA1-Digest: U0MwZvTmpVA1QskJa726xDW0dxo=
+
+Name: org/springframework/aop/support/AbstractBeanFactoryPointcutAdvis
+ or.class
+SHA1-Digest: FrScUwg8steLqAWe0NWFssppjvo=
+
+Name: org/springframework/aop/support/AbstractPointcutAdvisor.class
+SHA1-Digest: 0JY/d3a/+1xxpzF/PMSi2LeJm/s=
+
+Name: org/springframework/aop/config/spring-aop-2.5.xsd
+SHA1-Digest: MYlL9dvCFKOTbK3u7G9fQQzdLX8=
+
+Name: org/springframework/aop/config/AopConfigUtils.class
+SHA1-Digest: LPx2PX8/cigJgqPq7PsldVwVlfo=
+
+Name: org/springframework/aop/support/RegexpMethodPointcutAdvisor.clas
+ s
+SHA1-Digest: zs05j4d7LbsxNVmgV5Js5rXJI1Y=
+
+Name: org/springframework/aop/target/LazyInitTargetSource.class
+SHA1-Digest: /ap+2yugE2ErfIjlYOoKeb7CbVM=
+
+Name: org/springframework/aop/TrueMethodMatcher.class
+SHA1-Digest: 5sFeFvOgRmTqPjZOueRMsMSDVo4=
+
+Name: org/springframework/aop/TargetClassAware.class
+SHA1-Digest: beJvapkTIyy2aDA1+BsAgH7Fp8A=
+
+Name: org/springframework/aop/support/DefaultBeanFactoryPointcutAdviso
+ r.class
+SHA1-Digest: HlQN+8CF4K9ZqvYp2uICmIrJmaw=
+
+Name: org/springframework/aop/aspectj/AspectJExpressionPointcut.class
+SHA1-Digest: nzKiW93M5oPLxKMgvam+RdSYZsA=
+
+Name: org/springframework/aop/support/Pointcuts$GetterPointcut.class
+SHA1-Digest: WMMEeQ78Zbyx4L40ru0W+PWemMQ=
+
+Name: org/springframework/aop/aspectj/RuntimeTestWalker$InstanceOfResi
+ dueTestVisitor.class
+SHA1-Digest: 6vb/E+UkAa0SXA2tlAN1Mimrd/8=
+
+Name: org/springframework/aop/support/DynamicMethodMatcherPointcut.cla
+ ss
+SHA1-Digest: cDkB4+k3rcrya/Kk2Gzt7s0WTSk=
+
+Name: org/springframework/aop/config/PointcutComponentDefinition.class
+SHA1-Digest: Y85xHdu0gC/zcxI36Ab3EQlrGZY=
+
+Name: org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvi
+ sorFactory$1.class
+SHA1-Digest: t4EZlznDjbU4op4s2emW1CUyNSw=
+
+Name: org/springframework/aop/scope/ScopedProxyUtils.class
+SHA1-Digest: Ut4Uv5LFfRJE9sdtVHJU1oblJig=
+
+Name: org/springframework/aop/framework/autoproxy/target/LazyInitTarge
+ tSourceCreator.class
+SHA1-Digest: ut40jV935QaZU9DqRijBD7kfvW4=
+
+Name: org/springframework/aop/framework/DefaultAdvisorChainFactory.cla
+ ss
+SHA1-Digest: 0ZHy2jtHbr/4ot7K/bd2Ip0m2tA=
+
+Name: org/springframework/aop/aspectj/annotation/AspectMetadata.class
+SHA1-Digest: jhm+EbUoD5v4/2v604WmYLlVz50=
+
+Name: org/springframework/aop/framework/ProxyFactoryBean.class
+SHA1-Digest: xUZ6n8Th4uyJBkCpWqLgbKGgqik=
+
+Name: org/springframework/aop/aspectj/AspectJExpressionPointcut$BeanNa
+ meContextMatcher.class
+SHA1-Digest: ZGtur/F+hzQOgzoPR0j5YVEdyfA=
+
+Name: org/springframework/aop/framework/adapter/MethodBeforeAdviceAdap
+ ter.class
+SHA1-Digest: aFud2sxk3f8rc2C8LpK29CNeq5Q=
+
+Name: org/springframework/aop/interceptor/ExposeInvocationInterceptor$
+ 1.class
+SHA1-Digest: RXlXOMAGH+zx8WY5MO76uiRT7kw=
+

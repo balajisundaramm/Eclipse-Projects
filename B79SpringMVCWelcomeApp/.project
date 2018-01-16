@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>B79SpringMVCWelcomeApp</name>
+	<comment></comment>
+	<projects>
+		<project>servlet-api</project>
+		<project>jstl-1.2</project>
+		<project>jboss-logging-3.1.1.GA</project>
+		<project>org.springframework.expression_4.0.2.20140223-RELEASE</project>
+		<project>org.springframework.core_4.0.2.20140223-RELEASE</project>
+		<project>slf4j-simple-1.7.10</project>
+		<project>javax.el_2.2.0.v201303151357</project>
+		<project>org.springframework.context_4.0.2.20140223-RELEASE</project>
+		<project>org.springframework.web_4.0.2.20140223-RELEASE</project>
+		<project>org.springframework.context.support_4.0.2.20140223-RELEASE</project>
+		<project>org.apache.commons.logging_1.1.1.v201101211721</project>
+		<project>org.springframework.aop_4.0.2.20140223-RELEASE</project>
+		<project>validation-api-1.0.0.GA (1)</project>
+		<project>javax.servlet.jsp.jstl-1.2.1</project>
+		<project>org.springframework.beans_4.0.2.20140223-RELEASE</project>
+		<project>hibernate-validator-4.3.1.Final</project>
+		<project>org.springframework.web.servlet_4.0.2.20140223-RELEASE</project>
+		<project>org.springframework.data.core_1.7.0.20140120-CI</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+	</natures>
+</projectDescription>

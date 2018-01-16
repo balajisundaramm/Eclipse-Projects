@@ -1,0 +1,1321 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.data.annotation;version="1.7.0.BUI
+ LD-SNAPSHOT",org.springframework.data.auditing;version="1.7.0.BUILD-S
+ NAPSHOT";uses:="org.joda.time,org.springframework.beans.factory,org.s
+ pringframework.core.convert.converter,org.springframework.data.domain
+ ,org.springframework.data.support",org.springframework.data.auditing.
+ config;version="1.7.0.BUILD-SNAPSHOT";uses:="org.springframework.bean
+ s.factory.config,org.springframework.beans.factory.support,org.spring
+ framework.context.annotation,org.springframework.core.type",org.sprin
+ gframework.data.authentication;version="1.7.0.BUILD-SNAPSHOT",org.spr
+ ingframework.data.config;version="1.7.0.BUILD-SNAPSHOT";uses:="org.sp
+ ringframework.beans.factory.parsing,org.springframework.beans.factory
+ .support,org.springframework.beans.factory.xml,org.springframework.co
+ re.type.filter,org.w3c.dom",org.springframework.data.convert;version=
+ "1.7.0.BUILD-SNAPSHOT";uses:="org.joda.time,org.springframework.core.
+ convert,org.springframework.core.convert.converter,org.springframewor
+ k.data.mapping,org.springframework.data.mapping.context,org.springfra
+ mework.data.mapping.model,org.springframework.data.util",org.springfr
+ amework.data.crossstore;version="1.7.0.BUILD-SNAPSHOT";uses:="org.spr
+ ingframework.core.convert,org.springframework.dao,org.springframework
+ .transaction.support",org.springframework.data.domain;version="1.7.0.
+ BUILD-SNAPSHOT";uses:="org.joda.time",org.springframework.data.domain
+ .jaxb;version="1.7.0.BUILD-SNAPSHOT";uses:="javax.xml.bind.annotation
+ ,javax.xml.bind.annotation.adapters,org.springframework.data.domain,o
+ rg.springframework.hateoas",org.springframework.data.history;version=
+ "1.7.0.BUILD-SNAPSHOT";uses:="org.joda.time",org.springframework.data
+ .mapping;version="1.7.0.BUILD-SNAPSHOT";uses:="org.springframework.da
+ ta.util",org.springframework.data.mapping.context;version="1.7.0.BUIL
+ D-SNAPSHOT";uses:="org.springframework.beans.factory,org.springframew
+ ork.context,org.springframework.core.convert.converter,org.springfram
+ ework.data.mapping,org.springframework.data.mapping.model,org.springf
+ ramework.data.support,org.springframework.data.util,org.springframewo
+ rk.util",org.springframework.data.mapping.model;version="1.7.0.BUILD-
+ SNAPSHOT";uses:="org.springframework.beans.factory,org.springframewor
+ k.core.convert,org.springframework.data.mapping,org.springframework.d
+ ata.util,org.springframework.expression,org.springframework.expressio
+ n.spel.standard",org.springframework.data.querydsl;version="1.7.0.BUI
+ LD-SNAPSHOT";uses:="com.mysema.query.types,org.springframework.data.d
+ omain",org.springframework.data.repository;version="1.7.0.BUILD-SNAPS
+ HOT";uses:="org.springframework.data.domain",org.springframework.data
+ .repository.cdi;version="1.7.0.BUILD-SNAPSHOT";uses:="javax.enterpris
+ e.context.spi,javax.enterprise.event,javax.enterprise.inject,javax.en
+ terprise.inject.spi,javax.enterprise.util",org.springframework.data.r
+ epository.config;version="1.7.0.BUILD-SNAPSHOT";uses:="org.springfram
+ ework.beans.factory,org.springframework.beans.factory.annotation,org.
+ springframework.beans.factory.config,org.springframework.beans.factor
+ y.support,org.springframework.beans.factory.xml,org.springframework.c
+ ontext,org.springframework.context.annotation,org.springframework.cor
+ e.annotation,org.springframework.core.env,org.springframework.core.io
+ ,org.springframework.core.type,org.springframework.core.type.classrea
+ ding,org.springframework.core.type.filter,org.w3c.dom",org.springfram
+ ework.data.repository.core;version="1.7.0.BUILD-SNAPSHOT",org.springf
+ ramework.data.repository.core.support;version="1.7.0.BUILD-SNAPSHOT";
+ uses:="org.aopalliance.intercept,org.springframework.aop.framework,or
+ g.springframework.beans.factory,org.springframework.beans.factory.ann
+ otation,org.springframework.beans.factory.config,org.springframework.
+ core,org.springframework.data.domain,org.springframework.data.mapping
+ ,org.springframework.data.mapping.context,org.springframework.data.re
+ pository,org.springframework.data.repository.core,org.springframework
+ .data.repository.query,org.springframework.transaction.annotation,org
+ .springframework.transaction.interceptor,org.springframework.util",or
+ g.springframework.data.repository.history;version="1.7.0.BUILD-SNAPSH
+ OT";uses:="org.springframework.data.domain,org.springframework.data.h
+ istory,org.springframework.data.repository",org.springframework.data.
+ repository.history.support;version="1.7.0.BUILD-SNAPSHOT",org.springf
+ ramework.data.repository.init;version="1.7.0.BUILD-SNAPSHOT";uses:="c
+ om.fasterxml.jackson.databind,org.codehaus.jackson.map,org.springfram
+ ework.beans.factory.config,org.springframework.context,org.springfram
+ ework.context.event,org.springframework.core.io,org.springframework.d
+ ata.repository.support,org.springframework.oxm",org.springframework.d
+ ata.repository.query;version="1.7.0.BUILD-SNAPSHOT";uses:="org.spring
+ framework.core,org.springframework.data.domain,org.springframework.da
+ ta.repository.core",org.springframework.data.repository.query.parser;
+ version="1.7.0.BUILD-SNAPSHOT";uses:="org.springframework.data.domain
+ ,org.springframework.data.mapping,org.springframework.data.repository
+ .query",org.springframework.data.repository.support;version="1.7.0.BU
+ ILD-SNAPSHOT";uses:="org.springframework.beans,org.springframework.be
+ ans.factory,org.springframework.context,org.springframework.core.conv
+ ert,org.springframework.core.convert.converter,org.springframework.da
+ ta.mapping,org.springframework.data.repository,org.springframework.da
+ ta.repository.core",org.springframework.data.repository.util;version=
+ "1.7.0.BUILD-SNAPSHOT",org.springframework.data.support;version="1.7.
+ 0.BUILD-SNAPSHOT",org.springframework.data.transaction;version="1.7.0
+ .BUILD-SNAPSHOT";uses:="org.springframework.transaction",org.springfr
+ amework.data.util;version="1.7.0.BUILD-SNAPSHOT";uses:="org.springfra
+ mework.util",org.springframework.data.web;version="1.7.0.BUILD-SNAPSH
+ OT";uses:="org.springframework.beans,org.springframework.beans.factor
+ y.annotation,org.springframework.core,org.springframework.data.domain
+ ,org.springframework.hateoas,org.springframework.hateoas.mvc,org.spri
+ ngframework.web.bind.support,org.springframework.web.context.request,
+ org.springframework.web.method.support,org.springframework.web.util",
+ org.springframework.data.web.config;version="1.7.0.BUILD-SNAPSHOT";us
+ es:="org.springframework.beans.factory.annotation,org.springframework
+ .context.annotation,org.springframework.core.type,org.springframework
+ .data.web,org.springframework.format,org.springframework.web.servlet.
+ config.annotation"
+Built-By: bamboo
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Data Commons Core
+Created-By: Apache Maven
+Ant-Version: Apache Ant 1.8.2
+DynamicImport-Package: *
+Bundle-Vendor: SpringSource
+Build-Jdk: 1.6.0_45
+Bundle-Version: 1.7.0.20140120-CI
+Bundle-ManifestVersion: 2
+Import-Package: com.fasterxml.jackson.databind;version="[2.2.2,3.0.0)"
+ ;resolution:="optional",com.mysema.query.types;version="[3.3.0,4.0.0)
+ ";resolution:="optional",javax.enterprise.context;version="[1.0.0,2.0
+ .0)";resolution:="optional",javax.enterprise.context.spi;version="[1.
+ 0.0,2.0.0)";resolution:="optional",javax.enterprise.event;version="[1
+ .0.0,2.0.0)";resolution:="optional",javax.enterprise.inject;version="
+ [1.0.0,2.0.0)";resolution:="optional",javax.enterprise.inject.spi;ver
+ sion="[1.0.0,2.0.0)";resolution:="optional",javax.enterprise.util;ver
+ sion="[1.0.0,2.0.0)";resolution:="optional",javax.inject;version="[1.
+ 0.0,2.0.0)";resolution:="optional",javax.servlet;version="[2.5.0, 4.0
+ .0)";resolution:="optional",javax.xml.bind.annotation;version="0";res
+ olution:="optional",javax.xml.bind.annotation.adapters;version="0";re
+ solution:="optional",javax.xml.transform;version="0";resolution:="opt
+ ional",javax.xml.transform.stream;version="0";resolution:="optional",
+ org.aopalliance.aop;version="[1.0.0, 2.0.0)";resolution:="optional",o
+ rg.aopalliance.intercept;version="[1.0.0, 2.0.0)";resolution:="option
+ al",org.codehaus.jackson;version="[1.9.7,2.0.0)";resolution:="optiona
+ l",org.codehaus.jackson.map;version="[1.9.7,2.0.0)";resolution:="opti
+ onal",org.joda.time;version="[2.1.0,3.0.0)";resolution:="optional",or
+ g.slf4j;version="[1.6.0,2.0.0)",org.springframework.aop.framework;ver
+ sion="[3.2.6,4.1.0)";resolution:="optional",org.springframework.aop.t
+ arget;version="[3.2.6,4.1.0)";resolution:="optional",org.springframew
+ ork.beans;version="[3.2.6,4.1.0)",org.springframework.beans.factory;v
+ ersion="[3.2.6,4.1.0)",org.springframework.beans.factory.annotation;v
+ ersion="[3.2.6,4.1.0)",org.springframework.beans.factory.config;versi
+ on="[3.2.6,4.1.0)",org.springframework.beans.factory.parsing;version=
+ "[3.2.6,4.1.0)",org.springframework.beans.factory.support;version="[3
+ .2.6,4.1.0)",org.springframework.beans.factory.xml;version="[3.2.6,4.
+ 1.0)",org.springframework.context;version="[3.2.6,4.1.0)";resolution:
+ ="optional",org.springframework.context.annotation;version="[3.2.6,4.
+ 1.0)";resolution:="optional",org.springframework.context.event;versio
+ n="[3.2.6,4.1.0)";resolution:="optional",org.springframework.context.
+ expression;version="[3.2.6,4.1.0)";resolution:="optional",org.springf
+ ramework.core;version="[3.2.6,4.1.0)",org.springframework.core.annota
+ tion;version="[3.2.6,4.1.0)",org.springframework.core.convert;version
+ ="[3.2.6,4.1.0)",org.springframework.core.convert.converter;version="
+ [3.2.6,4.1.0)",org.springframework.core.convert.support;version="[3.2
+ .6,4.1.0)",org.springframework.core.env;version="[3.2.6,4.1.0)",org.s
+ pringframework.core.io;version="[3.2.6,4.1.0)",org.springframework.co
+ re.io.support;version="[3.2.6,4.1.0)",org.springframework.core.type;v
+ ersion="[3.2.6,4.1.0)",org.springframework.core.type.classreading;ver
+ sion="[3.2.6,4.1.0)",org.springframework.core.type.filter;version="[3
+ .2.6,4.1.0)",org.springframework.dao;version="[3.2.6,4.1.0)";resoluti
+ on:="optional",org.springframework.dao.support;version="[3.2.6,4.1.0)
+ ";resolution:="optional",org.springframework.expression;version="[3.2
+ .6,4.1.0)";resolution:="optional",org.springframework.expression.spel
+ .standard;version="[3.2.6,4.1.0)";resolution:="optional",org.springfr
+ amework.expression.spel.support;version="[3.2.6,4.1.0)";resolution:="
+ optional",org.springframework.format;version="[3.2.6,4.1.0)";resoluti
+ on:="optional",org.springframework.format.support;version="[3.2.6,4.1
+ .0)";resolution:="optional",org.springframework.hateoas;version="[0.9
+ .0,1.1.0)";resolution:="optional",org.springframework.hateoas.core;ve
+ rsion="[0.9.0,1.1.0)";resolution:="optional",org.springframework.hate
+ oas.mvc;version="[0.9.0,1.1.0)";resolution:="optional",org.springfram
+ ework.oxm;version="[3.2.6,4.1.0)";resolution:="optional",org.springfr
+ amework.transaction;version="[3.2.6,4.1.0)";resolution:="optional",or
+ g.springframework.transaction.annotation;version="[3.2.6,4.1.0)";reso
+ lution:="optional",org.springframework.transaction.interceptor;versio
+ n="[3.2.6,4.1.0)";resolution:="optional",org.springframework.transact
+ ion.support;version="[3.2.6,4.1.0)";resolution:="optional",org.spring
+ framework.util;version="[3.2.6,4.1.0)",org.springframework.validation
+ ;version="[3.2.6,4.1.0)";resolution:="optional",org.springframework.w
+ eb.bind;version="[3.2.6,4.1.0)";resolution:="optional",org.springfram
+ ework.web.bind.support;version="[3.2.6,4.1.0)";resolution:="optional"
+ ,org.springframework.web.context.request;version="[3.2.6,4.1.0)";reso
+ lution:="optional",org.springframework.web.method.support;version="[3
+ .2.6,4.1.0)";resolution:="optional",org.springframework.web.servlet.c
+ onfig.annotation;version="[3.2.6,4.1.0)";resolution:="optional",org.s
+ pringframework.web.servlet.support;version="[3.2.6,4.1.0)";resolution
+ :="optional",org.springframework.web.util;version="[3.2.6,4.1.0)";res
+ olution:="optional",org.w3c.dom;version="0"
+Bundle-SymbolicName: org.springframework.data.core
+Archiver-Version: Plexus Archiver
+
+Name: org/springframework/data/mapping/PropertyHandler.class
+SHA1-Digest: oRvxeJblBAmHeXoA0RL9fvq/6Xw=
+
+Name: org/springframework/data/crossstore/HashMapChangeSet.class
+SHA1-Digest: +pKO/SWSgNM3fd2x2vr2HMUp3eE=
+
+Name: org/springframework/data/convert/TypeInformationMapper.class
+SHA1-Digest: MIwmBnITdfEmG71xfOFJwmy2iP8=
+
+Name: org/springframework/data/web/SortDefault.class
+SHA1-Digest: qqpMVPAkQqg5tuArcnR5U7bBd+E=
+
+Name: org/springframework/data/repository/query/RepositoryQuery.class
+SHA1-Digest: JnWUFUvHiSrJYK0PGtsRm7iccKY=
+
+Name: org/springframework/data/repository/core/support/RepositoryProxy
+ PostProcessor.class
+SHA1-Digest: IFCYBUbmDFlKjngOJ0cb+4LPr38=
+
+Name: org/springframework/data/web/SpringDataAnnotationUtils.class
+SHA1-Digest: rcmAwey1j4R27i/zDVaGv2Z6veU=
+
+Name: org/springframework/data/mapping/context/AbstractMappingContext$
+ PersistentPropertyCreator.class
+SHA1-Digest: 6m6zG7dcmYJSaC2SkCtm4b1FY/g=
+
+Name: org/springframework/data/mapping/model/BasicPersistentEntity$Ass
+ ociationComparator.class
+SHA1-Digest: qiV/AZHMJ6xk+uvtfYaAnZn94Ss=
+
+Name: org/springframework/data/util/GenericArrayTypeInformation.class
+SHA1-Digest: CidYgQU/hZZUhYgovQmkFB/ry/0=
+
+Name: org/springframework/data/repository/query/QueryCreationException
+ .class
+SHA1-Digest: ZkSBHhWJeVDrnPEpFTa6sESl6ns=
+
+Name: org/springframework/data/auditing/config/AnnotationAuditingConfi
+ gurationSupport.class
+SHA1-Digest: lM4/uzJNDmkSuOKwqJA/7c8PSaI=
+
+Name: org/springframework/data/repository/init/JacksonRepositoryPopula
+ torFactoryBean.class
+SHA1-Digest: gsBrZkM7TKbn4uDUTxJMwA/XFXg=
+
+Name: org/springframework/data/repository/query/ParameterAccessor.clas
+ s
+SHA1-Digest: Y+DO4vi/EnNOPdssWyIAUkYfxM0=
+
+Name: org/springframework/data/mapping/PersistentEntity.class
+SHA1-Digest: dx1167r2MwyNG/IwkyOyqdfdN5s=
+
+Name: org/springframework/data/util/ReflectionUtils.class
+SHA1-Digest: RCQLCgW7K+9vkIrrwoPx5q2pwbw=
+
+Name: org/springframework/data/repository/core/NamedQueries.class
+SHA1-Digest: UsXxKeOxqHSSmaWZbnXfyMVwjGo=
+
+Name: org/springframework/data/convert/DefaultTypeMapper.class
+SHA1-Digest: fBFUXTM/eE70tUqPW03/RihzJJs=
+
+Name: org/springframework/data/auditing/AuditableBeanWrapperFactory$Ca
+ lendarToDateTimeConverter.class
+SHA1-Digest: 1ObeF7Yy2o8n5tZPPDaSwGC9oUE=
+
+Name: org/springframework/data/repository/support/DomainClassPropertyE
+ ditor.class
+SHA1-Digest: wgZqqjcDa0XjXosvzOoFckyPlyE=
+
+Name: org/springframework/data/domain/Auditable.class
+SHA1-Digest: mqwFEUk/kgcZhQ0cKlJBFJV9/Yk=
+
+Name: org/springframework/data/repository/config/AnnotationRepositoryC
+ onfigurationSource.class
+SHA1-Digest: RkUN0l7fkwBBnuwKrvs6GYf8FIc=
+
+Name: org/springframework/data/repository/config/spring-repository-1.4
+ .xsd
+SHA1-Digest: 3UJIDB2ydumao/45WTS2A68el0M=
+
+Name: org/springframework/data/convert/MappingContextTypeInformationMa
+ pper.class
+SHA1-Digest: chWbHUSfzDD/fBkeY4YzaodVmaM=
+
+Name: org/springframework/data/domain/AuditorAware.class
+SHA1-Digest: T26hCUCP48MZYt0+dG3XQW/AC3c=
+
+Name: org/springframework/data/annotation/CreatedBy.class
+SHA1-Digest: wPqc4W6CKYtV8BbNDZyoWyqbxW4=
+
+Name: org/springframework/data/repository/query/QueryMethod.class
+SHA1-Digest: d5BbMbFfhiFzSClTtSQey/GswFU=
+
+Name: org/springframework/data/repository/core/EntityMetadata.class
+SHA1-Digest: b+2/8I+hOKvk+/ckfC5ziJKqAyA=
+
+Name: org/springframework/data/convert/JodaTimeConverters$DateToDateMi
+ dnightConverter.class
+SHA1-Digest: Tu64ZL5wfqVJO5QE4EWfHMtd+Vc=
+
+Name: org/springframework/data/convert/EntityReader.class
+SHA1-Digest: kgL2xLBBp9dWY3dY5N5I9HXl4ak=
+
+Name: changelog.txt
+SHA1-Digest: e2Q7Zfw77JDXSqqm3KWdAylciRY=
+
+Name: org/springframework/data/domain/jaxb/SpringDataJaxb.class
+SHA1-Digest: vSX37PHayrBq935Y/YInpx2u64k=
+
+Name: org/springframework/data/querydsl/QSort.class
+SHA1-Digest: VN0T3UmYxwVX5it8mQAaQWoY+e0=
+
+Name: org/springframework/data/annotation/Transient.class
+SHA1-Digest: GMNzssIkUJttAyhVg1vx8wY9skk=
+
+Name: org/springframework/data/mapping/model/SpELExpressionParameterVa
+ lueProvider.class
+SHA1-Digest: /y9ATdA/OJzrFH/jy1hBAzqYbUE=
+
+Name: org/springframework/data/repository/config/RepositoryConfigurati
+ onSource.class
+SHA1-Digest: WeMf4MFgZQ8DtKgSigHKgTKIx3U=
+
+Name: org/springframework/data/auditing/AuditableBeanWrapperFactory$Re
+ flectionAuditingBeanWrapper.class
+SHA1-Digest: GlHgW6EAngOCrmxh0I/oXIGqJxs=
+
+Name: org/springframework/data/transaction/MultiTransactionStatus$1.cl
+ ass
+SHA1-Digest: GrADW/N5CI96P3I2Zk8Rp5NG3yU=
+
+Name: org/springframework/data/util/ParentTypeAwareTypeInformation.cla
+ ss
+SHA1-Digest: PWZ5jFje41T0ar3WkLRLrDYaa/8=
+
+Name: org/springframework/data/repository/core/support/PersistenceExce
+ ptionTranslationRepositoryProxyPostProcessor.class
+SHA1-Digest: tAcbEQJCh43hQYLds437BsdMv7E=
+
+Name: org/springframework/data/mapping/SimpleAssociationHandler.class
+SHA1-Digest: g9rXGZ8R2H3uef3w5sdzxUwfbV0=
+
+Name: org/springframework/data/support/IsNewStrategyFactory.class
+SHA1-Digest: yPQDTZCNhL3O1yYNxSmFeHFGqlc=
+
+Name: org/springframework/data/repository/support/DomainClassPropertyE
+ ditorRegistrar.class
+SHA1-Digest: O5Kt90vRXzDaKiDTktfTTInHu00=
+
+Name: org/springframework/data/history/Revision.class
+SHA1-Digest: hWn2LcAF4RF+ILv7VMj145sQfQI=
+
+Name: org/springframework/data/querydsl/QPageRequest.class
+SHA1-Digest: 55a2g96GfwnN/ip3LezaFXnvCf8=
+
+Name: org/springframework/data/repository/support/Repositories.class
+SHA1-Digest: wWbnX/6XjFp77LpTeoS70Z6Ib/A=
+
+Name: org/springframework/data/repository/core/support/AbstractReposit
+ oryMetadata.class
+SHA1-Digest: pISpv9nuVk2KzieV7Tx51WQd7s8=
+
+Name: META-INF/spring.handlers
+SHA1-Digest: WQBDHXOvPzmaIYDUK7XwQlFRdu8=
+
+Name: org/springframework/data/history/RevisionMetadata.class
+SHA1-Digest: paaKZWZss/DxFe81qet7F7rjKPY=
+
+Name: org/springframework/data/mapping/context/PersistentPropertyPath.
+ class
+SHA1-Digest: OE2A7mHOL8HUftTawil4t22G5DM=
+
+Name: org/springframework/data/mapping/context/DefaultPersistentProper
+ tyPath$PropertyNameConverter.class
+SHA1-Digest: 2PlTDe8Hy6KnG0pckTJtuep0NFg=
+
+Name: org/springframework/data/repository/query/parser/PartTree$OrPart
+ .class
+SHA1-Digest: ER4o2JstMnSRK/4nkHtOhKoullI=
+
+Name: notice.txt
+SHA1-Digest: RylztBVUn568nCQ6JR/3ktYGfxM=
+
+Name: org/springframework/data/auditing/AuditingHandler.class
+SHA1-Digest: jsdPbKi4RFh/PnQg196Ly94v+Dk=
+
+Name: META-INF/spring.schemas
+SHA1-Digest: wU5yzhK2OPm3cb4QEXj1837WPc4=
+
+Name: org/springframework/data/querydsl/QueryDslUtils.class
+SHA1-Digest: kqhVJAKVWzg6gysoM9gHFTXGH34=
+
+Name: org/springframework/data/repository/config/NamedQueriesBeanDefin
+ itionBuilder.class
+SHA1-Digest: a3wbsykgHRqI8CudtA5D+kEA+JE=
+
+Name: org/springframework/data/repository/query/ParametersParameterAcc
+ essor$BindableParameterIterator.class
+SHA1-Digest: qOZ6r4NzXHWzDCGMd+9UJeSClZM=
+
+Name: org/springframework/data/domain/jaxb/SpringDataJaxb$PageDto.clas
+ s
+SHA1-Digest: cBqnDB6+HpZ25IObirUjAcLQh6E=
+
+Name: readme.txt
+SHA1-Digest: O55Oe/Xi3eIq7SS9sv9S7MpsufM=
+
+Name: org/springframework/data/mapping/context/MappingContextIsNewStra
+ tegyFactory.class
+SHA1-Digest: BbPJC5ha/n3WEH/RujI4QDpLPK4=
+
+Name: org/springframework/data/util/AnnotationDetectionFieldCallback.c
+ lass
+SHA1-Digest: mIG1/zB4rYGR18MGgCH4NIT8acY=
+
+Name: org/springframework/data/domain/jaxb/PageableAdapter.class
+SHA1-Digest: q1YpQ/CuqIUdyH6O/z9fMpxzGBY=
+
+Name: org/springframework/data/repository/core/EntityInformation.class
+SHA1-Digest: 4/3PkcB1wSbucLyNrHuHRLKkA9c=
+
+Name: org/springframework/data/repository/core/support/TransactionalRe
+ positoryFactoryBeanSupport.class
+SHA1-Digest: 7m/hWAk7AS6RRFYrj7aLcXOFFkQ=
+
+Name: org/springframework/data/repository/config/RepositoryNameSpaceHa
+ ndler.class
+SHA1-Digest: rgK/LaALc9Ksly24wxeEXVveR7g=
+
+Name: org/springframework/data/mapping/context/MappingContextIsNewStra
+ tegyFactory$PersistentPropertyInspectingIsNewStrategy.class
+SHA1-Digest: so+Bcfv0CqCPCJWpizU/qCao77Q=
+
+Name: org/springframework/data/config/TypeFilterParser$Type.class
+SHA1-Digest: f4Q8BPDlFY/cuhxrFKr9dd6bVeE=
+
+Name: org/springframework/data/repository/core/support/RepositoryFacto
+ rySupport$QueryExecutorMethodInterceptor.class
+SHA1-Digest: xs4lAMqSrBft+gW/aD+l4DIWsTc=
+
+Name: org/springframework/data/util/ReflectionUtils$1.class
+SHA1-Digest: iURpG2Nx4FBkigLOSG/pHQPTR3k=
+
+Name: org/springframework/data/repository/init/ResourceReaderRepositor
+ yPopulator.class
+SHA1-Digest: lz9g+DubA8FyIxGNMw2TmrlsuNs=
+
+Name: org/springframework/data/convert/ReflectionEntityInstantiator.cl
+ ass
+SHA1-Digest: qJ6LByXduXjZNueKuEmafiE06LQ=
+
+Name: org/springframework/data/annotation/Persistent.class
+SHA1-Digest: SJgBfN+lz6hZsUI/M+n8B5GpSdo=
+
+Name: org/springframework/data/querydsl/SimpleEntityPathResolver.class
+SHA1-Digest: 8u6WqiIINUwjgQ2SV20hfnCL1U4=
+
+Name: org/springframework/data/repository/core/support/RepositoryInter
+ faceAwareBeanPostProcessor.class
+SHA1-Digest: 8gKLhXa3ZSnsz/kCcYO69KNhx/8=
+
+Name: org/springframework/data/repository/query/ParametersParameterAcc
+ essor.class
+SHA1-Digest: LtW8zAqx9Car8qRAwtCZ0I37204=
+
+Name: org/springframework/data/repository/config/RepositoryComponentPr
+ ovider$InterfaceTypeFilter.class
+SHA1-Digest: 4Hq0Y+3Kj9GULyEr0G6ys/R8INY=
+
+Name: org/springframework/data/repository/query/ParametersParameterAcc
+ essor$1.class
+SHA1-Digest: 6KIN8HpqSg57KoavhfpSiORJawc=
+
+Name: org/springframework/data/mapping/context/AbstractMappingContext$
+ 1.class
+SHA1-Digest: jK0AFuhLZ+2OfvUnS1uKRuuq990=
+
+Name: org/springframework/data/mapping/model/IllegalMappingException.c
+ lass
+SHA1-Digest: sTsswErG5CIMaiwRNIB/fNgmqeM=
+
+Name: org/springframework/data/repository/init/ResourceReader.class
+SHA1-Digest: nBKs4BmeApLhoNI9rCvHDFUnlME=
+
+Name: org/springframework/data/repository/query/DefaultParameters.clas
+ s
+SHA1-Digest: OJ6mcLHUUAnx8ec3M8d8s/+tFlI=
+
+Name: org/springframework/data/domain/Pageable.class
+SHA1-Digest: 1ADKQ5kl0nn8Vkt+HlWBBhYYslg=
+
+Name: org/springframework/data/repository/support/CrudRepositoryInvoke
+ r.class
+SHA1-Digest: Z1VincLBNqIRdQTyGInv1ubbOGs=
+
+Name: org/springframework/data/repository/core/support/ReflectionEntit
+ yInformation$1.class
+SHA1-Digest: suKJO1WJs5ik78EtI/RaIrFqzpQ=
+
+Name: org/springframework/data/mapping/model/BeanWrapper.class
+SHA1-Digest: /98Fux42FzAOHt7TkhRS4IUnQ7g=
+
+Name: org/springframework/data/repository/core/support/RepositoryFacto
+ rySupport$RepositoryInformationCacheKey.class
+SHA1-Digest: ZLMSTybKPLOvEBcWEbocjxkMmzk=
+
+Name: org/springframework/data/repository/query/QueryMethod$1.class
+SHA1-Digest: Ypn3+CCGQ+QxAsLirNKkSp514VA=
+
+Name: org/springframework/data/repository/config/RepositoryBeanDefinit
+ ionBuilder.class
+SHA1-Digest: d/ppHAhRWE+JfWQEt6TNFU3OAlo=
+
+Name: org/springframework/data/convert/EntityWriter.class
+SHA1-Digest: ZNWFm4mYefxXeRhyJ2x7Iee4LBk=
+
+Name: org/springframework/data/annotation/LastModifiedDate.class
+SHA1-Digest: kb9EEmiFZBbcnqTpFwsXfM2qiqU=
+
+Name: org/springframework/data/support/IsNewStrategy.class
+SHA1-Digest: edrP+VEIZxlAOQ1r7szfwPmN4HI=
+
+Name: org/springframework/data/repository/core/support/AnnotationRepos
+ itoryMetadata.class
+SHA1-Digest: BD8ABGgECYXaogETdHgri0YzVDA=
+
+Name: org/springframework/data/querydsl/QueryDslPredicateExecutor.clas
+ s
+SHA1-Digest: XZdC3H7y35YdThu9l9qdP1xiudA=
+
+Name: org/springframework/data/repository/query/parser/AbstractQueryCr
+ eator.class
+SHA1-Digest: tF3JY8ohNoAvkL9Xx+yYWzgfFwQ=
+
+Name: org/springframework/data/repository/cdi/CdiRepositoryBean.class
+SHA1-Digest: iZwad15i+yWWxeJ55oCoiv9S0ns=
+
+Name: org/springframework/data/repository/config/RepositoryConfigurati
+ onDelegate.class
+SHA1-Digest: AQL08NBXHLGR4gk2GmwkxNnCxGo=
+
+Name: org/springframework/data/convert/EntityInstantiator.class
+SHA1-Digest: 3M05q8gTV5Y7/9GhpSIZNWhJ1OM=
+
+Name: org/springframework/data/repository/cdi/Eager.class
+SHA1-Digest: y6PcKwS3tlz3j0sfswvzuF1bJ+Y=
+
+Name: org/springframework/data/annotation/Version.class
+SHA1-Digest: qe36ohXDRIaDzOIH82DqqUo1BhI=
+
+Name: org/springframework/data/repository/config/RepositoryConfigurati
+ on.class
+SHA1-Digest: homlL9TxM0Ev69praBl3lVT8YF4=
+
+Name: org/springframework/data/repository/cdi/CdiRepositoryExtensionSu
+ pport$DefaultAnnotationLiteral.class
+SHA1-Digest: n8UhzbBbKrAvLglQ9cQ3HEdOGA8=
+
+Name: org/springframework/data/authentication/UserCredentials.class
+SHA1-Digest: 4PK09wuPh39xaVb0uPX5W2dsGpk=
+
+Name: org/springframework/data/repository/init/RepositoryPopulator.cla
+ ss
+SHA1-Digest: 4O08xIrvO4ZZQfF53GHLBI19EBQ=
+
+Name: org/springframework/data/domain/jaxb/SpringDataJaxb$OrderDto.cla
+ ss
+SHA1-Digest: ouPWF4K1OdmAZH/RlG9+twRbhEA=
+
+Name: org/springframework/data/annotation/LastModifiedBy.class
+SHA1-Digest: bBfyB7Pq95or9vuWk8jmdfvlQxo=
+
+Name: org/springframework/data/repository/query/parser/Part$IgnoreCase
+ Type.class
+SHA1-Digest: CtXY6GrEdp0PJfb5lCt1RKZD+BA=
+
+Name: org/springframework/data/domain/Persistable.class
+SHA1-Digest: ATYsewXj0cAl9mr/8MjdLxCLna4=
+
+Name: org/springframework/data/config/TypeFilterParser.class
+SHA1-Digest: f9VDN7IZ4kMidVG/IThV1kPqqic=
+
+Name: org/springframework/data/support/PersistableIsNewStrategy.class
+SHA1-Digest: ia8JABESL7QRWWBZT7XJiqeMgak=
+
+Name: org/springframework/data/repository/core/support/RepositoryFacto
+ ryBeanSupport.class
+SHA1-Digest: Z1epjRcNhfOx+XNw0rkkev+1aMc=
+
+Name: org/springframework/data/domain/Page.class
+SHA1-Digest: iwwmDYt+RE2oy0Msr1xWr+uK82M=
+
+Name: org/springframework/data/convert/JodaTimeConverters$DateMidnight
+ ToDateConverter.class
+SHA1-Digest: PXb9295AAkzXRiwMk9t7aUT1bxs=
+
+Name: org/springframework/data/convert/JodaTimeConverters$LocalDateTim
+ eToDateConverter.class
+SHA1-Digest: 3X2SJUr7G4903ZwM1Lgk8LjgMzk=
+
+Name: org/springframework/data/web/HateoasPageableHandlerMethodArgumen
+ tResolver.class
+SHA1-Digest: ZGVATsNyRVKj3WtRSEhC0O2X0HE=
+
+Name: org/springframework/data/convert/JodaTimeConverters$DateToLocalD
+ ateConverter.class
+SHA1-Digest: X1I/o4C4uFgahJdQhFkg02y5n5o=
+
+Name: org/springframework/data/repository/query/Parameter.class
+SHA1-Digest: e2dTRy/NUcYZMOouotoYAjEXCgw=
+
+Name: org/springframework/data/repository/config/spring-repository-1.6
+ .xsd
+SHA1-Digest: csGlec4XIV7mcHMoukiVI8RGWgw=
+
+Name: org/springframework/data/domain/jaxb/OrderAdapter.class
+SHA1-Digest: Uw3cdmWWlqrbkTVUxCLWTQ8ANSU=
+
+Name: org/springframework/data/util/TypeDiscoverer.class
+SHA1-Digest: chngAG/xGIRNB1IcSC0et5lMZuw=
+
+Name: org/springframework/data/mapping/Association.class
+SHA1-Digest: 9XXmryX6sgoOWx+ziVeExeyz0PM=
+
+Name: org/springframework/data/repository/config/XmlRepositoryConfigur
+ ationSource.class
+SHA1-Digest: gf2jD9mEMQQDSD4SNifrZJf9PvM=
+
+Name: org/springframework/data/convert/JodaTimeConverters$LocalDateToD
+ ateConverter.class
+SHA1-Digest: sRC2bMBzLQiWZvRTiatXhC+nZNI=
+
+Name: org/springframework/data/convert/JodaTimeConverters$DateToLocalD
+ ateTimeConverter.class
+SHA1-Digest: SljzTwwMJYJP91CgkF6n08eh8UQ=
+
+Name: org/springframework/data/auditing/AnnotationAuditingMetadata.cla
+ ss
+SHA1-Digest: KIXZ6ewmRf66PS07BR9GtYSOT3I=
+
+Name: org/springframework/data/web/config/SpringDataWebConfiguration.c
+ lass
+SHA1-Digest: 6xvMt1xYvp+y2S1buRBEUQnauxk=
+
+Name: org/springframework/data/web/HateoasSortHandlerMethodArgumentRes
+ olver.class
+SHA1-Digest: l83MAZ8/tSWPKRsWneyuobuw6ks=
+
+Name: org/springframework/data/transaction/ChainedTransactionManager.c
+ lass
+SHA1-Digest: +yiTz9pJspereOelA2abq9g9Qzc=
+
+Name: META-INF/spring.tooling
+SHA1-Digest: 9ii0fQTezHl0chjok33jEpLdDCY=
+
+Name: org/springframework/data/util/ParameterizedTypeInformation.class
+SHA1-Digest: /oGri/sEjXsUe5DZEbyMo5P/YkY=
+
+Name: org/springframework/data/querydsl/EntityPathResolver.class
+SHA1-Digest: zUG7wS0gjCUGbulbarfHxcj1Mfw=
+
+Name: org/springframework/data/web/MethodParameterAwarePagedResourcesA
+ ssembler.class
+SHA1-Digest: VZZLtlOumOA6LfAvMcBC5xJ2ubE=
+
+Name: org/springframework/data/transaction/MultiTransactionStatus$Save
+ Points.class
+SHA1-Digest: VzQNYPCL3S1cZ5+9r6JXtzr5aNo=
+
+Name: org/springframework/data/mapping/PropertyPath$1.class
+SHA1-Digest: kg+eEqWs6A6Ognl4Vqp5G7SJxS4=
+
+Name: org/springframework/data/auditing/CurrentDateTimeProvider.class
+SHA1-Digest: ayw1AlekpfV9TrIUmiQZu9XIg3E=
+
+Name: org/springframework/data/web/config/HateoasAwareSpringDataWebCon
+ figuration.class
+SHA1-Digest: u2z1qQYUdwMzanuRYyFvZhAkUCM=
+
+Name: org/springframework/data/repository/core/support/DefaultReposito
+ ryMetadata.class
+SHA1-Digest: GLeaWBJDfaM52lPHpsb0W3PTSag=
+
+Name: org/springframework/data/repository/query/parser/PartTree.class
+SHA1-Digest: 0giM2Z+zAdtOtj4mqiGsNk2+LvE=
+
+Name: org/springframework/data/web/PagedResourcesAssembler.class
+SHA1-Digest: VY00rqJer6jPyd34tAOd+kdrKM0=
+
+Name: org/springframework/data/domain/PageImpl.class
+SHA1-Digest: 2iSBbAEdXOxo8sCJWfLI3vDA86I=
+
+Name: org/springframework/data/crossstore/ChangeSetPersister.class
+SHA1-Digest: gaYjoAPMqcWzVlJvMX5tL/J55ec=
+
+Name: org/springframework/data/repository/core/support/TransactionalRe
+ positoryProxyPostProcessor$AbstractFallbackTransactionAttributeSource
+ .class
+SHA1-Digest: VqTyhFQChF74Mlw/9n4blKdpeAA=
+
+Name: org/springframework/data/auditing/AuditableBeanWrapper.class
+SHA1-Digest: rvih/KAo/btODCEwtsk5HkipFLs=
+
+Name: org/springframework/data/web/SortHandlerMethodArgumentResolver$E
+ xpressionBuilder.class
+SHA1-Digest: CooTqzGSfSMLQKa3QCkA2JUlujE=
+
+Name: org/springframework/data/mapping/PropertyPath.class
+SHA1-Digest: UeS05RW1fgtVt7Bcg5GMBW7roRI=
+
+Name: org/springframework/data/domain/jaxb/PageAdapter.class
+SHA1-Digest: aXouVy7CANbJsNBSS3h5TIIyeuk=
+
+Name: org/springframework/data/mapping/model/AnnotationBasedPersistent
+ Property.class
+SHA1-Digest: kzqowE5ekWEP8n1nzErDfkSupiw=
+
+Name: org/springframework/data/repository/RepositoryDefinition.class
+SHA1-Digest: RvC1DU1xeVeHJ4lRVnWrsUSIHLI=
+
+Name: org/springframework/data/mapping/SimplePropertyHandler.class
+SHA1-Digest: KjbzcDVkFl2ByovNLsu7XAeY86c=
+
+Name: org/springframework/data/repository/history/support/RevisionEnti
+ tyInformation.class
+SHA1-Digest: dNk4aujfG+wd8YT2Skc9jj1tJFo=
+
+Name: org/springframework/data/repository/query/parser/Part.class
+SHA1-Digest: MaZZxQxeIeiUjVXtFb7sxoDvRlk=
+
+Name: org/springframework/data/repository/query/parser/OrderBySource.c
+ lass
+SHA1-Digest: 7/xip/gWXhk+ba4JEmG9tOKLAlc=
+
+Name: org/springframework/data/config/ParsingUtils.class
+SHA1-Digest: tel6VsGsL9N1xQ7ClMJL5TCCIBM=
+
+Name: org/springframework/data/transaction/SynchronizationManager.clas
+ s
+SHA1-Digest: lr0Rt/W21kCJBR4xwzdVaJPFZlY=
+
+Name: org/springframework/data/support/IsNewStrategyFactorySupport.cla
+ ss
+SHA1-Digest: 0WCmiZfAtIhNqNczq5eZC0l2+dc=
+
+Name: org/springframework/data/mapping/model/PropertyValueProvider.cla
+ ss
+SHA1-Digest: T6bA9FH8BnyWXOHl298HRnv36Sw=
+
+Name: org/springframework/data/repository/query/parser/PartTree$Predic
+ ate.class
+SHA1-Digest: M1qQ41ZkZI934RxrPUyBI2q8ym4=
+
+Name: META-INF/maven/org.springframework.data/spring-data-commons/pom.
+ properties
+SHA1-Digest: SQtnTjADv1PsTWbyQS0y49hAl0E=
+
+Name: org/springframework/data/mapping/context/AbstractMappingContext$
+ FieldMatch.class
+SHA1-Digest: 52JNFlcvQzvwUYdBN08gUZnKBZ0=
+
+Name: org/springframework/data/domain/PageRequest.class
+SHA1-Digest: qlaefa36bKOuzPLQ5u/Iqqdxo1Q=
+
+Name: org/springframework/data/repository/query/QueryLookupStrategy$Ke
+ y.class
+SHA1-Digest: OQCUIhvVOrCui9UQU8Qw1OQoLIc=
+
+Name: org/springframework/data/repository/query/ParameterOutOfBoundsEx
+ ception.class
+SHA1-Digest: sUZjlPPvZkT/2RnAUCbO4xvRfcQ=
+
+Name: org/springframework/data/web/PageableDefaults.class
+SHA1-Digest: W2TlBrAl8Mnv5fyHrOggzJbk6GA=
+
+Name: org/springframework/data/repository/util/TxUtils.class
+SHA1-Digest: jyJBEQShr7rUbrT1dDKX00C0v14=
+
+Name: org/springframework/data/convert/WritingConverter.class
+SHA1-Digest: w+xXRA3cMtx3bLPnxvPQAO8CFgc=
+
+Name: org/springframework/data/web/PageableHandlerMethodArgumentResolv
+ er.class
+SHA1-Digest: IyoYSwP1Ihd0PkmG1vY8bUkIQgs=
+
+Name: org/springframework/data/mapping/AssociationHandler.class
+SHA1-Digest: K6ROheqVonztnJRglvGDfTdJztQ=
+
+Name: org/springframework/data/repository/init/AbstractRepositoryPopul
+ atorFactoryBean.class
+SHA1-Digest: 7EbU70/ya8rUun49B3VX1jikkVo=
+
+Name: org/springframework/data/repository/core/RepositoryInformation.c
+ lass
+SHA1-Digest: h88NDJ/Y1j6Gfd3V59gNn42nmDQ=
+
+Name: org/springframework/data/config/TypeFilterParser$FilterType.clas
+ s
+SHA1-Digest: RSkaCVkF/Nq/Fwt4bXtDcBMRvF4=
+
+Name: org/springframework/data/repository/query/parser/PartTree$Subjec
+ t.class
+SHA1-Digest: 3Q8O6B+t8LRVzpPWL4a+Dbt59L4=
+
+Name: org/springframework/data/mapping/PreferredConstructor$Parameter.
+ class
+SHA1-Digest: kCE6ZVgIwFxuzLtwDSwZL+x8+Kg=
+
+Name: org/springframework/data/repository/support/DomainClassConverter
+ .class
+SHA1-Digest: Wv4WogPSjn7NSA90Dw3Fc7R+Cls=
+
+Name: org/springframework/data/auditing/AuditableBeanWrapperFactory$Ca
+ lendarToLocalDateTimeConverter.class
+SHA1-Digest: G9veoUwYGcqpa2cfnCVWw/t0CV4=
+
+Name: org/springframework/data/mapping/model/MutablePersistentEntity.c
+ lass
+SHA1-Digest: TOy55C8Anfjo0QwVjFDqGY9JpPw=
+
+Name: org/springframework/data/repository/init/JacksonResourceReader.c
+ lass
+SHA1-Digest: Sh9oNgvNUwxleZuthMZ4WdbshWY=
+
+Name: org/springframework/data/convert/EntityInstantiators.class
+SHA1-Digest: c10R7WrDDCdK7yUSXSPJqGDy4q0=
+
+Name: org/springframework/data/mapping/context/MappingContext.class
+SHA1-Digest: ZEguD0QXRv2sUUr2iGWKBnGsTaM=
+
+Name: org/springframework/data/domain/Sort.class
+SHA1-Digest: YMixRBrzzn0jNRWSJUb+qfRU6Ls=
+
+Name: org/springframework/data/mapping/context/AbstractMappingContext.
+ class
+SHA1-Digest: mrepUG4KHgKTNNj7+w+rcbGfWbs=
+
+Name: org/springframework/data/repository/config/spring-repository-1.0
+ .xsd
+SHA1-Digest: yel10asAAUwhNV9F5cU9G15bp4w=
+
+Name: org/springframework/data/repository/core/RepositoryMetadata.clas
+ s
+SHA1-Digest: Lt+2kNHTxHqD5CWLBjosCgl55aQ=
+
+Name: org/springframework/data/domain/AbstractPageRequest.class
+SHA1-Digest: Ft5J6wCgxkV+gDaNbcVOARTDUl8=
+
+Name: org/springframework/data/transaction/SpringTransactionSynchroniz
+ ationManager.class
+SHA1-Digest: cX7Bny8F5RYOvdA5Q+u2LyahGKs=
+
+Name: org/springframework/data/config/AuditingHandlerBeanDefinitionPar
+ ser.class
+SHA1-Digest: xNa2Bq7eDOXGdP4UV89yaYRC6Zk=
+
+Name: org/springframework/data/mapping/model/MappingException.class
+SHA1-Digest: xpLY0UT2Pe+RJuJHzlBxZJHZKIA=
+
+Name: org/springframework/data/web/config/EnableSpringDataWebSupport.c
+ lass
+SHA1-Digest: QpAlCMq/h7kYK3N7cd/atIKLeIw=
+
+Name: org/springframework/data/repository/config/RepositoryConfigurati
+ onExtension.class
+SHA1-Digest: OQN7Oa77yKCFFeqronZQ3vDPyXU=
+
+Name: org/springframework/data/util/TypeVariableTypeInformation.class
+SHA1-Digest: 2G6mhEq+qg1Lw7VyCUZGGJ3pnJs=
+
+Name: org/springframework/data/repository/core/support/RepositoryFacto
+ ryInformation.class
+SHA1-Digest: k2Xgo08HOq0pDDDDn5VDsLqiDJo=
+
+Name: org/springframework/data/config/TypeFilterParser$FilterType$2.cl
+ ass
+SHA1-Digest: 18PRfJXYE5V9Ht9glMMDc6TNujw=
+
+Name: org/springframework/data/mapping/PersistentProperty.class
+SHA1-Digest: xsHsMMw3WvzNetuDs3cELyJi254=
+
+Name: org/springframework/data/util/TypeInformation.class
+SHA1-Digest: uSLKxHblkgvpZL+KNOChc7aOzMc=
+
+Name: org/springframework/data/history/Revisions.class
+SHA1-Digest: anl/OlGJebJS5rIxQOGW0U7FpHM=
+
+Name: org/springframework/data/mapping/model/DefaultSpELExpressionEval
+ uator.class
+SHA1-Digest: sSR77Lt3koGZSOVvvmpqebfHuqQ=
+
+Name: org/springframework/data/util/Version.class
+SHA1-Digest: FBwTPKCLZaj+rXQSpIlrLx1d+F8=
+
+Name: org/springframework/data/repository/core/support/DelegatingEntit
+ yInformation.class
+SHA1-Digest: VeiPIMvTyaP5J1Wu/GEwl9twWPQ=
+
+Name: org/springframework/data/repository/core/support/AbstractEntityI
+ nformation.class
+SHA1-Digest: FzvBuNWbIfo8zgLO1n/8Oym2x/4=
+
+Name: org/springframework/data/config/TypeFilterParser$FilterType$5.cl
+ ass
+SHA1-Digest: ac0E9BxPdgr3buh+sm0NqmO5280=
+
+Name: org/springframework/data/web/PagedResourcesAssembler$1.class
+SHA1-Digest: w+sYNuK80xuWP5c0dhEJ0YG2UhE=
+
+Name: org/springframework/data/annotation/Id.class
+SHA1-Digest: P8JXgXc4fJF9ClTmwPUlgK9+UrM=
+
+Name: org/springframework/data/mapping/model/MappingInstantiationExcep
+ tion.class
+SHA1-Digest: dTHLHp5At7mBOwaIhMaS72kZWcY=
+
+Name: license.txt
+SHA1-Digest: CVuKK1ysgoKHNOQ0mtHqbsUYxaY=
+
+Name: org/springframework/data/web/PageableDefault.class
+SHA1-Digest: +xm32kMCFsbsesUfbIG8Rtmpxp8=
+
+Name: org/springframework/data/domain/jaxb/SortAdapter.class
+SHA1-Digest: F38/DXIJ2Ly+uWxl0R1GXf40xV4=
+
+Name: org/springframework/data/auditing/IsNewAwareAuditingHandler.clas
+ s
+SHA1-Digest: w8KYDMcf4ftuTAo8EGCUS/XATYE=
+
+Name: org/springframework/data/repository/core/support/RepositoryFacto
+ rySupport$1.class
+SHA1-Digest: RpDjamqG35LhA1680ndKeEh1Rtk=
+
+Name: org/springframework/data/repository/init/UnmarshallerRepositoryP
+ opulatorFactoryBean.class
+SHA1-Digest: R6/sNXmekQFOrnR8opsO2jzbQmc=
+
+Name: org/springframework/data/config/TypeFilterParser$FilterType$1.cl
+ ass
+SHA1-Digest: FXKphCbTi0oVuQI/o2T74jJoPxM=
+
+Name: org/springframework/data/domain/jaxb/spring-data-jaxb.xsd
+SHA1-Digest: QkBY5MAT0rY13yt+1C2yViCYdSk=
+
+Name: org/springframework/data/repository/PagingAndSortingRepository.c
+ lass
+SHA1-Digest: mVYqrdIFsExsvLGalbT8FNl1mIY=
+
+Name: org/springframework/data/repository/core/support/PersistableEnti
+ tyInformation.class
+SHA1-Digest: 6y/EHA00vlp282AI5bcUgtutCRc=
+
+Name: org/springframework/data/repository/cdi/CdiRepositoryExtensionSu
+ pport$AnyAnnotationLiteral.class
+SHA1-Digest: O6x6UR3pHeKaxeFNF6tN0BthwnE=
+
+Name: org/springframework/data/repository/config/NamedQueriesBeanDefin
+ itionParser.class
+SHA1-Digest: NT9f81LoBnFIN2iLHEUktRFAnWg=
+
+Name: org/springframework/data/repository/core/support/PropertiesBased
+ NamedQueries.class
+SHA1-Digest: Fnz4JWWz3KBuzWgnDOV+robQWYM=
+
+Name: org/springframework/data/repository/CrudRepository.class
+SHA1-Digest: wNW6DAx/X7oA65wX4sn4pCRbsKc=
+
+Name: org/springframework/data/repository/cdi/CdiRepositoryExtensionSu
+ pport.class
+SHA1-Digest: hTYyvdiWLl3GER0gwkyJ5QZdH1w=
+
+Name: org/springframework/data/crossstore/ChangeSetBacked.class
+SHA1-Digest: 6ApaQwPy17Ho2wwonyEhgh7B6oU=
+
+Name: org/springframework/data/transaction/MultiTransactionStatus.clas
+ s
+SHA1-Digest: 7NNvkWSHKxsZFE/0yrBmqAlEnDs=
+
+Name: org/springframework/data/repository/Repository.class
+SHA1-Digest: E8L4+vYONCUNVYrbGkTYIlQ2TSs=
+
+Name: org/springframework/data/repository/core/support/TransactionalRe
+ positoryProxyPostProcessor.class
+SHA1-Digest: ihlXkhl4tyNUITcs7W2NkTJSRa8=
+
+Name: org/springframework/data/repository/core/support/TransactionalRe
+ positoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource
+ .class
+SHA1-Digest: /HjiamzKVTqZtwexcGQP/5xXvJA=
+
+Name: org/springframework/data/repository/config/RepositoryConfigurati
+ onSourceSupport.class
+SHA1-Digest: b/aDvVGxoWmitT5SBy7flXXSavg=
+
+Name: org/springframework/data/config/TypeFilterParser$FilterType$4.cl
+ ass
+SHA1-Digest: Ed2+9vxMuAOE5V9g2Y/UKxVanRE=
+
+Name: org/springframework/data/annotation/QueryAnnotation.class
+SHA1-Digest: uIc308odUTyMxG1t9kXaKqVIXDc=
+
+Name: org/springframework/data/mapping/model/PersistentEntityParameter
+ ValueProvider.class
+SHA1-Digest: AdGwpXRcFiSCL8GwjgoJGsehDjA=
+
+Name: org/springframework/data/mapping/model/SpELExpressionEvaluator.c
+ lass
+SHA1-Digest: taoS7zyoIpbQSQZujrE90BYJA0I=
+
+Name: org/springframework/data/repository/config/spring-repository-1.7
+ .xsd
+SHA1-Digest: LEG8aVHN3EVU+BacPagQ0KM42X0=
+
+Name: org/springframework/data/history/AnnotationRevisionMetadata.clas
+ s
+SHA1-Digest: sMmR/Y3J1fPkxSlNTwEZV/oQSjI=
+
+Name: org/springframework/data/repository/init/Jackson2ResourceReader.
+ class
+SHA1-Digest: beJYlXdXuvsCfGZm94RCvat7iyU=
+
+Name: org/springframework/data/repository/util/ClassUtils.class
+SHA1-Digest: GImLZb63HQwc/bSof7R8bYe6MmM=
+
+Name: org/springframework/data/util/ClassTypeInformation.class
+SHA1-Digest: 6/9JorAW2OrEsZ3oDWFXW1mzLSs=
+
+Name: org/springframework/data/domain/jaxb/package-info.class
+SHA1-Digest: 9kOQ2OoeWceqYMKc90pqskAXsS8=
+
+Name: org/springframework/data/convert/JodaTimeConverters.class
+SHA1-Digest: LmeFAiY2wtzoAKFvseOgF8hi+HY=
+
+Name: org/springframework/data/convert/TypeAliasAccessor.class
+SHA1-Digest: iLlVJcbw/JnXP6Xg46XLyJZu7pw=
+
+Name: org/springframework/data/repository/init/UnmarshallingResourceRe
+ ader.class
+SHA1-Digest: 0X36bxRNPAb9RN3T9psOfkuxx20=
+
+Name: org/springframework/data/domain/jaxb/SpringDataJaxb$SortDto.clas
+ s
+SHA1-Digest: UZo3UYPOkzopK9/wFQ3tpcgqo9c=
+
+Name: org/springframework/data/mapping/PreferredConstructor.class
+SHA1-Digest: p1iIQe2p1uLLkyGUe9ZGorYK8sU=
+
+Name: org/springframework/data/repository/config/RepositoryBeanNameGen
+ erator.class
+SHA1-Digest: 6/5PKQroMtGqutbS0teIWn4luN0=
+
+Name: org/springframework/data/mapping/model/SimpleTypeHolder.class
+SHA1-Digest: mor/BJ7VM6QEJnqdAJ6R6i6E0F4=
+
+Name: org/springframework/data/util/ReflectionUtils$DescribedFieldFilt
+ er.class
+SHA1-Digest: vBHDwqAVCD8zsX/tJt+IlGZ37yU=
+
+Name: org/springframework/data/config/TypeFilterParser$FilterType$3.cl
+ ass
+SHA1-Digest: goKRdmgZZWekpGdSl7wLYOmXF0I=
+
+Name: org/springframework/data/repository/query/Param.class
+SHA1-Digest: lBpvRuan2N8zMIJ4ljbQnBI4drE=
+
+Name: org/springframework/data/repository/init/Jackson2RepositoryPopul
+ atorFactoryBean.class
+SHA1-Digest: vSCPya932Z1kVRC3IKOpmukg6Nw=
+
+Name: org/springframework/data/convert/TypeMapper.class
+SHA1-Digest: ofxNV3YlQaS4Eykjct3WgcqT3jg=
+
+Name: org/springframework/data/repository/config/AnnotationRepositoryC
+ onfigurationSource$1.class
+SHA1-Digest: 3gInTMeIi29UmOp/7Dpwnq+JG8U=
+
+Name: org/springframework/data/mapping/context/MappingContextIsNewStra
+ tegyFactory$PropertyIsNullIsNewStrategy.class
+SHA1-Digest: sB8ljD1HL10gxe9nF3u6V5x8ixw=
+
+Name: org/springframework/data/repository/config/ResourceReaderReposit
+ oryPopulatorBeanDefinitionParser.class
+SHA1-Digest: I3sWHJKOBgIiaWv29uD6PtLtGLM=
+
+Name: org/springframework/data/util/ReflectionUtils$AnnotationFieldFil
+ ter.class
+SHA1-Digest: LPD8sOHSIgg1ssBTSBJRuX/uTgQ=
+
+Name: org/springframework/data/repository/config/RepositoryBeanDefinit
+ ionParser.class
+SHA1-Digest: Ad1QWXmnJhQQx66STAdGU2MNXRc=
+
+Name: org/springframework/data/mapping/context/AbstractMappingContext$
+ PersistentFieldFilter.class
+SHA1-Digest: /mRGOA/DglHrT09kjJmaDswiiQg=
+
+Name: org/springframework/data/repository/core/support/RepositoryFacto
+ rySupport.class
+SHA1-Digest: IJi7QwOWUEvWJwHEaZZK95EAdiQ=
+
+Name: org/springframework/data/config/IsNewAwareAuditingHandlerBeanDef
+ initionParser.class
+SHA1-Digest: 3Y6IjHqfFaGEzUzeA9UIjjosqWU=
+
+Name: org/springframework/data/annotation/PersistenceConstructor.class
+SHA1-Digest: MOra7waFRrBNTSia6RrHvN0Odgc=
+
+Name: org/springframework/data/auditing/config/AuditingBeanDefinitionR
+ egistrarSupport.class
+SHA1-Digest: iqCRgIRfzL6mXjI4T0EdiXQ+NJM=
+
+Name: org/springframework/data/repository/query/parser/Part$Type.class
+SHA1-Digest: mrWlzgPt6AcARiWe1irQQUQnN1Y=
+
+Name: org/springframework/data/web/config/EnableSpringDataWebSupport$S
+ pringDataWebConfigurationImportSelector.class
+SHA1-Digest: zWdAafJ2Znd91E5ut+nwPW0pY8Y=
+
+Name: org/springframework/data/config/BeanComponentDefinitionBuilder.c
+ lass
+SHA1-Digest: eeQqH5sdvNHEdRDC7bXyqw2Qafk=
+
+Name: org/springframework/data/repository/core/support/DefaultReposito
+ ryInformation.class
+SHA1-Digest: umhibCK4/Js6Lb1YNOcWekUuKmk=
+
+Name: org/springframework/data/mapping/context/MappingContextEvent.cla
+ ss
+SHA1-Digest: ercDg7eFHWbNZNWUzq12oPMpwJk=
+
+Name: org/springframework/data/web/SortHandlerMethodArgumentResolver.c
+ lass
+SHA1-Digest: yVaRLTgfp9UETwVMf+IEAhopwJs=
+
+Name: org/springframework/data/convert/JodaTimeConverters$DateTimeToDa
+ teConverter.class
+SHA1-Digest: RJSb8TXuiJpokkfZvWzWc5NXNNI=
+
+Name: org/springframework/data/domain/Sort$Direction.class
+SHA1-Digest: AS7W3V0K4lzd7tVVhCEu3V4TNw4=
+
+Name: org/springframework/data/auditing/AuditableBeanWrapperFactory$Au
+ ditableInterfaceBeanWrapper.class
+SHA1-Digest: EQkNU9uzAvwPTDum96CkIWjU6Sw=
+
+Name: org/springframework/data/repository/core/support/TransactionalRe
+ positoryProxyPostProcessor$AbstractFallbackTransactionAttributeSource
+ $DefaultCacheKey.class
+SHA1-Digest: M/22BqfAowAGBsmk0nxTvW0nFJY=
+
+Name: org/springframework/data/repository/config/RepositoryComponentPr
+ ovider$AllTypeFilter.class
+SHA1-Digest: YX7H0V9Usmda7JPih85Law/LShQ=
+
+Name: org/springframework/data/mapping/PropertyReferenceException.clas
+ s
+SHA1-Digest: cLnXhbLQjGpT435dj7sYxU8/t3c=
+
+Name: org/springframework/data/repository/core/support/QueryCreationLi
+ stener.class
+SHA1-Digest: sOf+/sZZzBeK9Rna/fYiswAy38s=
+
+Name: org/springframework/data/domain/Sort$Order.class
+SHA1-Digest: qGUvZpMTyPR2Z6TUHzt9nrE1ssc=
+
+Name: org/springframework/data/convert/ConfigurableTypeInformationMapp
+ er.class
+SHA1-Digest: cNDh4R1XqUlp2lQHGc/U5OzZ2C8=
+
+Name: org/springframework/data/mapping/model/AbstractPersistentPropert
+ y.class
+SHA1-Digest: /I7SpMMX5YHEPEPJbZVGZiyJ76s=
+
+Name: org/springframework/data/convert/JodaTimeConverters$DateToDateTi
+ meConverter.class
+SHA1-Digest: tXn/0rgu/0ootHNQScvCkmtD0kU=
+
+Name: org/springframework/data/repository/core/CrudInvoker.class
+SHA1-Digest: BPVpWh/6wNgRxVT8MOVzzo292Vk=
+
+Name: org/springframework/data/mapping/context/MappingContextIsNewStra
+ tegyFactory$PropertyIsNullOrZeroNumberIsNewStrategy.class
+SHA1-Digest: 36mZlnMICtnS3MpdlHehqEw7OLw=
+
+Name: org/springframework/data/repository/init/RepositoriesPopulatedEv
+ ent.class
+SHA1-Digest: NDla2llp4OyyEe4osfHAKTheUHw=
+
+Name: org/springframework/data/repository/history/RevisionRepository.c
+ lass
+SHA1-Digest: JTcvqFVdOhFkuAU8Ba6IwkHN1Do=
+
+Name: org/springframework/data/domain/jaxb/SpringDataJaxb$PageRequestD
+ to.class
+SHA1-Digest: WmY2dem85XXZBTg5MzdSkQ840Fk=
+
+Name: org/springframework/data/crossstore/ChangeSetPersister$NotFoundE
+ xception.class
+SHA1-Digest: lJXm/RTXmVlX3sutKYMnz0fNFJE=
+
+Name: org/springframework/data/mapping/model/BasicPersistentEntity.cla
+ ss
+SHA1-Digest: IgDXPqLw43ZC1chP2/y+47fZAFM=
+
+Name: org/springframework/data/repository/core/support/DefaultCrudMeth
+ ods.class
+SHA1-Digest: kWkL3qazRVqjWO4XZaMT8jlwtyI=
+
+Name: org/springframework/data/web/PagedResourcesAssemblerArgumentReso
+ lver.class
+SHA1-Digest: 0AMAcHk8ZApPivwnfP0/85dODWA=
+
+Name: org/springframework/data/convert/EntityConverter.class
+SHA1-Digest: xWW6QMbI7xvxVUSQFH9/0PBy4x8=
+
+Name: org/springframework/data/web/PagedResourcesAssembler$SimplePaged
+ ResourceAssembler.class
+SHA1-Digest: FfKH8a2BQanljbyx1Li4PtlaW7U=
+
+Name: org/springframework/data/repository/config/RepositoryComponentPr
+ ovider.class
+SHA1-Digest: F6cJeuS8khvTTBxSzA1StC6dDLQ=
+
+Name: org/springframework/data/convert/ReadingConverter.class
+SHA1-Digest: UgntPqJGuQ06EKkLkMs0bzWOsSI=
+
+Name: org/springframework/data/repository/config/spring-repository-1.5
+ .xsd
+SHA1-Digest: 4NQ7AjqWTjmy6Vjwbk2X66K7eo8=
+
+Name: org/springframework/data/repository/query/Parameters.class
+SHA1-Digest: u8TT4DSPQkHZCFVzdkirvVldIjc=
+
+Name: org/springframework/data/annotation/Reference.class
+SHA1-Digest: Q4j4llNvyUvjUntVWlOPjPBswzA=
+
+Name: org/springframework/data/repository/config/RepositoryConfigurati
+ onExtensionSupport.class
+SHA1-Digest: EVyW8aeO9f4hL19HgyUnr7qHkaA=
+
+Name: org/springframework/data/repository/support/ReflectionRepository
+ Invoker.class
+SHA1-Digest: YwYB+GzReE5eQxaydJ8fO3vhnuw=
+
+Name: org/springframework/data/repository/core/support/RepositoryFacto
+ rySupport$QueryCollectingQueryCreationListener.class
+SHA1-Digest: oQeq05yxd8pG9TVMCqE4fhkKKo0=
+
+Name: org/springframework/data/convert/SimpleTypeInformationMapper.cla
+ ss
+SHA1-Digest: mTWl/TYOMhhm4fpF3UDQKpVVM4I=
+
+Name: org/springframework/data/repository/config/RepositoryBeanDefinit
+ ionRegistrarSupport.class
+SHA1-Digest: vYNKQRHEiBj9l2oU8Bu9PlNpdSo=
+
+Name: org/springframework/data/domain/jaxb/atom.xsd
+SHA1-Digest: Afyg6nEFVTbV4qib/Nx8J0MhXLk=
+
+Name: org/springframework/data/repository/core/CrudMethods.class
+SHA1-Digest: ez8RgdeW0up6LoaHllV0uH7Hz7Y=
+
+Name: org/springframework/data/mapping/model/ParameterValueProvider.cl
+ ass
+SHA1-Digest: DI3/iqmbVAIX49JxjyWMWUH4Xrw=
+
+Name: org/springframework/data/web/PageableArgumentResolver$SortProper
+ tyEditor.class
+SHA1-Digest: 1trJE6fRMeMALaCdeuKsX9/eB4M=
+
+Name: org/springframework/data/auditing/AuditableBeanWrapperFactory.cl
+ ass
+SHA1-Digest: ZDpeRERfDyQCv3F+ymu0TyuOFfA=
+
+Name: org/springframework/data/config/TypeFilterParser$1.class
+SHA1-Digest: K7JFOPOgoqX8kxN+Fuk0qVHiM3Y=
+
+Name: org/springframework/data/web/PageableArgumentResolver.class
+SHA1-Digest: 6S/oiw62VTh98EmcoAw5Udv37j4=
+
+Name: org/springframework/data/annotation/CreatedDate.class
+SHA1-Digest: 7G9FMgVIBIbYKPjzON2GyGuhvjs=
+
+Name: org/springframework/data/crossstore/ChangeSet.class
+SHA1-Digest: dlCVD3u7ku38NHi8+fVP3L7MfHw=
+
+Name: org/springframework/data/annotation/TypeAlias.class
+SHA1-Digest: J1IakYgg+Gxh/2Mz4+TVg5FuUlY=
+
+Name: org/springframework/data/repository/query/QueryLookupStrategy.cl
+ ass
+SHA1-Digest: pKHcxWDLpw8vOV/goZkDCDjNSnk=
+
+Name: org/springframework/data/auditing/DateTimeProvider.class
+SHA1-Digest: t/bYjN4IiIbxzUIVk4LDeislQnA=
+
+Name: org/springframework/data/mapping/context/DefaultPersistentProper
+ tyPath.class
+SHA1-Digest: 5oAsIAbbVjWHjnM0JF3stGnVags=
+
+Name: org/springframework/data/mapping/model/PreferredConstructorDisco
+ verer.class
+SHA1-Digest: k3KY5PT5ifJ1JF7bJYlw+kHnlz0=
+
+Name: org/springframework/data/support/CachingIsNewStrategyFactory.cla
+ ss
+SHA1-Digest: Iyxwt5nY5D2klSpvZ/psbyVNdS4=
+
+Name: META-INF/maven/org.springframework.data/spring-data-commons/pom.
+ xml
+SHA1-Digest: 3Lr364NIr8tXQg4TZ/sBS/ZwYV8=
+
+Name: org/springframework/data/auditing/config/AnnotationAuditingConfi
+ guration.class
+SHA1-Digest: ekJQ8kp3UtIGeVrA4Z1P/jRyLWk=
+
+Name: org/springframework/data/mapping/model/SpELContext.class
+SHA1-Digest: Z5OkWpBOSXIL0pRWkx+1Adt6sJ0=
+
+Name: org/springframework/data/repository/init/ResourceReader$Type.cla
+ ss
+SHA1-Digest: CW8GNFKYRn/nczxVCvjwzPHihxA=
+
+Name: org/springframework/data/repository/config/DefaultRepositoryConf
+ iguration.class
+SHA1-Digest: ypwwsmq9BZDJhZmMdzs14m3tt2Y=
+
+Name: org/springframework/data/web/SortDefault$SortDefaults.class
+SHA1-Digest: qx/EAB8kKWvYdKR/BX/225jglcQ=
+
+Name: org/springframework/data/repository/core/support/ReflectionEntit
+ yInformation.class
+SHA1-Digest: vHVSdbr1KoEZNl7gDtIEuUbz54U=
+
+Name: org/springframework/data/repository/NoRepositoryBean.class
+SHA1-Digest: h4rqpRJcxJNtkyrt1etdnxzekO0=
+
+Name: org/springframework/data/crossstore/ChangeSetBackedTransactionSy
+ nchronization.class
+SHA1-Digest: hNRKpe7ev6FFiRgFemdIH1JidlQ=
+

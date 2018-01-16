@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="B79SpringMVCWelcomeApp">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="servlet-api.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/servlet-api/servlet-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-logging-3.1.1.GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jboss-logging-3.1.1.GA/jboss-logging-3.1.1.GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.expression_4.0.2.20140223-RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.expression_4.0.2.20140223-RELEASE/org.springframework.expression_4.0.2.20140223-RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.core_4.0.2.20140223-RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.core_4.0.2.20140223-RELEASE/org.springframework.core_4.0.2.20140223-RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-simple-1.7.10.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-simple-1.7.10/slf4j-simple-1.7.10">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.el_2.2.0.v201303151357.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.el_2.2.0.v201303151357/javax.el_2.2.0.v201303151357">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.context_4.0.2.20140223-RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.context_4.0.2.20140223-RELEASE/org.springframework.context_4.0.2.20140223-RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.web_4.0.2.20140223-RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.web_4.0.2.20140223-RELEASE/org.springframework.web_4.0.2.20140223-RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.context.support_4.0.2.20140223-RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.context.support_4.0.2.20140223-RELEASE/org.springframework.context.support_4.0.2.20140223-RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.apache.commons.logging_1.1.1.v201101211721.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.apache.commons.logging_1.1.1.v201101211721/org.apache.commons.logging_1.1.1.v201101211721">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.aop_4.0.2.20140223-RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.aop_4.0.2.20140223-RELEASE/org.springframework.aop_4.0.2.20140223-RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-api-1.0.0.GA (1).jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/validation-api-1.0.0.GA (1)/validation-api-1.0.0.GA (1)">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.servlet.jsp.jstl-1.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.servlet.jsp.jstl-1.2.1/javax.servlet.jsp.jstl-1.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.beans_4.0.2.20140223-RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.beans_4.0.2.20140223-RELEASE/org.springframework.beans_4.0.2.20140223-RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-validator-4.3.1.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-validator-4.3.1.Final/hibernate-validator-4.3.1.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.web.servlet_4.0.2.20140223-RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.web.servlet_4.0.2.20140223-RELEASE/org.springframework.web.servlet_4.0.2.20140223-RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.data.core_1.7.0.20140120-CI.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.data.core_1.7.0.20140120-CI/org.springframework.data.core_1.7.0.20140120-CI">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="B79SpringMVCWelcomeApp"/>
+        <property name="java-output-path" value="/B79SpringMVCWelcomeApp/build/classes"/>
+    </wb-module>
+</project-modules>

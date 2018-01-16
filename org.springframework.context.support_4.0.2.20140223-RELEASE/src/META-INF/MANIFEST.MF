@@ -1,0 +1,398 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.cache.ehcache;version="4.0.2.20140
+ 223-RELEASE";uses:="net.sf.ehcache,net.sf.ehcache.bootstrap,net.sf.eh
+ cache.config,net.sf.ehcache.constructs.blocking,org.springframework.b
+ eans.factory,org.springframework.cache,org.springframework.cache.tran
+ saction,org.springframework.core.io",org.springframework.cache.guava;
+ version="4.0.2.20140223-RELEASE";uses:="com.google.common.cache,org.s
+ pringframework.cache",org.springframework.cache.jcache;version="4.0.2
+ .20140223-RELEASE";uses:="javax.cache,org.springframework.beans.facto
+ ry,org.springframework.cache,org.springframework.cache.transaction",o
+ rg.springframework.cache.transaction;version="4.0.2.20140223-RELEASE"
+ ;uses:="org.springframework.beans.factory,org.springframework.cache,o
+ rg.springframework.cache.support,org.springframework.transaction.supp
+ ort",org.springframework.mail;version="4.0.2.20140223-RELEASE";uses:=
+ "org.springframework.core",org.springframework.mail.javamail;version=
+ "4.0.2.20140223-RELEASE";uses:="javax.activation,javax.mail,javax.mai
+ l.internet,org.springframework.beans.factory,org.springframework.core
+ .io,org.springframework.mail",org.springframework.scheduling.commonj;
+ version="4.0.2.20140223-RELEASE";uses:="commonj.timers,commonj.work,j
+ avax.naming,org.springframework.beans.factory,org.springframework.con
+ text,org.springframework.core.task,org.springframework.jndi,org.sprin
+ gframework.scheduling,org.springframework.util,org.springframework.ut
+ il.concurrent",org.springframework.scheduling.quartz;version="4.0.2.2
+ 0140223-RELEASE";uses:="javax.sql,org.quartz,org.quartz.impl.jdbcjobs
+ tore,org.quartz.simpl,org.quartz.spi,org.quartz.utils,org.springframe
+ work.beans.factory,org.springframework.beans.support,org.springframew
+ ork.context,org.springframework.core,org.springframework.core.io,org.
+ springframework.core.task,org.springframework.scheduling,org.springfr
+ amework.transaction,org.springframework.util,org.springframework.util
+ .concurrent",org.springframework.ui.freemarker;version="4.0.2.2014022
+ 3-RELEASE";uses:="freemarker.cache,freemarker.template,org.springfram
+ ework.beans.factory,org.springframework.context,org.springframework.c
+ ore.io",org.springframework.ui.jasperreports;version="4.0.2.20140223-
+ RELEASE";uses:="net.sf.jasperreports.engine",org.springframework.ui.v
+ elocity;version="4.0.2.20140223-RELEASE";uses:="org.apache.commons.co
+ llections,org.apache.velocity.app,org.apache.velocity.exception,org.a
+ pache.velocity.runtime.resource,org.apache.velocity.runtime.resource.
+ loader,org.springframework.beans.factory,org.springframework.context,
+ org.springframework.core.io"
+Bundle-Vendor: SpringSource
+Implementation-Title: spring-context-support
+Implementation-Version: 4.0.2.RELEASE
+Bundle-Version: 4.0.2.20140223-RELEASE
+Tool: Bundlor 1.1.2.RELEASE
+Bundle-Name: Spring Context Support
+Created-By: 1.8.0-ea (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Import-Package: com.google.common.cache;version="0";resolution:="optio
+ nal",commonj.timers;version="[1.1.0, 2.0.0)";resolution:="optional",c
+ ommonj.work;version="[1.1.0, 2.0.0)";resolution:="optional",freemarke
+ r.cache;version="[2.3.15, 3.0.0)";resolution:="optional",freemarker.t
+ emplate;version="[2.3.15, 3.0.0)";resolution:="optional",javax.activa
+ tion;version="0";resolution:="optional",javax.cache;version="[0.5.0, 
+ 1.0.0)";resolution:="optional",javax.cache.spi;version="[0.5.0, 1.0.0
+ )";resolution:="optional",javax.mail;version="[1.4.0, 2.0.0)";resolut
+ ion:="optional",javax.mail.internet;version="[1.4.0, 2.0.0)";resoluti
+ on:="optional",javax.naming;version="0";resolution:="optional",javax.
+ sql;version="0";resolution:="optional",net.sf.ehcache;version="[1.0.0
+ , 3.0.0)";resolution:="optional",net.sf.ehcache.bootstrap;version="[1
+ .0.0, 3.0.0)";resolution:="optional",net.sf.ehcache.config;version="[
+ 1.0.0, 3.0.0)";resolution:="optional",net.sf.ehcache.constructs.block
+ ing;version="[1.0.0, 3.0.0)";resolution:="optional",net.sf.ehcache.ev
+ ent;version="[1.0.0, 3.0.0)";resolution:="optional",net.sf.jasperrepo
+ rts.engine;version="[2.0.5, 4.0.0)";resolution:="optional",net.sf.jas
+ perreports.engine.data;version="[2.0.5, 4.0.0)";resolution:="optional
+ ",net.sf.jasperreports.engine.export;version="[2.0.5, 4.0.0)";resolut
+ ion:="optional",org.apache.commons.collections;version="[3.2.0, 4.0.0
+ )";resolution:="optional",org.apache.commons.logging;version="[1.1.1,
+  2.0.0)";resolution:="optional",org.apache.velocity;version="[1.5.0, 
+ 2.0.0)";resolution:="optional",org.apache.velocity.app;version="[1.5.
+ 0, 2.0.0)";resolution:="optional",org.apache.velocity.context;version
+ ="[1.5.0, 2.0.0)";resolution:="optional",org.apache.velocity.exceptio
+ n;version="[1.5.0, 2.0.0)";resolution:="optional",org.apache.velocity
+ .runtime;version="[1.5.0, 2.0.0)";resolution:="optional",org.apache.v
+ elocity.runtime.log;version="[1.5.0, 2.0.0)";resolution:="optional",o
+ rg.apache.velocity.runtime.resource;version="[1.5.0, 2.0.0)";resoluti
+ on:="optional",org.apache.velocity.runtime.resource.loader;version="[
+ 1.5.0, 2.0.0)";resolution:="optional",org.quartz;version="[1.6.1, 3.0
+ .0)";resolution:="optional",org.quartz.impl;version="[1.6.1, 3.0.0)";
+ resolution:="optional",org.quartz.impl.jdbcjobstore;version="[1.6.1, 
+ 3.0.0)";resolution:="optional",org.quartz.simpl;version="[1.6.1, 3.0.
+ 0)";resolution:="optional",org.quartz.spi;version="[1.6.1, 3.0.0)";re
+ solution:="optional",org.quartz.utils;version="[1.6.1, 3.0.0)";resolu
+ tion:="optional",org.quartz.xml;version="[1.6.1, 3.0.0)";resolution:=
+ "optional",org.springframework.beans;version="[4.0.2.20140223-RELEASE
+ , 4.0.2.20140223-RELEASE]";resolution:="optional",org.springframework
+ .beans.factory;version="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEA
+ SE]";resolution:="optional",org.springframework.beans.support;version
+ ="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]";resolution:="opti
+ onal",org.springframework.cache;version="[4.0.2.20140223-RELEASE, 4.0
+ .2.20140223-RELEASE]";resolution:="optional",org.springframework.cach
+ e.support;version="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]";
+ resolution:="optional",org.springframework.context;version="[4.0.2.20
+ 140223-RELEASE, 4.0.2.20140223-RELEASE]",org.springframework.core;ver
+ sion="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]",org.springfra
+ mework.core.io;version="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEA
+ SE]",org.springframework.core.io.support;version="[4.0.2.20140223-REL
+ EASE, 4.0.2.20140223-RELEASE]",org.springframework.core.task;version=
+ "[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]",org.springframewor
+ k.jdbc.datasource;version="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RE
+ LEASE]";resolution:="optional",org.springframework.jdbc.support;versi
+ on="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]";resolution:="op
+ tional",org.springframework.jndi;version="[4.0.2.20140223-RELEASE, 4.
+ 0.2.20140223-RELEASE]";resolution:="optional",org.springframework.sch
+ eduling;version="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]";re
+ solution:="optional",org.springframework.scheduling.support;version="
+ [4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]";resolution:="option
+ al",org.springframework.transaction;version="[4.0.2.20140223-RELEASE,
+  4.0.2.20140223-RELEASE]";resolution:="optional",org.springframework.
+ transaction.support;version="[4.0.2.20140223-RELEASE, 4.0.2.20140223-
+ RELEASE]";resolution:="optional",org.springframework.util;version="[4
+ .0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]",org.springframework.u
+ til.concurrent;version="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEA
+ SE]"
+Bundle-SymbolicName: org.springframework.context.support
+
+Name: org/springframework/scheduling/quartz/SimpleTriggerBean.class
+SHA1-Digest: r+2mnWfbBA5Yf+E18JLnz8wr6cQ=
+
+Name: org/springframework/mail/MailMessage.class
+SHA1-Digest: MAhUA21Ld4SNumBTFCXMO2ZWpck=
+
+Name: org/springframework/ui/freemarker/FreeMarkerTemplateUtils.class
+SHA1-Digest: U2eu2EwwNOf/N0gyii7p1mR/ExU=
+
+Name: org/springframework/cache/ehcache/EhCacheManagerFactoryBean.clas
+ s
+SHA1-Digest: Vt1kN1yIEKE6B6fujnLh/yGqKFI=
+
+Name: org/springframework/mail/SimpleMailMessage.class
+SHA1-Digest: x2bM1AZ5eiHKUiWgvnBYdgjjF/0=
+
+Name: org/springframework/scheduling/commonj/DelegatingWork.class
+SHA1-Digest: WepmmbeQ7NoPNK/L4hfyI4WrHvU=
+
+Name: org/springframework/cache/guava/GuavaCache$NullHolder.class
+SHA1-Digest: No/JAYvdYjvqKUAugHvPrWJtNbk=
+
+Name: org/springframework/mail/javamail/InternetAddressEditor.class
+SHA1-Digest: Gt3SsMDMztuYFOlgLC/pVB69P0U=
+
+Name: org/springframework/cache/jcache/JCacheCache$NullHolder.class
+SHA1-Digest: 0Y8YMx1QKq9vaBDa6R2CoRkc4Dc=
+
+Name: org/springframework/cache/transaction/TransactionAwareCacheDecor
+ ator$2.class
+SHA1-Digest: XiKh6ED6YAE4i9EP2ch3zDdcUJU=
+
+Name: org/springframework/ui/freemarker/FreeMarkerConfigurationFactory
+ .class
+SHA1-Digest: 6pP0dLJdhjiPpuzPDuX1wzRZVK4=
+
+Name: org/springframework/cache/transaction/AbstractTransactionSupport
+ ingCacheManager.class
+SHA1-Digest: gnOgv2ss5CRQkP9tnaX/q4Lwleg=
+
+Name: org/springframework/scheduling/quartz/DelegatingJob.class
+SHA1-Digest: IfoUIczOgRLJ91RGyu5CEXoi9HM=
+
+Name: org/springframework/ui/jasperreports/JasperReportsUtils.class
+SHA1-Digest: FGRI0F+Cwy7KCCqP0w8IzthSOgc=
+
+Name: org/springframework/scheduling/quartz/MethodInvokingJobDetailFac
+ toryBean$MethodInvokingJob.class
+SHA1-Digest: uUHpPDDUgslDzPwiJuYDqoDUwQk=
+
+Name: org/springframework/scheduling/quartz/SchedulerFactoryBean$1.cla
+ ss
+SHA1-Digest: FeB7KcQ3KcPwOn3EAh+tzxL/pb8=
+
+Name: org/springframework/ui/velocity/VelocityEngineFactory.class
+SHA1-Digest: 5XgqBXV+d79hwSeXlQdljxYS26s=
+
+Name: org/springframework/cache/jcache/JCacheCacheManager.class
+SHA1-Digest: 7yT2rF626uDSRJjcvohghHsZONg=
+
+Name: META-INF/notice.txt
+SHA1-Digest: /HyGC80OBqsvxw9rUYRLg9ojGFY=
+
+Name: org/springframework/cache/ehcache/EhCacheFactoryBean.class
+SHA1-Digest: DeQy/3JRVDZEwvADBIz5fKn9G0M=
+
+Name: org/springframework/cache/transaction/TransactionAwareCacheDecor
+ ator$1.class
+SHA1-Digest: de0+OT0ckuPxNL5sygJdgLjEwJo=
+
+Name: org/springframework/scheduling/quartz/LocalDataSourceJobStore.cl
+ ass
+SHA1-Digest: anUVU/cF+/QhhDbHqT/YAr9w+e0=
+
+Name: org/springframework/scheduling/quartz/JobDetailFactoryBean.class
+SHA1-Digest: e0wxso/JD7pk39J3iLFDem5zsS0=
+
+Name: org/springframework/scheduling/commonj/TimerManagerTaskScheduler
+ $TimerScheduledFuture.class
+SHA1-Digest: lYwAg49BmXJe4jp4P2v+v2QIR6g=
+
+Name: org/springframework/scheduling/commonj/WorkManagerTaskExecutor.c
+ lass
+SHA1-Digest: FcHmnZtFEHXeMfUCFYARCi9w/4Q=
+
+Name: org/springframework/mail/javamail/JavaMailSenderImpl.class
+SHA1-Digest: M3I0QzIq+tUFCIVMgmMNH8JJjjc=
+
+Name: org/springframework/scheduling/commonj/TimerManagerAccessor.clas
+ s
+SHA1-Digest: scheqqaLiFOhon+KmJqHIeJqr2Q=
+
+Name: org/springframework/scheduling/commonj/TimerManagerTaskScheduler
+ .class
+SHA1-Digest: uBzFGZ7dQi2Pt2iY/LJ9TH+cSFM=
+
+Name: org/springframework/scheduling/quartz/LocalDataSourceJobStore$1.
+ class
+SHA1-Digest: /3YYTCZmQSziyk2JHKfojAFM5Uw=
+
+Name: org/springframework/ui/freemarker/FreeMarkerConfigurationFactory
+ Bean.class
+SHA1-Digest: wshGrUZLLfVuiqcMelVaupSJLi0=
+
+Name: META-INF/license.txt
+SHA1-Digest: 1Sz22KqWD3n8FvaXPRLScEg3Vvo=
+
+Name: org/springframework/scheduling/quartz/SchedulerContextAware.clas
+ s
+SHA1-Digest: DOcxJPlxnpnnWSd80AbISovyoY0=
+
+Name: org/springframework/cache/guava/GuavaCache$1.class
+SHA1-Digest: Bz0Se6lvGvmWQs+F0NwmAVt8fro=
+
+Name: org/springframework/scheduling/quartz/SchedulerFactoryBean.class
+SHA1-Digest: +YVt96cdMwSsExUF8eh2PFajmPs=
+
+Name: org/springframework/mail/MailParseException.class
+SHA1-Digest: vykJsGF29COEaupiL4HsKx5NzvA=
+
+Name: org/springframework/mail/MailSender.class
+SHA1-Digest: 9XQfMELy7Si7yno66Wfbezsf5SA=
+
+Name: org/springframework/scheduling/quartz/SchedulerAccessorBean.clas
+ s
+SHA1-Digest: 9aydbaIjYE0oXQUq0MyR2RE2YHk=
+
+Name: org/springframework/scheduling/quartz/LocalDataSourceJobStore$2.
+ class
+SHA1-Digest: gquOMw9hcDlGVewNgkUBzpEHqJ0=
+
+Name: org/springframework/ui/velocity/SpringResourceLoader.class
+SHA1-Digest: KbMBYJfXAhx0leMSlqBRgGbNazw=
+
+Name: org/springframework/mail/MailPreparationException.class
+SHA1-Digest: zc7VVUoPPyqIHr0WpR5Io4DCwrQ=
+
+Name: org/springframework/scheduling/quartz/MethodInvokingJobDetailFac
+ toryBean$StatefulMethodInvokingJob.class
+SHA1-Digest: W4mw6LkOaunqRpr9tHr+TwzDn40=
+
+Name: org/springframework/mail/javamail/MimeMessageHelper.class
+SHA1-Digest: /dTlUAgmQWc75DF5r3QCCxBz6Nw=
+
+Name: org/springframework/mail/MailSendException.class
+SHA1-Digest: T+YA1zGtdDVWR+QtkijS5wG4B94=
+
+Name: org/springframework/cache/transaction/TransactionAwareCacheDecor
+ ator.class
+SHA1-Digest: y0K/CSza89yEziRwRNw3cLRZCcc=
+
+Name: org/springframework/scheduling/quartz/SchedulerAccessor.class
+SHA1-Digest: zBqcdbq+EROjGgdBTBDL33U9qhg=
+
+Name: org/springframework/scheduling/quartz/LocalTaskExecutorThreadPoo
+ l.class
+SHA1-Digest: nLej9upNQ1sBgEj4My6NDYLl4/E=
+
+Name: org/springframework/scheduling/commonj/ScheduledTimerListener.cl
+ ass
+SHA1-Digest: w8amf5PC0riI3MgTKN562tBlib0=
+
+Name: org/springframework/cache/guava/GuavaCacheManager.class
+SHA1-Digest: NQb6h4cGD1JGDlNLILfxWGKLrAs=
+
+Name: org/springframework/scheduling/quartz/MethodInvokingJobDetailFac
+ toryBean.class
+SHA1-Digest: fGE0UTUdrWeyK8zZKyIANYGBW2o=
+
+Name: org/springframework/cache/ehcache/EhCacheCache.class
+SHA1-Digest: f4u+Q6R2aya3X9AzTbnGUZEvgQc=
+
+Name: org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecut
+ or.class
+SHA1-Digest: XA8JLSKYyguEg/6YgNdVbs4jNVA=
+
+Name: org/springframework/mail/javamail/SmartMimeMessage.class
+SHA1-Digest: wdKwV3zY5rxh4Lk8tREpXgbSTFs=
+
+Name: org/springframework/scheduling/quartz/SimpleTriggerFactoryBean.c
+ lass
+SHA1-Digest: IynXX9WiUhrARk8mZuIiuvbCxxk=
+
+Name: org/springframework/ui/velocity/VelocityEngineUtils.class
+SHA1-Digest: Yag0ORBxE+B6joz13ha2/d1/xTs=
+
+Name: org/springframework/mail/MailException.class
+SHA1-Digest: G3r+oPRIS72Ca/D17XhdDiZn7ZA=
+
+Name: org/springframework/scheduling/commonj/TimerManagerTaskScheduler
+ $ReschedulingTimerListener.class
+SHA1-Digest: xCEUjQMlV0lQvlkZl/7/KdQorHM=
+
+Name: org/springframework/scheduling/quartz/JobDetailAwareTrigger.clas
+ s
+SHA1-Digest: APcPuZ/H6R7hNmKRecp+GtkgbTs=
+
+Name: org/springframework/mail/javamail/MimeMailMessage.class
+SHA1-Digest: qu/IQ8sVnmb4HpGV1QRqRvvOy5Q=
+
+Name: org/springframework/mail/javamail/MimeMessageHelper$1.class
+SHA1-Digest: 6jS77NzzPdrOUch4fQ9l9ZpSVdc=
+
+Name: org/springframework/cache/ehcache/EhCacheCacheManager.class
+SHA1-Digest: 24KlMnm1kw0i+GOSd78FdKWAdOQ=
+
+Name: org/springframework/scheduling/quartz/CronTriggerBean.class
+SHA1-Digest: 27ytP2tn/SOyKID9JbjUd4Iv83M=
+
+Name: org/springframework/cache/jcache/JCacheCache$1.class
+SHA1-Digest: xPrYuOFAZl2l1s1nNRZISFbLtBk=
+
+Name: org/springframework/scheduling/quartz/JobMethodInvocationFailedE
+ xception.class
+SHA1-Digest: qDACkFCyVy3FGomw6iGzSd96gYY=
+
+Name: org/springframework/scheduling/commonj/TimerManagerFactoryBean.c
+ lass
+SHA1-Digest: ngwQ7FJSkEgTsf4WmQ6mWpjhJOI=
+
+Name: org/springframework/mail/javamail/JavaMailSender.class
+SHA1-Digest: Dana4vgmWz1JYGOJL7jkUGSUqfk=
+
+Name: org/springframework/scheduling/quartz/SpringBeanJobFactory.class
+SHA1-Digest: IDKLXvB7HTYoEgimbowzrwlIWsA=
+
+Name: org/springframework/scheduling/quartz/JobDetailBean.class
+SHA1-Digest: RYcNLOXdEKgKjq/ouVGD2YPrcw4=
+
+Name: org/springframework/scheduling/quartz/CronTriggerFactoryBean.cla
+ ss
+SHA1-Digest: nEB2wPLaf31m4eX5wJWptE5a3L8=
+
+Name: org/springframework/scheduling/quartz/AdaptableJobFactory.class
+SHA1-Digest: sixYD1+D+1tUvCCPjfhX6in/CGY=
+
+Name: org/springframework/mail/MailAuthenticationException.class
+SHA1-Digest: Qi1fWIW7zyO9SJ4/mBoM6s9bujg=
+
+Name: org/springframework/scheduling/commonj/DelegatingTimerListener.c
+ lass
+SHA1-Digest: OPlRQ8jU2MUFuSM4sF8cVFtA98U=
+
+Name: org/springframework/cache/guava/GuavaCache.class
+SHA1-Digest: rzAxCZIlxewdp7ckNDE2tanfl7U=
+
+Name: org/springframework/mail/javamail/MimeMessagePreparator.class
+SHA1-Digest: 5phFdt6RfhtacBLRK8uY7tZQS3E=
+
+Name: org/springframework/scheduling/quartz/ResourceLoaderClassLoadHel
+ per.class
+SHA1-Digest: 3TGI+2qd4PkzztHnicgY8x/uJho=
+
+Name: org/springframework/scheduling/quartz/QuartzJobBean.class
+SHA1-Digest: amHMi1/50xVo0t13WFM7Imwwa50=
+
+Name: org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.cl
+ ass
+SHA1-Digest: M0a+3vLGy6zHrPYdkJjRj0kJ7y8=
+
+Name: org/springframework/cache/jcache/JCacheManagerFactoryBean.class
+SHA1-Digest: mNalAPLFzVN+KsekOMkHyD1xAd4=
+
+Name: org/springframework/cache/transaction/TransactionAwareCacheManag
+ erProxy.class
+SHA1-Digest: 301wio6iNMRjuDL3RFHI5P+2RCI=
+
+Name: org/springframework/ui/freemarker/SpringTemplateLoader.class
+SHA1-Digest: kzxuYBgdiyZevE5cnd6wOL/uaAk=
+
+Name: overview.html
+SHA1-Digest: SAg9ev+IxUFIRdbROoJ9+liUXZs=
+
+Name: org/springframework/cache/jcache/JCacheCache.class
+SHA1-Digest: 26eSaQiLDdzAeaG7pU83SqD3M+M=
+
+Name: org/springframework/ui/velocity/VelocityEngineFactoryBean.class
+SHA1-Digest: SJdxmY/sNsJHzNJTZuemo0Lj71E=
+
+Name: org/springframework/mail/javamail/mime.types
+SHA1-Digest: sGpwFFbrmpFnYeEEC16shIpkM+s=
+

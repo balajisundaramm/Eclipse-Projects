@@ -1,0 +1,1502 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.beans;version="4.0.2.20140223-RELE
+ ASE";uses:="org.springframework.core,org.springframework.core.convert
+ ,org.springframework.util",org.springframework.beans.annotation;versi
+ on="4.0.2.20140223-RELEASE";uses:="org.springframework.util",org.spri
+ ngframework.beans.factory;version="4.0.2.20140223-RELEASE";uses:="org
+ .springframework.beans",org.springframework.beans.factory.access;vers
+ ion="4.0.2.20140223-RELEASE";uses:="org.springframework.beans,org.spr
+ ingframework.beans.factory",org.springframework.beans.factory.access.
+ el;version="4.0.2.20140223-RELEASE";uses:="javax.el,org.springframewo
+ rk.beans.factory",org.springframework.beans.factory.annotation;versio
+ n="4.0.2.20140223-RELEASE";uses:="org.springframework.beans,org.sprin
+ gframework.beans.factory,org.springframework.beans.factory.config,org
+ .springframework.beans.factory.support,org.springframework.beans.fact
+ ory.wiring,org.springframework.core,org.springframework.core.annotati
+ on,org.springframework.core.type",org.springframework.beans.factory.c
+ onfig;version="4.0.2.20140223-RELEASE";uses:="javax.inject,org.apache
+ .commons.logging,org.springframework.beans,org.springframework.beans.
+ factory,org.springframework.beans.support,org.springframework.core,or
+ g.springframework.core.convert,org.springframework.core.io.support,or
+ g.springframework.util",org.springframework.beans.factory.groovy;vers
+ ion="4.0.2.20140223-RELEASE";uses:="groovy.lang,groovy.xml,org.codeha
+ us.groovy.runtime,org.codehaus.groovy.runtime.callsite,org.springfram
+ ework.beans.factory,org.springframework.beans.factory.config,org.spri
+ ngframework.beans.factory.support,org.springframework.beans.factory.x
+ ml,org.springframework.core.io,org.springframework.core.io.support",o
+ rg.springframework.beans.factory.parsing;version="4.0.2.20140223-RELE
+ ASE";uses:="org.apache.commons.logging,org.springframework.beans,org.
+ springframework.beans.factory,org.springframework.beans.factory.confi
+ g,org.springframework.core.io",org.springframework.beans.factory.serv
+ iceloader;version="4.0.2.20140223-RELEASE";uses:="org.springframework
+ .beans.factory,org.springframework.beans.factory.config",org.springfr
+ amework.beans.factory.support;version="4.0.2.20140223-RELEASE";uses:=
+ "javax.inject,org.springframework.beans,org.springframework.beans.fac
+ tory,org.springframework.beans.factory.config,org.springframework.cgl
+ ib.proxy,org.springframework.core,org.springframework.core.convert,or
+ g.springframework.core.env,org.springframework.core.io,org.springfram
+ ework.core.io.support,org.springframework.util",org.springframework.b
+ eans.factory.wiring;version="4.0.2.20140223-RELEASE";uses:="org.sprin
+ gframework.beans.factory",org.springframework.beans.factory.xml;versi
+ on="4.0.2.20140223-RELEASE";uses:="javax.xml.parsers,org.springframew
+ ork.beans,org.springframework.beans.factory,org.springframework.beans
+ .factory.config,org.springframework.beans.factory.parsing,org.springf
+ ramework.beans.factory.support,org.springframework.core.env,org.sprin
+ gframework.core.io,org.springframework.core.io.support,org.w3c.dom,or
+ g.xml.sax",org.springframework.beans.propertyeditors;version="4.0.2.2
+ 0140223-RELEASE";uses:="org.springframework.core.io",org.springframew
+ ork.beans.support;version="4.0.2.20140223-RELEASE";uses:="org.springf
+ ramework.beans,org.springframework.core.env,org.springframework.core.
+ io,org.springframework.util"
+Bundle-Vendor: SpringSource
+Implementation-Title: spring-beans
+Implementation-Version: 4.0.2.RELEASE
+Bundle-Version: 4.0.2.20140223-RELEASE
+Tool: Bundlor 1.1.2.RELEASE
+Bundle-Name: Spring Beans
+Created-By: 1.8.0-ea (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Import-Package: groovy.lang;resolution:="optional",groovy.xml;resoluti
+ on:="optional",javax.el;version="[1.0.0, 3.0.0)";resolution:="optiona
+ l",javax.inject;version="[1.0.0, 2.0.0)";resolution:="optional",javax
+ .xml.parsers;version="0";resolution:="optional",org.apache.commons.lo
+ gging;version="[1.1.1, 2.0.0)",org.codehaus.groovy.reflection;resolut
+ ion:="optional",org.codehaus.groovy.runtime;resolution:="optional",or
+ g.codehaus.groovy.runtime.callsite;resolution:="optional",org.codehau
+ s.groovy.runtime.typehandling;resolution:="optional",org.codehaus.gro
+ ovy.runtime.wrappers;resolution:="optional",org.springframework.cglib
+ .core;version="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]",org.
+ springframework.cglib.proxy;version="[4.0.2.20140223-RELEASE, 4.0.2.2
+ 0140223-RELEASE]",org.springframework.core;version="[4.0.2.20140223-R
+ ELEASE, 4.0.2.20140223-RELEASE]",org.springframework.core.annotation;
+ version="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]",org.spring
+ framework.core.convert;version="[4.0.2.20140223-RELEASE, 4.0.2.201402
+ 23-RELEASE]",org.springframework.core.env;version="[4.0.2.20140223-RE
+ LEASE, 4.0.2.20140223-RELEASE]",org.springframework.core.io;version="
+ [4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]",org.springframework
+ .core.io.support;version="[4.0.2.20140223-RELEASE, 4.0.2.20140223-REL
+ EASE]",org.springframework.core.type;version="[4.0.2.20140223-RELEASE
+ , 4.0.2.20140223-RELEASE]",org.springframework.util;version="[4.0.2.2
+ 0140223-RELEASE, 4.0.2.20140223-RELEASE]",org.springframework.util.xm
+ l;version="[4.0.2.20140223-RELEASE, 4.0.2.20140223-RELEASE]",org.w3c.
+ dom;version="0";resolution:="optional",org.xml.sax;version="0";resolu
+ tion:="optional"
+Bundle-SymbolicName: org.springframework.beans
+
+Name: org/springframework/beans/factory/annotation/AnnotatedBeanDefini
+ tion.class
+SHA1-Digest: hXpAE30w+JI/y7VxL7ilSFsgulA=
+
+Name: org/springframework/beans/factory/BeanInitializationException.cl
+ ass
+SHA1-Digest: yO7ypU24fzZ6B66WLC7KkNhVQ5g=
+
+Name: org/springframework/beans/support/PagedListHolder.class
+SHA1-Digest: jwdgCBK/Cb96NYi0OGilRpTzQiU=
+
+Name: org/springframework/beans/factory/support/AutowireCandidateQuali
+ fier.class
+SHA1-Digest: YbxW+d99p++03sie/GPMwNfB3Vc=
+
+Name: org/springframework/beans/factory/BeanFactoryUtils.class
+SHA1-Digest: gbKNdRf33BiWYNt0m5U1XjB6lzo=
+
+Name: org/springframework/beans/DirectFieldAccessor.class
+SHA1-Digest: 3cB25R8Fhe17ykUVDvzzxHtXBKI=
+
+Name: org/springframework/beans/factory/support/AbstractBeanDefinition
+ .class
+SHA1-Digest: L8LYuflL1hc7xhfzDX9CIW0Ttc8=
+
+Name: org/springframework/beans/factory/config/AutowireCapableBeanFact
+ ory.class
+SHA1-Digest: Uaxj/ciGQQYVr2Q4WRVb/kC6QgQ=
+
+Name: org/springframework/beans/factory/ListableBeanFactory.class
+SHA1-Digest: PuyvAvGOWJ3hnfp6ms8AfIFPaSY=
+
+Name: org/springframework/beans/factory/xml/spring-tool-2.5.xsd
+SHA1-Digest: JdyXSH3zekzLn9XoUsW74zaJ1lg=
+
+Name: org/springframework/beans/factory/xml/BeansDtdResolver.class
+SHA1-Digest: Z3SfinlM4s8RQ9aVEK4OOaTANI0=
+
+Name: org/springframework/beans/factory/config/Scope.class
+SHA1-Digest: 0HGk94KkYl48A6vQv0LTjsWXiQI=
+
+Name: org/springframework/beans/factory/support/CglibSubclassingInstan
+ tiationStrategy.class
+SHA1-Digest: WIfxM6lqrUZnQ2yLtUQ4Nh3K4oo=
+
+Name: org/springframework/beans/propertyeditors/PatternEditor.class
+SHA1-Digest: qI5m8rnXVzXq9TXT90b9e+iAZXc=
+
+Name: org/springframework/beans/factory/support/SimpleInstantiationStr
+ ategy.class
+SHA1-Digest: eIQd2fZ09LiEA8UD9CfHyfcod+A=
+
+Name: org/springframework/beans/factory/groovy/GroovyBeanDefinitionRea
+ der$1.class
+SHA1-Digest: f9wmKFcpAWQm7p3it515AMBva24=
+
+Name: org/springframework/beans/factory/config/RuntimeBeanReference.cl
+ ass
+SHA1-Digest: 8zCrbVYzBUoJpvyMXUKLsmiqQns=
+
+Name: org/springframework/beans/support/PropertyComparator.class
+SHA1-Digest: B5zk1MZbzvXL7XSG4kzkoi8/9Ek=
+
+Name: org/springframework/beans/factory/xml/DocumentDefaultsDefinition
+ .class
+SHA1-Digest: 0jjlOzTc+5ZIeoJichbKdTm4KCY=
+
+Name: org/springframework/beans/factory/xml/ResourceEntityResolver.cla
+ ss
+SHA1-Digest: Ep1Iy7Zo4KMx4z42PrPJGc83w3g=
+
+Name: org/springframework/beans/annotation/AnnotationBeanUtils.class
+SHA1-Digest: igAi/Y+djSa2xopAq2plw2e+r5o=
+
+Name: org/springframework/beans/factory/parsing/ConstructorArgumentEnt
+ ry.class
+SHA1-Digest: 3BkrwWuZuU0u9bHD1Cgw+bi3kZQ=
+
+Name: org/springframework/beans/factory/config/CommonsLogFactoryBean.c
+ lass
+SHA1-Digest: RSlJA+XrjkDfeVESqCfi5iHd7L4=
+
+Name: org/springframework/beans/support/ArgumentConvertingMethodInvoke
+ r.class
+SHA1-Digest: pOHA98SUsPEUUgJD8Tdt4hyjRD4=
+
+Name: org/springframework/beans/factory/NamedBean.class
+SHA1-Digest: xiBlFHEqTkGIrnIZVd2DoNNfNDk=
+
+Name: org/springframework/beans/factory/config/DependencyDescriptor.cl
+ ass
+SHA1-Digest: E0zDf7PicRPSvuiJUVt1MGLYSrU=
+
+Name: org/springframework/beans/factory/SmartFactoryBean.class
+SHA1-Digest: sY1QTTOEX9n6oh2WJ/P4w3lRzQo=
+
+Name: META-INF/spring.handlers
+SHA1-Digest: Mg9trYh6asSBdIJ0lS0kvMED5Is=
+
+Name: org/springframework/beans/factory/config/ConstructorArgumentValu
+ es.class
+SHA1-Digest: IXqjBiM8TaoVhiW7gWbaEomUcLM=
+
+Name: org/springframework/beans/factory/BeanNameAware.class
+SHA1-Digest: Zs3NNxpbCpjMDEwT1T2l3srhgAY=
+
+Name: org/springframework/beans/factory/support/AbstractAutowireCapabl
+ eBeanFactory$1Holder.class
+SHA1-Digest: 4N1r4UDcfUzGHDj/1IKAasy8FOo=
+
+Name: org/springframework/beans/factory/access/BootstrapException.clas
+ s
+SHA1-Digest: 776jJaQ/k/MWs7cWofDAJ1AF/mQ=
+
+Name: org/springframework/beans/factory/CannotLoadBeanClassException.c
+ lass
+SHA1-Digest: tqiqTBY7IDucMzG01Exqf7QRl4U=
+
+Name: org/springframework/beans/factory/support/GenericTypeAwareAutowi
+ reCandidateResolver.class
+SHA1-Digest: wlZx0xJayTFXX4naBfYqQAfmj+g=
+
+Name: org/springframework/beans/factory/parsing/NullSourceExtractor.cl
+ ass
+SHA1-Digest: xPLtg8Zn0nDEOfI2oAStRXHFJII=
+
+Name: org/springframework/beans/factory/config/PropertiesFactoryBean.c
+ lass
+SHA1-Digest: sx2oEi5YGXV1IVqckd2uQGXTEZU=
+
+Name: org/springframework/beans/factory/support/CglibSubclassingInstan
+ tiationStrategy$ReplaceOverrideMethodInterceptor.class
+SHA1-Digest: KNhuYK81MzkQtEaw8DV+tTVEZVs=
+
+Name: org/springframework/beans/PropertyAccessor.class
+SHA1-Digest: 8vzabVFvi3SZAWjLHbyRSXNweRw=
+
+Name: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+SHA1-Digest: dgy9OAD8Xhxf9B01HEbpBW0p7RI=
+
+Name: org/springframework/beans/factory/support/AbstractAutowireCapabl
+ eBeanFactory$6.class
+SHA1-Digest: 5bO2lzfwW/2IDPO0XlJKaQZoVmQ=
+
+Name: org/springframework/beans/propertyeditors/URIEditor.class
+SHA1-Digest: 85nYzTxltnYKWZKQB6o8F40uU1E=
+
+Name: org/springframework/beans/factory/support/LookupOverride.class
+SHA1-Digest: 2+jQZ3U8x1tdyCiehxq9HvhLXaM=
+
+Name: org/springframework/beans/factory/xml/spring-beans-2.0.xsd
+SHA1-Digest: QZgIK2S1FWFwFDyTRunmLBeEcVg=
+
+Name: org/springframework/beans/TypeConverter.class
+SHA1-Digest: 6z7q3X+Q218u/WaaaPv23AG5Hgk=
+
+Name: org/springframework/beans/propertyeditors/ResourceBundleEditor.c
+ lass
+SHA1-Digest: m3AskQXVtEl1GtXdLRD9yYaUhQ0=
+
+Name: org/springframework/beans/factory/parsing/SourceExtractor.class
+SHA1-Digest: syfc7atJ97Krghbc1CRINueASqk=
+
+Name: org/springframework/beans/factory/config/SetFactoryBean.class
+SHA1-Digest: Ipzib6uV/y+knaH9ad7gXwyyDiQ=
+
+Name: org/springframework/beans/factory/support/BeanDefinitionDefaults
+ .class
+SHA1-Digest: ZvGDyJnlrRfaefP3fxIbcqkyOds=
+
+Name: org/springframework/beans/factory/xml/spring-beans-3.1.xsd
+SHA1-Digest: ILL6+se2xjQ3H3HgtOXbSU8PoSY=
+
+Name: org/springframework/beans/factory/xml/UtilNamespaceHandler$MapBe
+ anDefinitionParser.class
+SHA1-Digest: Prcu2e5hdDrUzZO03T5Ec/r5xE0=
+
+Name: org/springframework/beans/ExtendedBeanInfo.class
+SHA1-Digest: PJVaCPU6fRVwXcy0a8RwTBYhFAA=
+
+Name: org/springframework/beans/factory/support/ManagedMap.class
+SHA1-Digest: mAY/KhC9gNv0GGGpuHyruN/l5kY=
+
+Name: org/springframework/beans/factory/xml/NamespaceHandler.class
+SHA1-Digest: fpuvm376Ul7KTr7I9HfXP0KPWBg=
+
+Name: org/springframework/beans/factory/xml/UtilNamespaceHandler$SetBe
+ anDefinitionParser.class
+SHA1-Digest: 5AvUncCfNeOQKqPA1R2nZ7Aq28c=
+
+Name: org/springframework/beans/factory/config/DestructionAwareBeanPos
+ tProcessor.class
+SHA1-Digest: /c+UxmF+IHpmmyIjl4Vivw9uguI=
+
+Name: org/springframework/beans/factory/config/RuntimeBeanNameReferenc
+ e.class
+SHA1-Digest: PEnFiXaQlCg5tFsd/sXh7nzbgXA=
+
+Name: org/springframework/beans/factory/serviceloader/AbstractServiceL
+ oaderBasedFactoryBean.class
+SHA1-Digest: Nkvu/b8LrJoHddtKvlsGud12NfU=
+
+Name: org/springframework/beans/factory/support/CglibSubclassingInstan
+ tiationStrategy$MethodOverrideCallbackFilter.class
+SHA1-Digest: 6qg5SnoYPLQZW3eIi6hwFSbnikc=
+
+Name: org/springframework/beans/factory/support/SimpleInstantiationStr
+ ategy$1.class
+SHA1-Digest: 5scnTNdnbLkgf1qbyjMjde4jnDU=
+
+Name: org/springframework/beans/factory/support/MethodReplacer.class
+SHA1-Digest: BgoNV6VKwT8S07SaG7kCQZPxqt4=
+
+Name: org/springframework/beans/factory/support/AbstractBeanFactory$2.
+ class
+SHA1-Digest: Bcd3sakLJqI61LPLTnSDnzHqdig=
+
+Name: org/springframework/beans/factory/support/ManagedArray.class
+SHA1-Digest: +H3rThdnT9NdoCF5UwOIHvk/WoA=
+
+Name: org/springframework/beans/factory/xml/spring-tool-2.0.xsd
+SHA1-Digest: mL8xpzMbZuxgFjNsMsZG2PmCRCs=
+
+Name: org/springframework/beans/factory/NoSuchBeanDefinitionException.
+ class
+SHA1-Digest: jDeanZcFew2M9aFgFcAGhultNos=
+
+Name: org/springframework/beans/factory/config/PropertyPlaceholderConf
+ igurer$PlaceholderResolvingStringValueResolver.class
+SHA1-Digest: Ijx4lUHhlCGN32u5fT3kRD2GxaE=
+
+Name: org/springframework/beans/factory/access/SingletonBeanFactoryLoc
+ ator$CountingBeanFactoryReference.class
+SHA1-Digest: tEsMC0gvOAANe+0QueYH/0uds/Q=
+
+Name: org/springframework/beans/factory/config/PropertyPlaceholderConf
+ igurer$1.class
+SHA1-Digest: x2EEZk0SiGPq4HKkRaefx5B1hJo=
+
+Name: org/springframework/beans/FatalBeanException.class
+SHA1-Digest: 9g7CuqZdJ03E0NUUXXcb8UlSbXg=
+
+Name: org/springframework/beans/factory/xml/BeanDefinitionParserDelega
+ te.class
+SHA1-Digest: 88NvNzvAtmVYhI6d8kCsuUxHbAg=
+
+Name: org/springframework/beans/support/MutableSortDefinition.class
+SHA1-Digest: OJ6M/Y8VniYo0hwtrSJDZB+S5Zo=
+
+Name: org/springframework/beans/factory/BeanCurrentlyInCreationExcepti
+ on.class
+SHA1-Digest: APF8F5C3t2fyzqdSErbkNLrbEV4=
+
+Name: org/springframework/beans/factory/support/DefaultListableBeanFac
+ tory$2.class
+SHA1-Digest: n3waLVRC293aruto8sJM8KFekMI=
+
+Name: org/springframework/beans/factory/support/MergedBeanDefinitionPo
+ stProcessor.class
+SHA1-Digest: C6A+P7QCce9KQY5yLil63PxVT3M=
+
+Name: org/springframework/beans/SimpleTypeConverter.class
+SHA1-Digest: YTfop1uBC6l4gqoiTfwNp3HrCu0=
+
+Name: org/springframework/beans/propertyeditors/TimeZoneEditor.class
+SHA1-Digest: dJ0Nn9l27kMeuKOnWTJX9rfPlA8=
+
+Name: org/springframework/beans/SimpleIndexedPropertyDescriptor.class
+SHA1-Digest: 6FLZEh7esxrK/CNv7iWGqDQVnIU=
+
+Name: org/springframework/beans/factory/support/AutowireCandidateResol
+ ver.class
+SHA1-Digest: 4nj7QmY1cPUBVC9D+XYfAEPn5qU=
+
+Name: org/springframework/beans/factory/xml/DelegatingEntityResolver.c
+ lass
+SHA1-Digest: bs34rpavi4KngIAwKjf9+4CGArw=
+
+Name: org/springframework/beans/factory/support/ConstructorResolver$1.
+ class
+SHA1-Digest: PjOpesEAqHGFSfzHD+/L23icTmM=
+
+Name: org/springframework/beans/propertyeditors/CurrencyEditor.class
+SHA1-Digest: 6Lz9QoyFItVudxpzNoxHhhQ5QNg=
+
+Name: org/springframework/beans/InvalidPropertyException.class
+SHA1-Digest: iIyD5BMTRfCwpPZCVeOqfF7/RRY=
+
+Name: org/springframework/beans/factory/support/AbstractAutowireCapabl
+ eBeanFactory$2.class
+SHA1-Digest: dyWEqZavpBkboRu0MihL5Lsu7+s=
+
+Name: org/springframework/beans/factory/config/ProviderCreatingFactory
+ Bean$TargetBeanProvider.class
+SHA1-Digest: dy29Dt7R3ZRvrhxN4nnBJ9h0N4c=
+
+Name: org/springframework/beans/factory/config/BeanPostProcessor.class
+SHA1-Digest: 1UavnI2ag/sZv84aWpREkm16quA=
+
+Name: org/springframework/beans/factory/config/PropertyPlaceholderConf
+ igurer.class
+SHA1-Digest: 2Ir248Re3ytdE7z4qJBs2JQ8Ntg=
+
+Name: org/springframework/beans/factory/support/CglibSubclassingInstan
+ tiationStrategy$CglibSubclassCreator.class
+SHA1-Digest: 7FH2qOuYl+5bzOM0OhL3gGDYqqs=
+
+Name: org/springframework/beans/factory/support/DisposableBeanAdapter$
+ 2.class
+SHA1-Digest: f7wIbKgmcDSW4LTZRGYrMi65Ylk=
+
+Name: org/springframework/beans/factory/annotation/BeanFactoryAnnotati
+ onUtils.class
+SHA1-Digest: 692/cO0X4mJZwwvmdjIyIgQjLZ4=
+
+Name: org/springframework/beans/factory/support/InstantiationStrategy.
+ class
+SHA1-Digest: H+plR0qd4mBPdiJmpYtJCQ6BBgw=
+
+Name: org/springframework/beans/factory/parsing/ImportDefinition.class
+SHA1-Digest: cNISz15JOJxov5ikouIOuHDtkGU=
+
+Name: org/springframework/beans/factory/parsing/Location.class
+SHA1-Digest: ZTHXrwxGCadaTg6Wcc7S9ae2s3M=
+
+Name: org/springframework/beans/factory/xml/DocumentLoader.class
+SHA1-Digest: pQ80MsrLKzu7iRohgeEuxiiw3II=
+
+Name: org/springframework/beans/MethodInvocationException.class
+SHA1-Digest: aXH/9L3SR/zumqZRQdUsAia5hb0=
+
+Name: org/springframework/beans/ConversionNotSupportedException.class
+SHA1-Digest: x8YbS7QOo/GwwuFEpHGdJ6itcQE=
+
+Name: org/springframework/beans/factory/parsing/ParseState.class
+SHA1-Digest: QuZ7L5xfz83iYA0cbNrRlxge3BU=
+
+Name: org/springframework/beans/factory/xml/NamespaceHandlerResolver.c
+ lass
+SHA1-Digest: Tjk4Vi2t9b8Ypx5gkYvEO8MUvoI=
+
+Name: org/springframework/beans/factory/support/BeanDefinitionResource
+ .class
+SHA1-Digest: I0l+VGZCl+5WHb0a51thMDNbHhw=
+
+Name: org/springframework/beans/factory/BeanCreationNotAllowedExceptio
+ n.class
+SHA1-Digest: vG0SonRb9N9HeGMeF7/KdKKZq5E=
+
+Name: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+SHA1-Digest: 7BJL57m3PqNq5NQHt9EW2IGMJrQ=
+
+Name: org/springframework/beans/factory/BeanExpressionException.class
+SHA1-Digest: TUhH4dl0O+pY2+H8WS+YtmwFOqY=
+
+Name: org/springframework/beans/factory/annotation/Autowire.class
+SHA1-Digest: nspKHwP7jLLbSqo94tu+QmlAEso=
+
+Name: org/springframework/beans/PropertyDescriptorComparator.class
+SHA1-Digest: yH1y73HKtlmxw2bCdhr8k9AK880=
+
+Name: org/springframework/beans/factory/support/AbstractBeanDefinition
+ Reader.class
+SHA1-Digest: Q3VhFQoP8QkqQoZdHsQU/N8cBqs=
+
+Name: org/springframework/beans/ExtendedBeanInfoFactory.class
+SHA1-Digest: iTZCQAPExiVW6B01BfT5jz+PLBM=
+
+Name: org/springframework/beans/factory/config/BeanReferenceFactoryBea
+ n.class
+SHA1-Digest: mTfZjAUc5Lm2Hm2hnGG4Csw4vH0=
+
+Name: org/springframework/beans/factory/xml/spring-util-3.2.xsd
+SHA1-Digest: 1eMqyvu/mz4tOdR77LvmXXnPEFc=
+
+Name: org/springframework/beans/factory/support/PropertiesBeanDefiniti
+ onReader.class
+SHA1-Digest: msIcJB6LGpFEGl/5YTrs130PRPI=
+
+Name: org/springframework/beans/factory/groovy/GroovyDynamicElementRea
+ der.class
+SHA1-Digest: 1PzPmBEgIAPYGoOCHaIDWgpQxJY=
+
+Name: org/springframework/beans/factory/config/BeanDefinition.class
+SHA1-Digest: 32rsltG1LBaprxJNDUj5UTs0S/8=
+
+Name: org/springframework/beans/BeanMetadataElement.class
+SHA1-Digest: M6qD4PKlwhT1vPVexKnGegfltwA=
+
+Name: org/springframework/beans/PropertyEditorRegistrySupport$CustomEd
+ itorHolder.class
+SHA1-Digest: wvy3L8kwtoeKP3dUPdpABT70WTc=
+
+Name: org/springframework/beans/PropertyBatchUpdateException.class
+SHA1-Digest: s36BQfoot12O4O6kIRD4QA5nBY4=
+
+Name: org/springframework/beans/Mergeable.class
+SHA1-Digest: STq95/BHMYaTSVqWvUgCS9/iGjM=
+
+Name: org/springframework/beans/AbstractPropertyAccessor.class
+SHA1-Digest: fJopGEyxEFoLxmBOPTsh7cNFQQQ=
+
+Name: org/springframework/beans/factory/parsing/ProblemReporter.class
+SHA1-Digest: 5X5nyxd84FRBb2S8VCW3JvqL3Lc=
+
+Name: org/springframework/beans/factory/parsing/PropertyEntry.class
+SHA1-Digest: FsxOv0lrk9eIuKQMQ7tlFK16Dh8=
+
+Name: org/springframework/beans/factory/access/el/SimpleSpringBeanELRe
+ solver.class
+SHA1-Digest: 74NSXAo3XmSHrdz7NokLvDtMSVk=
+
+Name: org/springframework/beans/propertyeditors/InputStreamEditor.clas
+ s
+SHA1-Digest: bCFwRSdo18E40jgrt7zAdDpyRxk=
+
+Name: org/springframework/beans/factory/config/ConstructorArgumentValu
+ es$ValueHolder.class
+SHA1-Digest: RW5zL/MgAMVAZcBmNKMkGX7uv3M=
+
+Name: org/springframework/beans/factory/config/AbstractFactoryBean$Ear
+ lySingletonInvocationHandler.class
+SHA1-Digest: F/8WmiW+BmRl1T/H1PUcnbMgtnA=
+
+Name: org/springframework/beans/factory/config/MethodInvokingFactoryBe
+ an.class
+SHA1-Digest: FUEgIswxZYt3BgttwzdYj13Mi8I=
+
+Name: org/springframework/beans/factory/config/InstantiationAwareBeanP
+ ostProcessorAdapter.class
+SHA1-Digest: ckZSrfyQzUm48ZAx4/kVidPLsgA=
+
+Name: org/springframework/beans/factory/parsing/BeanEntry.class
+SHA1-Digest: EpmHarJDtWPBcyMQ2FXaQmc9JXU=
+
+Name: org/springframework/beans/factory/parsing/AliasDefinition.class
+SHA1-Digest: YhaXCbJafpr8zdtlJ2XBARWUAwg=
+
+Name: org/springframework/beans/factory/access/BeanFactoryReference.cl
+ ass
+SHA1-Digest: bC4fkHVldNK5aitCpKsyu5fQX9U=
+
+Name: org/springframework/beans/factory/support/AbstractAutowireCapabl
+ eBeanFactory$7.class
+SHA1-Digest: LDdQ3BUHWWP0g8VJ3pgI+igsfrQ=
+
+Name: org/springframework/beans/PropertyValues.class
+SHA1-Digest: wHUMofearmm6HwELObEj7AJMVZg=
+
+Name: org/springframework/beans/factory/annotation/InitDestroyAnnotati
+ onBeanPostProcessor$LifecycleMetadata.class
+SHA1-Digest: 6QCNpM7orL70p5l88H0aBCC9dAI=
+
+Name: org/springframework/beans/factory/xml/spring-util-3.0.xsd
+SHA1-Digest: 4evO9HnLAM/6CQEHJQN2BRRo5lE=
+
+Name: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+SHA1-Digest: 0aoGbQoS9VZTSNgcQLYp2be11EI=
+
+Name: org/springframework/beans/factory/xml/BeanDefinitionDecorator.cl
+ ass
+SHA1-Digest: 69JhOj1sMaHCl11c6gYiJUlwjis=
+
+Name: org/springframework/beans/factory/config/PropertyResourceConfigu
+ rer.class
+SHA1-Digest: mhmC569BCX3evJuZd9V+QXRNLcc=
+
+Name: org/springframework/beans/factory/support/ConstructorResolver$2.
+ class
+SHA1-Digest: jQWoVAZp9iEzH8dSm2uGatObaJw=
+
+Name: org/springframework/beans/factory/support/AbstractBeanFactory$1.
+ class
+SHA1-Digest: pQKKN/dPQgb6/cI1FnA2NTvMq9M=
+
+Name: org/springframework/beans/factory/xml/AbstractSimpleBeanDefiniti
+ onParser.class
+SHA1-Digest: YMHfHb4wPqGuq1LjhLqLKFfCdBI=
+
+Name: org/springframework/beans/BeanWrapperImpl.class
+SHA1-Digest: zSWS7I7UL/BawUBgRtdI+mbYTFE=
+
+Name: org/springframework/beans/factory/support/AbstractAutowireCapabl
+ eBeanFactory$5.class
+SHA1-Digest: G0O8od4fbjzOYnbum8LhEDYZPpE=
+
+Name: org/springframework/beans/PropertyAccessException.class
+SHA1-Digest: vts42n9E1PJ7juXI7PyFvSFtuYE=
+
+Name: org/springframework/beans/factory/xml/spring-beans.gif
+SHA1-Digest: 9AZvoh0RuPjnr9Y2vIlVQpRvqyI=
+
+Name: org/springframework/beans/factory/annotation/QualifierAnnotation
+ AutowireCandidateResolver.class
+SHA1-Digest: XS0UzUfz9yX+GjhEKUcnF6EzRVU=
+
+Name: org/springframework/beans/factory/BeanClassLoaderAware.class
+SHA1-Digest: qwMJU+le4WwEWONopP78a0NEzcY=
+
+Name: org/springframework/beans/factory/support/AbstractBeanFactory$4.
+ class
+SHA1-Digest: Jzv8GeClkfZDs+ieFIHXhnGCBZ8=
+
+Name: org/springframework/beans/propertyeditors/InputSourceEditor.clas
+ s
+SHA1-Digest: pBF7tluSGT9VvxDfiC7J6X67TNM=
+
+Name: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+SHA1-Digest: EdT7631P4+cdNCfgtG7AWOpCDt8=
+
+Name: org/springframework/beans/factory/support/SimpleBeanDefinitionRe
+ gistry.class
+SHA1-Digest: j1J1JOwxjScGk9euwYDaALyArrg=
+
+Name: org/springframework/beans/factory/xml/XmlBeanDefinitionReader.cl
+ ass
+SHA1-Digest: ovTUuuoe/E/hPRtY0EcdX9g5qy0=
+
+Name: org/springframework/beans/factory/config/ServiceLocatorFactoryBe
+ an$1.class
+SHA1-Digest: wADwSKQA0AxdvvTtxlnn8LbIZWI=
+
+Name: org/springframework/beans/factory/annotation/AutowiredAnnotation
+ BeanPostProcessor$AutowiredFieldElement.class
+SHA1-Digest: d9MrFkYEUywTXFZSS78lxFiB8II=
+
+Name: org/springframework/beans/factory/annotation/InjectionMetadata.c
+ lass
+SHA1-Digest: jt97n7PG8traYOk6mL2riPbYHQk=
+
+Name: org/springframework/beans/factory/ObjectFactory.class
+SHA1-Digest: mFHzw7gADTih0Be7DNmz7/bH1Ws=
+
+Name: org/springframework/beans/propertyeditors/StringArrayPropertyEdi
+ tor.class
+SHA1-Digest: dj6krXIYCgqF++ILUw8lKYw8UVA=
+
+Name: org/springframework/beans/BeanWrapperImpl$5.class
+SHA1-Digest: FGBZ3gj0LUfypDQ935+11a21Tc8=
+
+Name: org/springframework/beans/factory/xml/DefaultNamespaceHandlerRes
+ olver.class
+SHA1-Digest: py6wLDL/8mD7JhQuY7zO1n9Wxp0=
+
+Name: org/springframework/beans/factory/parsing/EmptyReaderEventListen
+ er.class
+SHA1-Digest: /MUzjdOTQPzmAYt/4qE1URNNN4s=
+
+Name: org/springframework/beans/factory/BeanIsAbstractException.class
+SHA1-Digest: K4ylmtgMoip1lL9SgkrO1GdOg4U=
+
+Name: org/springframework/beans/factory/parsing/QualifierEntry.class
+SHA1-Digest: EfET3VzHolx4Y9Fvj0C7cNmOCrY=
+
+Name: org/springframework/beans/factory/groovy/GroovyBeanDefinitionRea
+ der$DeferredProperty.class
+SHA1-Digest: BKuGhZXwlZUV83GthV1ZqzBCFEg=
+
+Name: org/springframework/beans/factory/groovy/GroovyBeanDefinitionRea
+ der$2.class
+SHA1-Digest: g9QZMTTRYyOTqahRL4Rux74/VVo=
+
+Name: org/springframework/beans/factory/annotation/RequiredAnnotationB
+ eanPostProcessor.class
+SHA1-Digest: Ir3sUqxUTK2OYse+beF4+PeZYeU=
+
+Name: org/springframework/beans/factory/annotation/AnnotationBeanWirin
+ gInfoResolver.class
+SHA1-Digest: tprBjHvsW0FlHHryNpcSwyu1jL0=
+
+Name: org/springframework/beans/factory/parsing/AbstractComponentDefin
+ ition.class
+SHA1-Digest: l/5W+JrI2biVUPivRJHW3BThcgA=
+
+Name: org/springframework/beans/factory/parsing/BeanComponentDefinitio
+ n.class
+SHA1-Digest: mvCLOPaa5SK/j1jw3JvBYa+4U2I=
+
+Name: org/springframework/beans/factory/support/BeanDefinitionValueRes
+ olver.class
+SHA1-Digest: llP9w9AvekSOPv8eYrRQlHfix0o=
+
+Name: org/springframework/beans/propertyeditors/ClassArrayEditor.class
+SHA1-Digest: oOmeKjWOcQWPMxa4K/5MmJVJCYQ=
+
+Name: org/springframework/beans/factory/support/DefaultListableBeanFac
+ tory$DependencyProvider.class
+SHA1-Digest: HcsCRzYwIWnLbpV+w5fOvqa97ZM=
+
+Name: org/springframework/beans/propertyeditors/PropertiesEditor.class
+SHA1-Digest: isSZe7+tF7WhTvQ5C/Qsi+YIdwc=
+
+Name: org/springframework/beans/TypeConverterSupport.class
+SHA1-Digest: TjcnYfwWGVph27P0SM8EEa4WCOg=
+
+Name: org/springframework/beans/factory/support/BeanDefinitionReaderUt
+ ils.class
+SHA1-Digest: xVXcM+NG3F2MCE21EvdGeUQXvq0=
+
+Name: org/springframework/beans/factory/annotation/InitDestroyAnnotati
+ onBeanPostProcessor$LifecycleElement.class
+SHA1-Digest: JyztGnnIKXInlApHoQTgOOmhRGY=
+
+Name: org/springframework/beans/BeanWrapperImpl$2.class
+SHA1-Digest: I9SjQwpHDnqG+28ZW55+ODL0lvA=
+
+Name: org/springframework/beans/factory/support/ConstructorResolver$Ar
+ gumentsHolder.class
+SHA1-Digest: iJDhMDmVwfZB5gaBedM6SvVHuBM=
+
+Name: org/springframework/beans/BeansException.class
+SHA1-Digest: 6SC8A6VfHIZJayNLC0Yw1+8kX9I=
+
+Name: org/springframework/beans/factory/xml/spring-beans-2.0.dtd
+SHA1-Digest: 89EHyIDWyQFTEwSW0wPVMrZ413c=
+
+Name: org/springframework/beans/factory/config/DeprecatedBeanWarner.cl
+ ass
+SHA1-Digest: QOp3nMEamC7lLNzfsKU8G8VtBqA=
+
+Name: org/springframework/beans/factory/support/BeanDefinitionReader.c
+ lass
+SHA1-Digest: QxSDUekjjRTjTfEpOpYXk80nzp4=
+
+Name: org/springframework/beans/factory/config/ObjectFactoryCreatingFa
+ ctoryBean$TargetBeanObjectFactory.class
+SHA1-Digest: RJAqIPtcqZ7F5xDrlnXbquKb59Y=
+
+Name: org/springframework/beans/factory/support/DefaultListableBeanFac
+ tory$SerializedBeanFactoryReference.class
+SHA1-Digest: H069ovmTQsW8CvR1kYe/+I/Oxmw=
+
+Name: org/springframework/beans/propertyeditors/ClassEditor.class
+SHA1-Digest: z+/Fanc/xMPMUIa1DhKNsnv5S60=
+
+Name: org/springframework/beans/factory/support/ConstructorResolver$Au
+ towiredArgumentMarker.class
+SHA1-Digest: D/10QYDg5WQYYCe4B3BZ8GJ88N4=
+
+Name: org/springframework/beans/factory/wiring/BeanWiringInfoResolver.
+ class
+SHA1-Digest: G4yYliW8CKKpyZFVhiLzB3j5jrs=
+
+Name: META-INF/spring.factories
+SHA1-Digest: M2RUzWLR3s34JM6/lii5sOF+4Gk=
+
+Name: org/springframework/beans/factory/access/BeanFactoryLocator.clas
+ s
+SHA1-Digest: laA7HBdPvPZpjeJCD4v6iVYdwUc=
+
+Name: org/springframework/beans/BeanMetadataAttributeAccessor.class
+SHA1-Digest: RrHh7O7F9ix5K3QZg5h4yy49LhI=
+
+Name: org/springframework/beans/factory/support/AutowireUtils.class
+SHA1-Digest: kHbRWqe9OqFxhmNXczcmDdBO/H0=
+
+Name: org/springframework/beans/factory/support/BeanNameGenerator.clas
+ s
+SHA1-Digest: d8xCDburF6J/BF1seXh1AJfLP3w=
+
+Name: org/springframework/beans/factory/support/ConstructorResolver$Co
+ nstructorPropertiesChecker.class
+SHA1-Digest: ylpFbyrmZXc6IUMg1H8873dgwn0=
+
+Name: org/springframework/beans/factory/support/AbstractAutowireCapabl
+ eBeanFactory.class
+SHA1-Digest: L5xkc9KPwQrD6WIgpyyk77YhN40=
+
+Name: org/springframework/beans/factory/support/AutowireUtils$ObjectFa
+ ctoryDelegatingInvocationHandler.class
+SHA1-Digest: BZD1ThKvKxm9NTXfmYpgX/NPlj8=
+
+Name: org/springframework/beans/factory/xml/BeanDefinitionParser.class
+SHA1-Digest: QmFxlY4Vn86aX/8295t4fXMBaUA=
+
+Name: org/springframework/beans/PropertyEditorRegistrySupport.class
+SHA1-Digest: 7OzmPsK3bynxmqyq8W7QdB9IkWE=
+
+Name: org/springframework/beans/propertyeditors/CustomDateEditor.class
+SHA1-Digest: HoGE7OY0gmrJV9ToLYOFyiDF3VU=
+
+Name: org/springframework/beans/factory/support/AbstractAutowireCapabl
+ eBeanFactory$3.class
+SHA1-Digest: cl2FEoW20bghTQ8Zb45q/CjOTdM=
+
+Name: org/springframework/beans/factory/config/CustomEditorConfigurer.
+ class
+SHA1-Digest: R+PzgCHgY0xbpDfIogKKEMkJrik=
+
+Name: org/springframework/beans/factory/support/CglibSubclassingInstan
+ tiationStrategy$LookupOverrideMethodInterceptor.class
+SHA1-Digest: LJuJp7Zw7qHzDcScASn/Sni2O3k=
+
+Name: org/springframework/beans/factory/support/AbstractAutowireCapabl
+ eBeanFactory$AutowireByTypeDependencyDescriptor.class
+SHA1-Digest: f7Au9u3ugz3V84I0l4EEAFPRiUU=
+
+Name: org/springframework/beans/factory/parsing/CompositeComponentDefi
+ nition.class
+SHA1-Digest: 1Imazc+etlm3OtgvPMrHwWxBJUA=
+
+Name: org/springframework/beans/factory/support/SimpleInstantiationStr
+ ategy$2.class
+SHA1-Digest: dqq+3Ci0I8hCvzPMvT3msXrOhEs=
+
+Name: org/springframework/beans/factory/support/DefaultListableBeanFac
+ tory.class
+SHA1-Digest: r9DU+25XGNufRU2VExurdm3Zmfo=
+
+Name: org/springframework/beans/factory/xml/XmlReaderContext.class
+SHA1-Digest: WBelXNiKdAkLysta/3kNG8Xw7Ac=
+
+Name: org/springframework/beans/factory/groovy/GroovyBeanDefinitionRea
+ der$GroovyRuntimeBeanReference$GroovyPropertyValue.class
+SHA1-Digest: r3LiGfPzswHJuj3d0SE9u+K8o1I=
+
+Name: org/springframework/beans/factory/annotation/Autowired.class
+SHA1-Digest: ozmzB9Ls8tCscMZ/EWa6qqKBKq8=
+
+Name: org/springframework/beans/factory/support/AutowireUtils$1.class
+SHA1-Digest: kKLMbW6ovyLHHlv0smOjtaJCoEo=
+
+Name: org/springframework/beans/factory/support/BeanDefinitionValueRes
+ olver$KeyedArgName.class
+SHA1-Digest: G0aeRqyjOHZLy/QWMcSK6YAfYQk=
+
+Name: META-INF/notice.txt
+SHA1-Digest: /HyGC80OBqsvxw9rUYRLg9ojGFY=
+
+Name: org/springframework/beans/factory/support/AbstractBeanFactory$3.
+ class
+SHA1-Digest: NwiTsN0sBdMfc1/81hRnKxmQnLE=
+
+Name: org/springframework/beans/PropertyValue.class
+SHA1-Digest: HW+oS6X/McDq0flpAGEI0LGmytA=
+
+Name: org/springframework/beans/factory/support/AutowireUtils$2.class
+SHA1-Digest: i6NwQ/eLDKtLJmO89MsnSP3ucGk=
+
+Name: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+SHA1-Digest: ZFcyVczV3sGh7EvmhYuVOQwVM2c=
+
+Name: org/springframework/beans/factory/support/GenericBeanDefinition.
+ class
+SHA1-Digest: eyJAHZGIOUVlNmo7ZkeoDtb36zQ=
+
+Name: org/springframework/beans/BeanWrapperImpl$1.class
+SHA1-Digest: 3spiFdN9reStanN9zv7ZvfpEhB0=
+
+Name: org/springframework/beans/BeanInfoFactory.class
+SHA1-Digest: JFV7wvF0P7ta7TsjFc2Z1evON/s=
+
+Name: org/springframework/beans/factory/xml/UtilNamespaceHandler$Prope
+ rtiesBeanDefinitionParser.class
+SHA1-Digest: iUXObafbDkb+6TV5jzTfKtYFshQ=
+
+Name: org/springframework/beans/propertyeditors/CharsetEditor.class
+SHA1-Digest: qoPP1AtnqE1R5IT+BjaP8yV4vDk=
+
+Name: org/springframework/beans/factory/xml/BeanDefinitionDocumentRead
+ er.class
+SHA1-Digest: 0CfFEZ9i0wSgxkrvwcOEQl6DjNE=
+
+Name: org/springframework/beans/factory/support/DefaultSingletonBeanRe
+ gistry.class
+SHA1-Digest: ddIoFW3T5fisUnfuQWKgEmQu6w0=
+
+Name: org/springframework/beans/factory/support/ChildBeanDefinition.cl
+ ass
+SHA1-Digest: e6MKwTWazfIYhJjqy4++aXFyelA=
+
+Name: org/springframework/beans/factory/config/PlaceholderConfigurerSu
+ pport.class
+SHA1-Digest: sz1Y60xNTMHkG4vDWx4uQeteEeQ=
+
+Name: org/springframework/beans/factory/parsing/ComponentDefinition.cl
+ ass
+SHA1-Digest: gNDVTXn9CFr6LgStQVFAe+ZmVc4=
+
+Name: org/springframework/beans/factory/support/AbstractAutowireCapabl
+ eBeanFactory$1.class
+SHA1-Digest: KlZ3369lot86xpZ0ch46mEJYBkU=
+
+Name: org/springframework/beans/factory/BeanNotOfRequiredTypeException
+ .class
+SHA1-Digest: IVTyalV4f3Qi90kAVR4yCSr9nvA=
+
+Name: org/springframework/beans/factory/xml/XmlBeanFactory.class
+SHA1-Digest: QdnyICov2rQpNjD40B07Gg9fnSw=
+
+Name: org/springframework/beans/factory/xml/PluggableSchemaResolver.cl
+ ass
+SHA1-Digest: MCB/RYnb9FZUZ/5etCp3nGsOtjg=
+
+Name: org/springframework/beans/factory/access/el/SpringBeanELResolver
+ .class
+SHA1-Digest: GF7hKDbz/Mk/Jz1V0hpQsAFd1Zg=
+
+Name: org/springframework/beans/propertyeditors/CharacterEditor.class
+SHA1-Digest: leCWH1OmgtiiESNUdd6P0znL/I4=
+
+Name: org/springframework/beans/factory/parsing/PassThroughSourceExtra
+ ctor.class
+SHA1-Digest: s6DIkN20keyO8iRD/cwW5l/A72I=
+
+Name: META-INF/spring.schemas
+SHA1-Digest: IthyUrhZ6nFhEono7JXjgH3Ike4=
+
+Name: org/springframework/beans/factory/support/RootBeanDefinition.cla
+ ss
+SHA1-Digest: ivvBqx3aqK0h1C9Cfp1bE30TWzg=
+
+Name: org/springframework/beans/PropertyValuesEditor.class
+SHA1-Digest: mkmC22T2+yZ6Mm5fMqZGDF9JuxI=
+
+Name: org/springframework/beans/propertyeditors/CustomMapEditor.class
+SHA1-Digest: cbCHa9HqhEvawveOhFhiK7SwgOc=
+
+Name: org/springframework/beans/factory/annotation/InjectionMetadata$I
+ njectedElement.class
+SHA1-Digest: nkljY/PzlNVH6CxhLTgxp9eu21M=
+
+Name: org/springframework/beans/factory/groovy/GroovyBeanDefinitionRea
+ der$3.class
+SHA1-Digest: /jDirbSvmmjql0+Uh1nrD2N8xJU=
+
+Name: org/springframework/beans/factory/annotation/Qualifier.class
+SHA1-Digest: Gpwgo8tqpHFW9jiV1MaHwusLMDE=
+
+Name: org/springframework/beans/factory/groovy/GroovyBeanDefinitionWra
+ pper.class
+SHA1-Digest: fOJBtsx6JKLN3T8ImsbCJdtj4CE=
+
+Name: org/springframework/beans/factory/config/AbstractFactoryBean.cla
+ ss
+SHA1-Digest: uCrCP5WMeAWtbSEvXWKFRb7VzTY=
+
+Name: org/springframework/beans/factory/groovy/GroovyBeanDefinitionRea
+ der.class
+SHA1-Digest: pYsvjytcsBWSWK7vMLYx5zTvgAw=
+
+Name: org/springframework/beans/factory/groovy/GroovyBeanDefinitionRea
+ der$GroovyRuntimeBeanReference.class
+SHA1-Digest: 8V8VRxhxHDQ5qf2z8zZ2+HvbOB0=
+
+Name: org/springframework/beans/factory/xml/NamespaceHandlerSupport.cl
+ ass
+SHA1-Digest: PQ4iB6V2gMpADWIUxUPSgjXBW/o=
+
+Name: org/springframework/beans/factory/xml/SimplePropertyNamespaceHan
+ dler.class
+SHA1-Digest: 7Jniw/7bzMzOOKpBUQm4iDlso1c=
+
+Name: org/springframework/beans/factory/config/TypedStringValue.class
+SHA1-Digest: mhbUEnH8wyI5SJhY3a4RTOFMPfo=
+
+Name: org/springframework/beans/factory/xml/ParserContext.class
+SHA1-Digest: lQ6ApJU78RANiXtqs/BN/vpeQoI=
+
+Name: org/springframework/beans/factory/xml/spring-util-4.0.xsd
+SHA1-Digest: h0CAUgjl2NySYEvVH/p+tlkytLc=
+
+Name: org/springframework/beans/TypeConverterDelegate.class
+SHA1-Digest: NtRbEgEeOCNug/DL+9/Erpns7mQ=
+
+Name: org/springframework/beans/factory/parsing/DefaultsDefinition.cla
+ ss
+SHA1-Digest: d6pfBg1JF4X+QSAD5ALZ2fxLes8=
+
+Name: org/springframework/beans/factory/config/CustomScopeConfigurer.c
+ lass
+SHA1-Digest: C7wvQMRKq4KPZ/Kd38jRyIXIv/8=
+
+Name: org/springframework/beans/factory/annotation/Required.class
+SHA1-Digest: HTnIaYOhzj+MHyN2AC5o30coMQ4=
+
+Name: org/springframework/beans/BeanWrapperImpl$3.class
+SHA1-Digest: +1JVxlSt7Z9W5nYW9WvBFCa3enM=
+
+Name: org/springframework/beans/factory/config/BeanExpressionResolver.
+ class
+SHA1-Digest: sAd3gFZ198166EIa7WaetQ8gZgA=
+
+Name: org/springframework/beans/factory/support/AbstractBeanFactory.cl
+ ass
+SHA1-Digest: zi3L0cAWc3TtNPNK/7c6LbBULhQ=
+
+Name: org/springframework/beans/factory/support/ReplaceOverride.class
+SHA1-Digest: HUYwykeuammF4I+BfpKXmDrgo1g=
+
+Name: org/springframework/beans/factory/config/ConfigurableBeanFactory
+ .class
+SHA1-Digest: qDfsHn3B7J2hXtaTxpbwNtxeoAc=
+
+Name: org/springframework/beans/factory/access/SingletonBeanFactoryLoc
+ ator$1.class
+SHA1-Digest: IQSSkXZ8s8QQt9UJsTmIoVgAb14=
+
+Name: org/springframework/beans/factory/support/BeanDefinitionRegistry
+ PostProcessor.class
+SHA1-Digest: ghdsZos0mV3bzML0IncRZ/85vik=
+
+Name: org/springframework/beans/factory/support/DisposableBeanAdapter$
+ 1.class
+SHA1-Digest: xQ5aguEblOXoJ042D7djre20SPQ=
+
+Name: org/springframework/beans/factory/annotation/AutowiredAnnotation
+ BeanPostProcessor$AutowiredMethodElement.class
+SHA1-Digest: PXyCPPsr2m47ukreFbQ3BCWs90E=
+
+Name: org/springframework/beans/factory/support/SimpleAutowireCandidat
+ eResolver.class
+SHA1-Digest: eP3aWPvZuTHp/xq3+ecahljqf0M=
+
+Name: org/springframework/beans/factory/support/ManagedSet.class
+SHA1-Digest: 1cH+rq3C76EdH4RmSsVt8fxcESg=
+
+Name: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+SHA1-Digest: EdT7631P4+cdNCfgtG7AWOpCDt8=
+
+Name: org/springframework/beans/factory/parsing/ParseState$Entry.class
+SHA1-Digest: xbAceJaj2MUvFCeLGc1AcVRnRtM=
+
+Name: org/springframework/beans/PropertyAccessorFactory.class
+SHA1-Digest: IaPMEbTrYOLJCC9auvcA06wMt5A=
+
+Name: org/springframework/beans/factory/config/MapFactoryBean.class
+SHA1-Digest: Y5Q9wlLeUdeZmCSH7nOTeGhZKdY=
+
+Name: org/springframework/beans/factory/config/ConfigurableListableBea
+ nFactory.class
+SHA1-Digest: P2POLhcSgLdyUz0s3F0NkeC88CI=
+
+Name: org/springframework/beans/factory/parsing/FailFastProblemReporte
+ r.class
+SHA1-Digest: X1t3M4Cg5HHJ7RZYr4YfjS3TYZE=
+
+Name: org/springframework/beans/GenericTypeAwarePropertyDescriptor.cla
+ ss
+SHA1-Digest: K4K793WB88/LWh1Li913qTk+sy4=
+
+Name: org/springframework/beans/factory/support/FactoryBeanRegistrySup
+ port.class
+SHA1-Digest: u8PXNIcAQJfAcyqaOaDjYu/fSzI=
+
+Name: org/springframework/beans/BeanInstantiationException.class
+SHA1-Digest: pnnt6KWTvrP9zVXMMzKNMdrbapI=
+
+Name: org/springframework/beans/factory/config/SingletonBeanRegistry.c
+ lass
+SHA1-Digest: y/pcplswEfT5c2DDhFKVSiQ65B8=
+
+Name: org/springframework/beans/PropertyDescriptorUtils.class
+SHA1-Digest: hQVQ4DH3qy02AozNRIGBvDdnBwY=
+
+Name: org/springframework/beans/factory/annotation/Value.class
+SHA1-Digest: mOgVW8JsmYaxu+wstoPm4ZwXsf0=
+
+Name: org/springframework/beans/propertyeditors/URLEditor.class
+SHA1-Digest: WEhwPPQ/tYGBTof3fPZ89LspSOQ=
+
+Name: org/springframework/beans/factory/support/MethodOverrides.class
+SHA1-Digest: KtGXUkdCLk7BGteZaIgjJ6qLupA=
+
+Name: org/springframework/beans/factory/support/SecurityContextProvide
+ r.class
+SHA1-Digest: hqU7aVzXeQkYWcmZ5xwvzaA3hSU=
+
+Name: org/springframework/beans/factory/config/DependencyDescriptor$1.
+ class
+SHA1-Digest: kjTaCg+i8g0n3TDGlQMfpzddTCk=
+
+Name: org/springframework/beans/factory/parsing/BeanDefinitionParsingE
+ xception.class
+SHA1-Digest: db+IN98mQt9isfjm2PDLcwucDDM=
+
+Name: org/springframework/beans/factory/config/SmartInstantiationAware
+ BeanPostProcessor.class
+SHA1-Digest: L945ZaAZ1UQ7C2nJ4f/bFVGgqrk=
+
+Name: org/springframework/beans/factory/parsing/ReaderEventListener.cl
+ ass
+SHA1-Digest: 63GppNS0UZe7IFK+vPmnlUfC/fU=
+
+Name: org/springframework/beans/factory/xml/UtilNamespaceHandler$1.cla
+ ss
+SHA1-Digest: dRMEBf1CBkXoj0btZZO+AKG7hfI=
+
+Name: org/springframework/beans/factory/support/DefaultBeanNameGenerat
+ or.class
+SHA1-Digest: DhDidnAaP1r4q0hxQigJ00c/E0w=
+
+Name: org/springframework/beans/NotReadablePropertyException.class
+SHA1-Digest: xiZpch8eC4M6dF+kgqq/BVIP5jE=
+
+Name: org/springframework/beans/factory/config/BeanExpressionContext.c
+ lass
+SHA1-Digest: dFS33bkTpiRQTP+ZEZkDAaibA7s=
+
+Name: org/springframework/beans/factory/support/DefaultListableBeanFac
+ tory$1.class
+SHA1-Digest: KBhEC8fLaSZ1OQ8547uBg3zrl7U=
+
+Name: org/springframework/beans/factory/support/DefaultListableBeanFac
+ tory$DependencyObjectFactory.class
+SHA1-Digest: QSce6xUZklipJ4M0064ZY386AAM=
+
+Name: META-INF/spring.tooling
+SHA1-Digest: jfE+8gg1PvSUyu+7tKEF9YIOI7c=
+
+Name: org/springframework/beans/factory/support/AbstractAutowireCapabl
+ eBeanFactory$4.class
+SHA1-Digest: +Rk6xZCXl3Z3x7dVhB56OEbdZxY=
+
+Name: org/springframework/beans/factory/parsing/Problem.class
+SHA1-Digest: Xu8FXDSvhAzzqJy5r5KIErnAQtI=
+
+Name: org/springframework/beans/factory/BeanDefinitionStoreException.c
+ lass
+SHA1-Digest: YcEcnxVURv0ZoJdxj1D1DDg7IWw=
+
+Name: org/springframework/beans/factory/xml/UtilNamespaceHandler.class
+SHA1-Digest: enIcDvR1U1T1F9t/dI4zB8x4Cwc=
+
+Name: org/springframework/beans/BeanUtils.class
+SHA1-Digest: vQdWmP3YZljWIa0fE+fBdQGyY4Y=
+
+Name: org/springframework/beans/factory/support/ManagedProperties.clas
+ s
+SHA1-Digest: w4LJppen8bwtVrmsouCwewZBMVU=
+
+Name: org/springframework/beans/factory/HierarchicalBeanFactory.class
+SHA1-Digest: crAEaHUj9N9tIxBNz9WMPVMlic0=
+
+Name: org/springframework/beans/factory/xml/SimpleConstructorNamespace
+ Handler.class
+SHA1-Digest: 7apyvJiJZtmkBqAnaqw5rgoy8v8=
+
+Name: org/springframework/beans/factory/config/ListFactoryBean.class
+SHA1-Digest: 7tOOnfKPOcbESAQarJJimRxej60=
+
+Name: org/springframework/beans/factory/support/FactoryBeanRegistrySup
+ port$2.class
+SHA1-Digest: lJLUGxhvCBsZgg/Z3UxU6KkvZi4=
+
+Name: org/springframework/beans/factory/InitializingBean.class
+SHA1-Digest: xXWckySI+E0LzB9E+HKWu+jwfo4=
+
+Name: org/springframework/beans/factory/annotation/InitDestroyAnnotati
+ onBeanPostProcessor.class
+SHA1-Digest: l7Ao+iqzMopP6VBJIV4CeT9jeEw=
+
+Name: org/springframework/beans/factory/UnsatisfiedDependencyException
+ .class
+SHA1-Digest: MU5CvJ9D8r5tuZnK+X8gvAaBGns=
+
+Name: org/springframework/beans/factory/support/FactoryBeanRegistrySup
+ port$1.class
+SHA1-Digest: 5a/zZc8pbxjELpntUIuNlMgeNvk=
+
+Name: org/springframework/beans/BeanWrapper.class
+SHA1-Digest: gqVbdTd2oPsOaBpxgTD2UeUPGoI=
+
+Name: org/springframework/beans/factory/DisposableBean.class
+SHA1-Digest: ZVjA1dh8s724shoMn+0Cofm2+Hw=
+
+Name: org/springframework/beans/support/ResourceEditorRegistrar.class
+SHA1-Digest: mJ9ynlmglD2rp2kcWcD382D1Ufc=
+
+Name: org/springframework/beans/factory/config/InstantiationAwareBeanP
+ ostProcessor.class
+SHA1-Digest: cg3MwW5T1u55N/f5Nd7KhFSWI/E=
+
+Name: org/springframework/beans/factory/serviceloader/ServiceFactoryBe
+ an.class
+SHA1-Digest: Ht9vZz7o2LBFHURbK/kmt+j8hZU=
+
+Name: org/springframework/beans/propertyeditors/UUIDEditor.class
+SHA1-Digest: 9JPV6yNuGh7hQXAMtIvhdxGeCAE=
+
+Name: org/springframework/beans/factory/NoUniqueBeanDefinitionExceptio
+ n.class
+SHA1-Digest: rOmm5y2UBcy35gERBGVBIje7syc=
+
+Name: org/springframework/beans/DirectFieldAccessor$1.class
+SHA1-Digest: ftAUD1EqOLr1di3FVH37rJjFzsE=
+
+Name: org/springframework/beans/factory/config/ObjectFactoryCreatingFa
+ ctoryBean.class
+SHA1-Digest: I7/lwmhspbTdgpGTEC/tXtTVy1s=
+
+Name: org/springframework/beans/factory/serviceloader/ServiceLoaderFac
+ toryBean.class
+SHA1-Digest: zRbYlHbuSQlFqlcgy9+RhJg9C2I=
+
+Name: org/springframework/beans/BeanWrapperImpl$4.class
+SHA1-Digest: dFh9P2AIkUBqaXGRcJywNoreCqg=
+
+Name: org/springframework/beans/factory/support/ConstructorResolver.cl
+ ass
+SHA1-Digest: 681O2gchykxI+avMUYLAmZYc0KE=
+
+Name: org/springframework/beans/factory/xml/spring-tool-3.1.xsd
+SHA1-Digest: EdT7631P4+cdNCfgtG7AWOpCDt8=
+
+Name: org/springframework/beans/factory/xml/XmlBeanDefinitionStoreExce
+ ption.class
+SHA1-Digest: gDiDtgyj37EcmeNBpB1SHZkcLVA=
+
+Name: org/springframework/beans/factory/access/SingletonBeanFactoryLoc
+ ator.class
+SHA1-Digest: 59bPrQcG1YNfag0g+X4DkkGmbO4=
+
+Name: org/springframework/beans/factory/BeanFactory.class
+SHA1-Digest: w7ico6cBGORH6Lq15IV+3oK2Dfk=
+
+Name: org/springframework/beans/factory/config/PropertyPathFactoryBean
+ .class
+SHA1-Digest: 2eGCMO+Qm07WMATFuCe54Tu09Bg=
+
+Name: org/springframework/beans/factory/xml/AbstractSingleBeanDefiniti
+ onParser.class
+SHA1-Digest: 8kWDdxAwo/T1YZB+YTLMY4BIyYA=
+
+Name: org/springframework/beans/factory/support/BeanDefinitionValidati
+ onException.class
+SHA1-Digest: THUKep8cK/UvYpE9ZQKZanw/lgM=
+
+Name: org/springframework/beans/TypeMismatchException.class
+SHA1-Digest: G77OnwYcP7ZBDVnq9Mf/44yaY2s=
+
+Name: org/springframework/beans/factory/config/PreferencesPlaceholderC
+ onfigurer.class
+SHA1-Digest: DbFQdjSBqNRwVfGX/cftVyF+Hgo=
+
+Name: META-INF/license.txt
+SHA1-Digest: 1Sz22KqWD3n8FvaXPRLScEg3Vvo=
+
+Name: org/springframework/beans/factory/wiring/BeanWiringInfo.class
+SHA1-Digest: lt7B44oZKiEc/abLP11uzrl+mko=
+
+Name: org/springframework/beans/factory/support/DisposableBeanAdapter$
+ 3.class
+SHA1-Digest: 5I3lLC1AwEBmkF1s3wHXNYleJ54=
+
+Name: org/springframework/beans/factory/access/SingletonBeanFactoryLoc
+ ator$BeanFactoryGroup.class
+SHA1-Digest: 0aih46cyIG5XiIdvhmp33TGbBYw=
+
+Name: org/springframework/beans/factory/BeanFactoryAware.class
+SHA1-Digest: p+ebslKcy76YojVwNt5Bcenu+AE=
+
+Name: org/springframework/beans/factory/serviceloader/ServiceListFacto
+ ryBean.class
+SHA1-Digest: IoMr/LaH3XP0RCGz/1zHjU/7R9Y=
+
+Name: org/springframework/beans/factory/config/AbstractFactoryBean$1.c
+ lass
+SHA1-Digest: UjNCfHbwNKTYlaCg0+Q67aynKcs=
+
+Name: org/springframework/beans/factory/support/ManagedList.class
+SHA1-Digest: yID5NsJ1mTcke9P/IKsKYgkYrU0=
+
+Name: org/springframework/beans/factory/config/BeanFactoryPostProcesso
+ r.class
+SHA1-Digest: 1xBpCEO3mHcCj3E+gIexzlZ1AEs=
+
+Name: org/springframework/beans/BeanWrapperImpl$PropertyTokenHolder.cl
+ ass
+SHA1-Digest: eGOJfk7hQhTO7h50BKZ5ca6zNec=
+
+Name: org/springframework/beans/SimplePropertyDescriptor.class
+SHA1-Digest: EXhkThJ4Zmms22FH99UMFd29qQI=
+
+Name: org/springframework/beans/factory/support/BeanDefinitionRegistry
+ .class
+SHA1-Digest: T2NTUg/hD7sq03gTPen8pc5xXNg=
+
+Name: org/springframework/beans/factory/config/PropertyPlaceholderConf
+ igurer$PropertyPlaceholderConfigurerResolver.class
+SHA1-Digest: vc7f8zQp9pkydkVikwrztjMHlIc=
+
+Name: org/springframework/beans/factory/config/ServiceLocatorFactoryBe
+ an.class
+SHA1-Digest: pAF3Qp7cGsIi03JKEfokr6Ro1hs=
+
+Name: org/springframework/beans/factory/support/ConstructorResolver$3.
+ class
+SHA1-Digest: K1LbL0YSQt5XXto54PnrlDNIjbU=
+
+Name: org/springframework/beans/factory/annotation/CustomAutowireConfi
+ gurer.class
+SHA1-Digest: nk7VykT5+z+yh0WqztK3soCea04=
+
+Name: org/springframework/beans/PropertyAccessorUtils.class
+SHA1-Digest: ZL2fQvmv6NYpbCf9BF3AdI2lPUQ=
+
+Name: org/springframework/beans/MutablePropertyValues.class
+SHA1-Digest: edI7/lzBONmaCmsgbOCL5T3a2yM=
+
+Name: org/springframework/beans/factory/config/ProviderCreatingFactory
+ Bean.class
+SHA1-Digest: WRZO+7wrjrcxmo2sfrjgafLYLfI=
+
+Name: org/springframework/beans/factory/support/DefaultListableBeanFac
+ tory$DependencyProviderFactory.class
+SHA1-Digest: tnr2ewHESjY6LMXZO8dapDqvFzs=
+
+Name: org/springframework/beans/factory/support/AbstractAutowireCapabl
+ eBeanFactory$8.class
+SHA1-Digest: f3DLOMYR9j+56ShMhm4c9YD5l2o=
+
+Name: org/springframework/beans/PropertyEditorRegistry.class
+SHA1-Digest: dhCGQiSWEMyedQfQjP7S4LYWp2c=
+
+Name: org/springframework/beans/factory/xml/UtilNamespaceHandler$Prope
+ rtyPathBeanDefinitionParser.class
+SHA1-Digest: KyWWFAIdknqSpDQhI+FsnEjaL0Y=
+
+Name: org/springframework/beans/factory/wiring/ClassNameBeanWiringInfo
+ Resolver.class
+SHA1-Digest: dgB09g36OJZslE+s/fzdd8PTUl8=
+
+Name: org/springframework/beans/factory/support/DisposableBeanAdapter$
+ 4.class
+SHA1-Digest: bjfc4fwIu2phjPtSfM1cA1YJ3hA=
+
+Name: org/springframework/beans/factory/xml/AbstractBeanDefinitionPars
+ er.class
+SHA1-Digest: jPsHHI/9WqejjyJXbJvvUVDKhxw=
+
+Name: org/springframework/beans/factory/annotation/AutowiredAnnotation
+ BeanPostProcessor.class
+SHA1-Digest: yDibqzxNmHMqgIz4vGYwMAfMP/s=
+
+Name: org/springframework/beans/factory/config/FieldRetrievingFactoryB
+ ean.class
+SHA1-Digest: SIOtwmshzRE5eWWqgxBrhBcaCxU=
+
+Name: org/springframework/beans/factory/xml/spring-util.gif
+SHA1-Digest: 2gtIxd4NtXlm10kKNcVUUuXJnGs=
+
+Name: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+SHA1-Digest: /kGOWwSgDrf3QOAKQUWkRqb4jsU=
+
+Name: org/springframework/beans/factory/BeanIsNotAFactoryException.cla
+ ss
+SHA1-Digest: 66N53L++yhFtbl3+hE1GJ7p2Uss=
+
+Name: org/springframework/beans/propertyeditors/CustomBooleanEditor.cl
+ ass
+SHA1-Digest: CojYY1w6bIxF4fiX1274JGZV5Dk=
+
+Name: org/springframework/beans/propertyeditors/StringTrimmerEditor.cl
+ ass
+SHA1-Digest: 85p7bjV52rTqv9f2Uaam7mutDRM=
+
+Name: org/springframework/beans/factory/annotation/AnnotatedGenericBea
+ nDefinition.class
+SHA1-Digest: z5uTdzljxb67pi/Vz+lrtAZDReE=
+
+Name: org/springframework/beans/propertyeditors/CustomCollectionEditor
+ .class
+SHA1-Digest: zK9yCE722t7/mxp7QFQLInpF5Fw=
+
+Name: org/springframework/beans/factory/xml/DefaultBeanDefinitionDocum
+ entReader.class
+SHA1-Digest: EhWjmoH17MCNsXoByuiJPPZON58=
+
+Name: org/springframework/beans/factory/support/MethodOverride.class
+SHA1-Digest: M+2BI7s/iV7xhyupdU18hDUq2pQ=
+
+Name: org/springframework/beans/factory/config/BeanReference.class
+SHA1-Digest: LVHvvADRCh7B6jRYV1NlGjnaue0=
+
+Name: org/springframework/beans/ConfigurablePropertyAccessor.class
+SHA1-Digest: O09mCG4OXqPvKzFZE6w6qEMy4vw=
+
+Name: org/springframework/beans/factory/wiring/BeanConfigurerSupport.c
+ lass
+SHA1-Digest: oCjDyuuRoRmWzdcvLv41Z62iIh8=
+
+Name: org/springframework/beans/factory/support/CglibSubclassingInstan
+ tiationStrategy$CglibIdentitySupport.class
+SHA1-Digest: 5ggvTSMNQG+x0TFHoxl//ZmII1g=
+
+Name: org/springframework/beans/factory/xml/spring-util-3.1.xsd
+SHA1-Digest: zJoRM3GwF7al7Q1Gy0iKKD6S/pc=
+
+Name: org/springframework/beans/propertyeditors/ByteArrayPropertyEdito
+ r.class
+SHA1-Digest: hC+cDg6LxgPrK50jxxcarGRgzss=
+
+Name: org/springframework/beans/factory/xml/spring-util-2.0.xsd
+SHA1-Digest: sIBz0XtL65js+MAgqI4MZ1FRURQ=
+
+Name: org/springframework/beans/PropertyEditorRegistrar.class
+SHA1-Digest: J3mI8TGN0WBws63BfKC7Sd+H7Xk=
+
+Name: org/springframework/beans/ExtendedBeanInfo$1.class
+SHA1-Digest: T1VQyZ1cyIweFqSsSrQlYdZogHs=
+
+Name: org/springframework/beans/factory/support/DisposableBeanAdapter.
+ class
+SHA1-Digest: fZ+s4F1CIoKJ7JCz+r+ohW7OZng=
+
+Name: org/springframework/beans/factory/xml/UtilNamespaceHandler$ListB
+ eanDefinitionParser.class
+SHA1-Digest: FgO7cRlShT4dkErc6bcZJGY1lBQ=
+
+Name: org/springframework/beans/factory/parsing/ReaderContext.class
+SHA1-Digest: oJuwt+j8rtG6xFrtbVZ1DFv6qhY=
+
+Name: org/springframework/beans/factory/support/SimpleSecurityContextP
+ rovider.class
+SHA1-Digest: KIi7Ha9FmnUn55HyOC93OlcUnKQ=
+
+Name: org/springframework/beans/factory/annotation/Configurable.class
+SHA1-Digest: IMTDuSTDEXnI1cGgRS+rwpnHKsg=
+
+Name: org/springframework/beans/factory/FactoryBeanNotInitializedExcep
+ tion.class
+SHA1-Digest: /OD45oq15c3nYZrcJ3T8e5wdWtE=
+
+Name: org/springframework/beans/factory/groovy/GroovyDynamicElementRea
+ der$_invokeMethod_closure1.class
+SHA1-Digest: Vl1+ome7pgRwtXzJ4SXQdC7enic=
+
+Name: org/springframework/beans/factory/xml/spring-util-2.5.xsd
+SHA1-Digest: OUtKErD6XJQfEU5swVV44uR8Gxc=
+
+Name: org/springframework/beans/CachedIntrospectionResults.class
+SHA1-Digest: Xd6ltPv2JUKCTrdrRBkAe67JMF8=
+
+Name: org/springframework/beans/BeanWrapperImpl$6.class
+SHA1-Digest: Y/DgNZYua5TQLSeIDcCHIjzY87o=
+
+Name: org/springframework/beans/propertyeditors/ZoneIdEditor.class
+SHA1-Digest: +bQxppdSx6zfzGeQuDA8UJ+1gWY=
+
+Name: org/springframework/beans/propertyeditors/FileEditor.class
+SHA1-Digest: iyz+g2217dvHo/5pXrrTSMUcNaA=
+
+Name: org/springframework/beans/factory/config/BeanDefinitionVisitor.c
+ lass
+SHA1-Digest: vWlyYBEifl562SUgZAM7Ykcwz90=
+
+Name: org/springframework/beans/NullValueInNestedPathException.class
+SHA1-Digest: G7jJzLls9o+YIt+G17eR+Tlny00=
+
+Name: org/springframework/beans/factory/BeanCreationException.class
+SHA1-Digest: k51nSl0hs7S/8B7ZDUT7Um32NcU=
+
+Name: org/springframework/beans/factory/config/PropertyOverrideConfigu
+ rer.class
+SHA1-Digest: zo7k0UDyYkrudoohntYgexdu7tI=
+
+Name: org/springframework/beans/factory/xml/UtilNamespaceHandler$Const
+ antBeanDefinitionParser.class
+SHA1-Digest: ddgecSrRg/cqtlL/oP7K0sFtmUU=
+
+Name: org/springframework/beans/factory/xml/DefaultDocumentLoader.clas
+ s
+SHA1-Digest: vHM5sJ2EXW/zY9EP/V8Sp7TSWSM=
+
+Name: org/springframework/beans/factory/FactoryBean.class
+SHA1-Digest: cMixpvg2PIh28EIS/9262RWMyP8=
+
+Name: org/springframework/beans/factory/support/BeanDefinitionBuilder.
+ class
+SHA1-Digest: K70f2pmAzClutKgcEqXu6q8xO/Q=
+
+Name: org/springframework/beans/factory/support/SimpleInstantiationStr
+ ategy$3.class
+SHA1-Digest: T7DKVyNTesEiqS5Jrr1lGv27Bu0=
+
+Name: org/springframework/beans/BeanMetadataAttribute.class
+SHA1-Digest: u0ClV/9rCD3u3UKREc3VCuo9s0o=
+
+Name: org/springframework/beans/factory/config/BeanDefinitionHolder.cl
+ ass
+SHA1-Digest: eZf/xHQnaLWoIF2JJfckClz8aX8=
+
+Name: org/springframework/beans/propertyeditors/LocaleEditor.class
+SHA1-Digest: 9HkRMA6pKbb6xvxJXQZqMhaPhbs=
+
+Name: org/springframework/beans/factory/support/StaticListableBeanFact
+ ory.class
+SHA1-Digest: 9zVdbtEvO5Xs/Mi7wl49nYOxxTA=
+
+Name: org/springframework/beans/NotWritablePropertyException.class
+SHA1-Digest: A7Jodl1pK1yhXCX4JBkcTAyydeU=
+
+Name: org/springframework/beans/propertyeditors/CharArrayPropertyEdito
+ r.class
+SHA1-Digest: YNTGvJx/pba+wDSQ1E9KbKDxWW4=
+
+Name: org/springframework/beans/PropertyEditorRegistrySupport$1.class
+SHA1-Digest: Ufw5nG31k9IOWxqZkcQIKYWfjIM=
+
+Name: org/springframework/beans/PropertyMatches.class
+SHA1-Digest: 1DAx2ISECscylQzspD+UHP0+rFI=
+
+Name: org/springframework/beans/factory/config/ServiceLocatorFactoryBe
+ an$ServiceLocatorInvocationHandler.class
+SHA1-Digest: CaoVzMF4UD3HwRBImSOExHshsGQ=
+
+Name: org/springframework/beans/factory/Aware.class
+SHA1-Digest: Ez1oBVtcaS4JD/yCcZZESxyRfyg=
+
+Name: org/springframework/beans/support/SortDefinition.class
+SHA1-Digest: 9wv6JgmOuq0K1ex5AnlhbIrUruQ=
+
+Name: org/springframework/beans/propertyeditors/CustomNumberEditor.cla
+ ss
+SHA1-Digest: xreJBqXygwLq/hXevLUIRE3r5L8=
+
